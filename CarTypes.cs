@@ -25,42 +25,25 @@ namespace Cmpt291UI
         {
             try
             {
-
                 SqlConnection con = new SqlConnection(databasePath);
                 con.Open();
-                SqlCommand cmd = new SqlCommand("select * from Cars", con);
-                SqlDataReader reader = cmd.ExecuteReader();
 
-                while (reader.Read())
-                {
+                string query = "select * from cars";
+                SqlDataAdapter dataAdapter = new SqlDataAdapter(query, con);
 
-                }
+                //sqlcommandbuilder commandbuilder = new sqlcommandbuilder();
 
-                string selectquery = "select * from Cars";
-                MessageBox.Show("Error2");
-                SqlDataAdapter adpt = new SqlDataAdapter(selectquery, con);
-                DataTable table = new DataTable();
-                MessageBox.Show("Error3");
-                // breaks here
-                adpt.Fill(table);
-                MessageBox.Show("Error4");
-                results.DataSource = table;
-                results.AutoResizeColumns();
+                //SqlCommand cmd = con.CreateCommand();
+                //cmd.CommandType = CommandType.Text;
+                //cmd.CommandText = "Select * from Cars";
+                //cmd.ExecuteNonQuery();
+                //DataTable dt = new DataTable();
+                //SqlDataAdapter datadp = new SqlDataAdapter(cmd);
+                //results.Fill(dt);
 
-                /*
-                cmd = new SqlCommand("Select * from Cars", con);
-                string query = "Select * from Cars";
-                OleDbCommand cmd = new OleDbCommand(query, con);
-                OleDbDataAdapter a = new OleDbDataAdapter(cmd);
+                //SqlCommand cmd = new SqlCommand("select * from Cars", con);
+                //SqlDataReader reader = cmd.ExecuteReader();
 
-                DataTable dt = new DataTable();
-
-                a.SelectCommand = cmd;
-                a.Fill(dt);
-
-                results.DataSource = dt;
-                results.AutoResizeColumns();
-                */
             }
             catch
             {
@@ -91,7 +74,7 @@ namespace Cmpt291UI
 
 
 
-        private void dataGridViewShowCarInfo(object sender, DataGridViewCellEventArgs e)
+        public void dataGridViewShowCarInfo(object sender, DataGridViewCellEventArgs e)
         {
 
         }
