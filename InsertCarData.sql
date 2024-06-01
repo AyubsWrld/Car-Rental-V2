@@ -82,7 +82,7 @@ INSERT INTO Customers (cusID, fname, lname, DOB, contactNum, street, city, provi
 (9, 'Cus8', 'Cus8Lastname', '17-05-1980', '123-132-0987', '928 Pine St', 'Gotham', 'BC', 'T3F 2K9', 'Canada', 'Cus8'),
 (10, 'Cus1', 'Cus1Lastname', '17-05-1975', '123-928-0987', '129 Pine St', 'Gotham', 'AB', 'U6D 6L0', 'Canada', 'Cus1');
 
-INSERT INTO RentalTransactions(transID, rentalCost, rentedFromDate, returnToDate, employeeNum, cusID, carVIN, branchPickup, branchDropoff) VALUES
+INSERT INTO RentalTransactions(transID, rentalCost, rentedFromDate, returnToDate, employeeNum, cusID, carVIN, branchNum, branchDropoff) VALUES
 (1, 100, '2023-01-10', '2023-01-17', 1, 1, '1HGCM82633A004352', 1, 1),
 (2, 100, '2023-02-05', '2023-02-12', 2, 2, '2HNYD28265H550242', 2, 2),
 (3, 100, '2023-03-01', '2023-03-08', 3, 3, '1FTFW1ET1EKF12345', 3, 2),
