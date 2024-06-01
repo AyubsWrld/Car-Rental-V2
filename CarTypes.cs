@@ -100,7 +100,7 @@ namespace Cmpt291UI
             
         }
 
-        private void connectToolStripMenuItem_Click(object sender, EventArgs e)
+        private void CarToolBox(object sender, EventArgs e)
         {
             try
             {
@@ -134,7 +134,37 @@ namespace Cmpt291UI
             }
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridViewShowCarInfo(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void SearchButton(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CarTypeToolBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CustomerToolBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EmployeesToolBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RentalTransactionToolBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
