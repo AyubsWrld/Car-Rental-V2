@@ -42,6 +42,7 @@
             this.runQueryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.results = new System.Windows.Forms.DataGridView();
             this.Search = new System.Windows.Forms.Button();
+            this.refreshToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TableLayoutPanel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.results)).BeginInit();
@@ -85,6 +86,7 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.refreshToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(87, 48);
@@ -106,7 +108,7 @@
             this.EmployeesToolBox,
             this.RentalTransactionToolBox});
             this.databaseToolStripMenuItem.Name = "databaseToolStripMenuItem";
-            this.databaseToolStripMenuItem.Size = new System.Drawing.Size(165, 48);
+            this.databaseToolStripMenuItem.Size = new System.Drawing.Size(165, 45);
             this.databaseToolStripMenuItem.Text = "Database";
             // 
             // CarsToolBox
@@ -149,14 +151,14 @@
             this.queryToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.runQueryToolStripMenuItem});
             this.queryToolStripMenuItem.Name = "queryToolStripMenuItem";
-            this.queryToolStripMenuItem.Size = new System.Drawing.Size(123, 48);
+            this.queryToolStripMenuItem.Size = new System.Drawing.Size(123, 45);
             this.queryToolStripMenuItem.Text = "Query";
             // 
             // runQueryToolStripMenuItem
             // 
             this.runQueryToolStripMenuItem.Name = "runQueryToolStripMenuItem";
             this.runQueryToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5;
-            this.runQueryToolStripMenuItem.Size = new System.Drawing.Size(374, 54);
+            this.runQueryToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
             this.runQueryToolStripMenuItem.Text = "Run Query";
             this.runQueryToolStripMenuItem.Click += new System.EventHandler(this.runQueryToolStripMenuItem_Click);
             // 
@@ -181,6 +183,13 @@
             this.Search.Text = "Search";
             this.Search.UseVisualStyleBackColor = true;
             this.Search.Click += new System.EventHandler(this.SearchButton);
+            // 
+            // refreshToolStripMenuItem
+            // 
+            this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
+            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.refreshToolStripMenuItem.Text = "Refresh";
+            this.refreshToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
             // 
             // RentalQuery
             // 
@@ -216,6 +225,7 @@
         private System.Windows.Forms.ToolStripMenuItem RentalTransactionToolBox;
         private System.Windows.Forms.DataGridView results;
         private System.Windows.Forms.Button Search;
+        private System.Windows.Forms.ToolStripMenuItem refreshToolStripMenuItem;
     }
 }
 

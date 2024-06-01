@@ -10,7 +10,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
 using System.CodeDom.Compiler;
 
 namespace Cmpt291UI
@@ -21,95 +20,30 @@ namespace Cmpt291UI
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291;Integrated Security=True;Encrypt=False");
-        SqlCommand cmd;
-        DataTable table = new DataTable();
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void RentalQuery_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void runQueryToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
-        }
-
+        public string databasePath = "Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291;Integrated Security=True;Encrypt=False";
         private void CarToolBox(object sender, EventArgs e)
         {
             try
             {
-                //con = new SqlConnection(@"Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291;Integrated Security=True;Encrypt=False");
-                //cmd = new SqlCommand("select * from Cars", con);
+
+                SqlConnection con = new SqlConnection(databasePath);
+                con.Open();
+                SqlCommand cmd = new SqlCommand("select * from Cars", con);
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+
+                }
+
                 string selectquery = "select * from Cars";
+                MessageBox.Show("Error2");
                 SqlDataAdapter adpt = new SqlDataAdapter(selectquery, con);
                 DataTable table = new DataTable();
+                MessageBox.Show("Error3");
+                // breaks here
                 adpt.Fill(table);
+                MessageBox.Show("Error4");
                 results.DataSource = table;
                 results.AutoResizeColumns();
 
@@ -133,6 +67,29 @@ namespace Cmpt291UI
                 MessageBox.Show("Error");
             }
         }
+
+        private void RentalQuery_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+
+        private void runQueryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+
 
         private void dataGridViewShowCarInfo(object sender, DataGridViewCellEventArgs e)
         {
@@ -165,6 +122,11 @@ namespace Cmpt291UI
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void refreshToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }

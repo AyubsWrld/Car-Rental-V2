@@ -1,0 +1,11 @@
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\bin\Debug\Cmpt291UI.exe.config
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\bin\Debug\Cmpt291UI.exe
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\bin\Debug\Cmpt291UI.pdb
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.csproj.AssemblyReference.cache
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.Properties.Resources.resources
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.csproj.GenerateResource.cache
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.csproj.CoreCompileInputs.cache
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.exe
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.pdb
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.RentalQuery.resources
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.LoginScreen.resources
