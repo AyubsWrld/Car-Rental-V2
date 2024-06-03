@@ -7,6 +7,5 @@ C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.csproj.Generat
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.csproj.CoreCompileInputs.cache
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.exe
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.pdb
-C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.RentalQuery.resources
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.LoginScreen.resources
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.EmployeeWindow.resources

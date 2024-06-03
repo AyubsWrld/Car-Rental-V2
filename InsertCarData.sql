@@ -56,7 +56,7 @@ INSERT INTO Branches(branchNum, name, contactNum, street, city, province, postal
 (2, 'East Branch', '321-654-0987', '456 East St', 'Smallville', 'ON', 'B2C 3D4', 'Canada'),
 (3, 'West Branch', '987-654-3210', '789 West St', 'Gotham', 'ON', 'C3D 4E5', 'Canada');
 
-INSERT INTO Employees(employeeNum, fname, lname, DOB, contactNum, street, city, province, postalCode, country, password, workAtBranchNum) VALUES
+INSERT INTO Employees(employeeNum, firstname, lastname, DOB, contactNum, street, city, province, postalCode, country, password, workAtBranchNum) VALUES
 (1, 'John', 'Doe', '21-06-2000', '123-123-1234', '111 First St', 'Metropolis', 'ON', 'A1A 1A1', 'Canada', 'John', 1),
 (2, 'Jane', 'Smith', '24-03-2001', '456-456-4567', '222 Second St', 'Smallville', 'ON', 'B2B 2B2', 'Canada', 'Jane', 2),
 (3, 'Jim', 'Brown', '25-12-2002', '789-789-7890', '333 Third St', 'Gotham', 'ON', 'C3C 3C3', 'Canada', 'Jim', 3),
@@ -70,7 +70,7 @@ INSERT INTO Employees(employeeNum, fname, lname, DOB, contactNum, street, city, 
 (11, 'Employee8', 'Employeelastname8', '14-02-1980', '216-412-4201', '294 Second St', 'Smallville', 'ON', 'B2B 8H8', 'Canada', 'Employee8', 3),
 (12, 'Employee9', 'Employeelastname9', '23-05-1999', '126-456-4029', '271 Second St', 'Smallville', 'ON', 'B2B 9H9', 'Canada', 'Employee9', 1);
 
-INSERT INTO Customers (cusID, operatorID, fname, lname, DOB, contactNum, street, city, province, postalCode, country, password) VALUES
+INSERT INTO Customers (cusID, operatorID, firstname, lastname, DOB, contactNum, street, city, province, postalCode, country, password) VALUES
 (1, 18293-421, 'Alice', 'Johnson', '11-02-2000', '321-321-4321', '123 Maple St', 'Metropolis', 'ON', 'A1B 2C3', 'Canada', 'Alice'),
 (2, 19273-213,'Bob', 'Lee', '21-04-2001', '654-654-7654', '456 Oak St', 'Smallville', 'ON', 'B2C 3D4', 'Canada', 'Bob'),
 (3, 39102-512,'Charlie', 'Lee', '17-05-2002', '987-987-0987', '789 Pine St', 'Gotham', 'ON', 'C3D 4E5', 'Canada', 'Charlie'),
