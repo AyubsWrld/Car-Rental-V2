@@ -51,7 +51,7 @@ namespace Cmpt291UI
                     user_password = passwordBox.Text;
 
                     // page that needed to be loaded next
-                    RentalQuery form2 = new RentalQuery();
+                    EmployeeWindow form2 = new EmployeeWindow();
                     form2.Show();
                     this.Hide();
                     conn.Dispose();

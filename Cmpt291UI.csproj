@@ -47,13 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\Desktop\CarTypes.cs">
-      <Link>CarTypes.cs</Link>
+    <Compile Include="EmployeeWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="..\..\..\..\Desktop\CarTypes.Designer.cs">
-      <DependentUpon>CarTypes.cs</DependentUpon>
-      <Link>CarTypes.Designer.cs</Link>
+    <Compile Include="EmployeeWindow.Designer.cs">
+      <DependentUpon>EmployeeWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="WelcomeScreen.cs">
       <SubType>Form</SubType>
@@ -63,9 +61,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="..\..\..\..\Desktop\CarTypes.resx">
-      <DependentUpon>CarTypes.cs</DependentUpon>
-      <Link>CarTypes.resx</Link>
+    <EmbeddedResource Include="EmployeeWindow.resx">
+      <DependentUpon>EmployeeWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WelcomeScreen.resx">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>

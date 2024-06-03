@@ -70,17 +70,17 @@ INSERT INTO Employees(employeeNum, fname, lname, DOB, contactNum, street, city, 
 (11, 'Employee8', 'Employeelastname8', '14-02-1980', '216-412-4201', '294 Second St', 'Smallville', 'ON', 'B2B 8H8', 'Canada', 'Employee8', 3),
 (12, 'Employee9', 'Employeelastname9', '23-05-1999', '126-456-4029', '271 Second St', 'Smallville', 'ON', 'B2B 9H9', 'Canada', 'Employee9', 1);
 
-INSERT INTO Customers (cusID, fname, lname, DOB, contactNum, street, city, province, postalCode, country, password) VALUES
-(1, 'Alice', 'Johnson', '11-02-2000', '321-321-4321', '123 Maple St', 'Metropolis', 'ON', 'A1B 2C3', 'Canada', 'Alice'),
-(2, 'Bob', 'Lee', '21-04-2001', '654-654-7654', '456 Oak St', 'Smallville', 'ON', 'B2C 3D4', 'Canada', 'Bob'),
-(3, 'Charlie', 'Lee', '17-05-2002', '987-987-0987', '789 Pine St', 'Gotham', 'ON', 'C3D 4E5', 'Canada', 'Charlie'),
-(4, 'Cus3', 'Cus3Lastname', '17-05-2000', '780-111-1111', '789 Pine St', 'Gotham', 'AB', 'C3D 4T9', 'Canada', 'Cus3'),
-(5, 'Cus4', 'Cus4Lastname', '17-05-1995', '587-222-2222', '123 Pine St', 'Gotham', 'SK', 'C7H 4E5', 'Canada', 'Cus4'),
-(6, 'Cus5', 'Cus5Lastname', '17-05-1999', '123-222-2222', '234 Pine St', 'Gotham', 'ON', 'D2D 9J5', 'Canada', 'Cus5'),
-(7, 'Cus6', 'Cus6Lastname', '17-05-1990', '123-221-2222', '345 Pine St', 'Gotham', 'BC', 'W2D 1L5', 'Canada', 'Cus6'),
-(8, 'Cus7', 'Cus7Lastname', '17-05-1985', '123-223-2222', '567 Pine St', 'Gotham', 'BC', 'T3D 4W2', 'Canada', 'Cus7'),
-(9, 'Cus8', 'Cus8Lastname', '17-05-1980', '123-132-0987', '928 Pine St', 'Gotham', 'BC', 'T3F 2K9', 'Canada', 'Cus8'),
-(10, 'Cus1', 'Cus1Lastname', '17-05-1975', '123-928-0987', '129 Pine St', 'Gotham', 'AB', 'U6D 6L0', 'Canada', 'Cus1');
+INSERT INTO Customers (cusID, operatorID, fname, lname, DOB, contactNum, street, city, province, postalCode, country, password) VALUES
+(1, 18293-421, 'Alice', 'Johnson', '11-02-2000', '321-321-4321', '123 Maple St', 'Metropolis', 'ON', 'A1B 2C3', 'Canada', 'Alice'),
+(2, 19273-213,'Bob', 'Lee', '21-04-2001', '654-654-7654', '456 Oak St', 'Smallville', 'ON', 'B2C 3D4', 'Canada', 'Bob'),
+(3, 39102-512,'Charlie', 'Lee', '17-05-2002', '987-987-0987', '789 Pine St', 'Gotham', 'ON', 'C3D 4E5', 'Canada', 'Charlie'),
+(4, 49281-613,'Cus3', 'Cus3Lastname', '17-05-2000', '780-111-1111', '789 Pine St', 'Edmonton', 'AB', 'C3D 4T9', 'Canada', 'Cus3'),
+(5, 21942-431,'Cus4', 'Cus4Lastname', '17-05-1995', '587-222-2222', '123 Pine St', 'Saskatoon', 'SK', 'C7H 4E5', 'Canada', 'Cus4'),
+(6, 92018-632,'Cus5', 'Cus5Lastname', '17-05-1999', '123-222-2222', '234 Pine St', 'Toronto', 'ON', 'D2D 9J5', 'Canada', 'Cus5'),
+(7, 30285-944,'Cus6', 'Cus6Lastname', '17-05-1990', '123-221-2222', '345 Pine St', 'Vancouver', 'BC', 'W2D 1L5', 'Canada', 'Cus6'),
+(8, 17373-009,'Cus7', 'Cus7Lastname', '17-05-1985', '123-223-2222', '567 Pine St', 'Vancouver', 'BC', 'T3D 4W2', 'Canada', 'Cus7'),
+(9, 23464-543,'Cus8', 'Cus8Lastname', '17-05-1980', '123-132-0987', '928 Pine St', 'Victoria', 'BC', 'T3F 2K9', 'Canada', 'Cus8'),
+(10, 90981-723,'Cus1', 'Cus1Lastname', '17-05-1975', '123-928-0987', '129 Pine St', 'Calgary', 'AB', 'U6D 6L0', 'Canada', 'Cus1');
 
 INSERT INTO RentalTransactions(transID, rentalCost, rentedFromDate, returnToDate, employeeNum, cusID, carVIN, branchNum, branchDropoff) VALUES
 (1, 100, '2023-01-10', '2023-01-17', 1, 1, '1HGCM82633A004352', 1, 1),
