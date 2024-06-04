@@ -13,11 +13,16 @@ namespace Cmpt291UI
 {
     public partial class EmployeeWindow : Form
     {
+        // get the string from form1
+        string dbForm2 = LoginScreen.databasePath;
+        //string employeeLoggedInForm2 = LoginScreen.employeeLoggedIn;
         public EmployeeWindow()
         {
             InitializeComponent();
+            //textBox13.Text = employeeLoggedInForm2;
+            //MessageBox.Show(LoginScreen.employeeLoggedIn);
         }
-        public string databasePath = "Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291;Integrated Security=True;Encrypt=False";
+
         private void Search(object sender, EventArgs e)
         {
 
@@ -33,7 +38,7 @@ namespace Cmpt291UI
             try
             {
                 // connect to database
-                SqlConnection con = new SqlConnection(databasePath);
+                SqlConnection con = new SqlConnection(dbForm2);
                 con.Open();
 
                 // search through database
@@ -59,7 +64,7 @@ namespace Cmpt291UI
             try
             {
                 // connect to database
-                SqlConnection con = new SqlConnection(databasePath);
+                SqlConnection con = new SqlConnection(dbForm2);
                 con.Open();
 
                 // search through database
@@ -85,7 +90,7 @@ namespace Cmpt291UI
             try
             {
                 // connect to database
-                SqlConnection con = new SqlConnection(databasePath);
+                SqlConnection con = new SqlConnection(dbForm2);
                 con.Open();
 
                 // search through database
@@ -111,7 +116,7 @@ namespace Cmpt291UI
             try
             {
                 // connect to database
-                SqlConnection con = new SqlConnection(databasePath);
+                SqlConnection con = new SqlConnection(dbForm2);
                 con.Open();
 
                 // search through database
@@ -137,7 +142,7 @@ namespace Cmpt291UI
             try
             {
                 // connect to database
-                SqlConnection con = new SqlConnection(databasePath);
+                SqlConnection con = new SqlConnection(dbForm2);
                 con.Open();
 
                 // search through database
@@ -200,6 +205,21 @@ namespace Cmpt291UI
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void textBox13_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

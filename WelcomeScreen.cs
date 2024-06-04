@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,23 +14,13 @@ namespace Cmpt291UI
 {
     public partial class LoginScreen : Form
     {
+        public static string databasePath = "Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291;Integrated Security=True;Encrypt=False";
+        //public static string employeeLoggedIn;
+
         public LoginScreen()
         {
             InitializeComponent();
         }
-
-        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291;Integrated Security=True;Encrypt=False");
-        
-        private void LoginScreen_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Login_Click(object sender, EventArgs e)
         {
             String employeeNum, user_password;
@@ -39,6 +30,7 @@ namespace Cmpt291UI
 
             try
             {
+                SqlConnection conn = new SqlConnection(databasePath);
                 String query = "SELECT * FROM Employees where employeeNum = '"+employeeNumBox.Text+"' AND password = '"+ passwordBox.Text+"'";
                 SqlDataAdapter sda = new SqlDataAdapter(query, conn);
 
@@ -49,6 +41,7 @@ namespace Cmpt291UI
                 {
                     employeeNum = employeeNumBox.Text;
                     user_password = passwordBox.Text;
+
 
                     // page that needed to be loaded next
                     EmployeeWindow form2 = new EmployeeWindow();
@@ -67,10 +60,6 @@ namespace Cmpt291UI
             catch 
             {
                 MessageBox.Show("Error");
-            }
-            finally
-            {
-                conn.Close();
             }
         }
 
@@ -106,5 +95,15 @@ namespace Cmpt291UI
                 this.Show();
             }
         }
+        private void LoginScreen_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
+
 }
