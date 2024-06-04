@@ -15,7 +15,7 @@ namespace Cmpt291UI
     public partial class LoginScreen : Form
     {
         public static string databasePath = "Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291;Integrated Security=True;Encrypt=False";
-        //public static string employeeLoggedIn;
+        public static string employeeLoggedIn;
 
         public LoginScreen()
         {
@@ -26,6 +26,7 @@ namespace Cmpt291UI
             String employeeNum, user_password;
 
             employeeNum = employeeNumBox.Text;
+            employeeLoggedIn = employeeNumBox.Text;
             user_password = passwordBox.Text;
 
             try
@@ -41,7 +42,6 @@ namespace Cmpt291UI
                 {
                     employeeNum = employeeNumBox.Text;
                     user_password = passwordBox.Text;
-
 
                     // page that needed to be loaded next
                     EmployeeWindow form2 = new EmployeeWindow();

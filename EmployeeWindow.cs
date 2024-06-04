@@ -15,12 +15,27 @@ namespace Cmpt291UI
     {
         // get the string from form1
         string dbForm2 = LoginScreen.databasePath;
-        //string employeeLoggedInForm2 = LoginScreen.employeeLoggedIn;
+        string employeeLoggedInForm2 = LoginScreen.employeeLoggedIn;
         public EmployeeWindow()
         {
             InitializeComponent();
-            //textBox13.Text = employeeLoggedInForm2;
-            //MessageBox.Show(LoginScreen.employeeLoggedIn);
+            textBox13.Text = employeeLoggedInForm2;
+
+            // connect to database
+            SqlConnection con = new SqlConnection(dbForm2);
+            con.Open();
+
+            // search through database
+            string query = "SELECT workatbranchnum FROM employees where employeeNum = '"+employeeLoggedInForm2+ "'";
+            SqlDataAdapter adapter = new SqlDataAdapter(query, con);
+
+            // insert data from extracted sql
+            DataTable dtable = new DataTable();
+            adapter.Fill(dtable);
+
+            textBox1.Text = dtable.ToString();
+
+            con.Close();
         }
 
         private void Search(object sender, EventArgs e)
@@ -44,6 +59,7 @@ namespace Cmpt291UI
                 // search through database
                 string query = "SELECT * FROM car";
                 SqlDataAdapter adapter = new SqlDataAdapter(query, con);
+
                 // insert data from extracted sql
                 DataTable cars = new DataTable();
                 adapter.Fill(cars);
@@ -70,6 +86,7 @@ namespace Cmpt291UI
                 // search through database
                 string query = "SELECT * FROM cartypes";
                 SqlDataAdapter adapter = new SqlDataAdapter(query, con);
+
                 // insert data from extracted sql
                 DataTable cartypes = new DataTable();
                 adapter.Fill(cartypes);
@@ -96,6 +113,7 @@ namespace Cmpt291UI
                 // search through database
                 string query = "SELECT * FROM customers";
                 SqlDataAdapter adapter = new SqlDataAdapter(query, con);
+
                 // insert data from extracted sql
                 DataTable customers = new DataTable();
                 adapter.Fill(customers);
@@ -122,6 +140,7 @@ namespace Cmpt291UI
                 // search through database
                 string query = "SELECT * FROM employees";
                 SqlDataAdapter adapter = new SqlDataAdapter(query, con);
+
                 // insert data from extracted sql
                 DataTable employees = new DataTable();
                 adapter.Fill(employees);
@@ -148,6 +167,7 @@ namespace Cmpt291UI
                 // search through database
                 string query = "SELECT * FROM rentaltransactions";
                 SqlDataAdapter adapter = new SqlDataAdapter(query, con);
+
                 // insert data from extracted sql
                 DataTable rentaltransactions = new DataTable();
                 adapter.Fill(rentaltransactions);
@@ -220,6 +240,16 @@ namespace Cmpt291UI
         private void textBox13_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

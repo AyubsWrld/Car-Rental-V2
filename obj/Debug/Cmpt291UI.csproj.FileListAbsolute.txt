@@ -9,3 +9,4 @@ C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.exe
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.pdb
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.LoginScreen.resources
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.EmployeeWindow.resources
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.AddVehicle.resources
