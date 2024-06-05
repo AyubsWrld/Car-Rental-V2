@@ -26,7 +26,7 @@ namespace Cmpt291UI
             con.Open();
 
             // search through database
-            string query = "SELECT workatbranchnum FROM employees where employeeNum = '"+employeeLoggedInForm2+ "'";
+            string query = "SELECT workatbranchnum FROM employees where employeeNum = '" + employeeLoggedInForm2 + "'";
             SqlDataAdapter adapter = new SqlDataAdapter(query, con);
 
             // insert data from extracted sql
@@ -239,7 +239,7 @@ namespace Cmpt291UI
 
         private void textBox13_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label14_Click(object sender, EventArgs e)
@@ -250,6 +250,24 @@ namespace Cmpt291UI
         private void label5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void carsToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            AddVehicle addVehicleForm = new AddVehicle();
+            addVehicleForm.Show();
+        }
+
+        private void customersToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            AddCustomer addCustomerForm = new AddCustomer();
+            addCustomerForm.Show();
+        }
+
+        private void employeesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            AddEmployee addEmployeeForm = new AddEmployee();
+            addEmployeeForm.Show();
         }
     }
 }

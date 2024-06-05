@@ -47,17 +47,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomer.Designer.cs">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployee.Designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddVehicle.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddVehicle.Designer.cs">
       <DependentUpon>AddVehicle.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomerWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerWindow.Designer.cs">
+      <DependentUpon>CustomerWindow.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeWindow.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EmployeeWindow.Designer.cs">
       <DependentUpon>EmployeeWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FindCustomerInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindCustomerInformation.Designer.cs">
+      <DependentUpon>FindCustomerInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionsReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionsReceipt.Designer.cs">
+      <DependentUpon>TransactionsReceipt.cs</DependentUpon>
     </Compile>
     <Compile Include="WelcomeScreen.cs">
       <SubType>Form</SubType>
@@ -67,11 +97,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddCustomer.resx">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployee.resx">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddVehicle.resx">
       <DependentUpon>AddVehicle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeWindow.resx">
       <DependentUpon>EmployeeWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindCustomerInformation.resx">
+      <DependentUpon>FindCustomerInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionsReceipt.resx">
+      <DependentUpon>TransactionsReceipt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WelcomeScreen.resx">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>
