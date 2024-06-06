@@ -14,7 +14,7 @@ namespace Cmpt291UI
 {
     public partial class LoginScreen : Form
     {
-        public static string databasePath = "Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291;Integrated Security=True;Encrypt=False";
+        public static string databasePath = "Data Source=LAPTOP-MID32020;Initial Catalog=291_FinalProject;Integrated Security=True;Encrypt=False";
         public static string employeeLoggedIn;
 
         public LoginScreen()
