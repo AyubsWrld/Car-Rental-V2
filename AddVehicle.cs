@@ -67,7 +67,7 @@ namespace Cmpt291UI
 
         }
 
-        private void refreshToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void ToolBarDatabaseCars(object sender, EventArgs e)
         {
             // connect to database
             SqlConnection con = new SqlConnection(addVehicleDBForm);
@@ -108,22 +108,151 @@ namespace Cmpt291UI
                 " '" + addCarBranchLocationtxt.Text + "')", con);
             cmd.ExecuteNonQuery();
 
-            MessageBox.Show("Data has been inserted");
+            MessageBox.Show("Data has been inserted, updating table");
+
+            // search through database, very inefficient but works for now with a small sql
+            string query = "SELECT * FROM car";
+            SqlDataAdapter adapter = new SqlDataAdapter(query, con);
+
+            // insert data from extracted sql
+            DataTable dtable = new DataTable();
+            adapter.Fill(dtable);
+
+            dataGridView1.DataSource = dtable;
 
             con.Close();
         }
 
-        private void deleteCarDeleteButton_Click(object sender, EventArgs e)
+        private void SearchCarButton(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DeleteCarButton_Click(object sender, EventArgs e)
         {
             // delete vehicle here
             SqlConnection con = new SqlConnection(addVehicleDBForm);
             con.Open();
 
+            cmd = new SqlCommand("DELETE FROM car WHERE CarVIN = '"+deleteCarVINtxt.Text+"'", con);
+            cmd.ExecuteNonQuery();
 
+            MessageBox.Show("Data has been deleted, updating table");
 
+            // search through database, very inefficient but works for now with a small sql
+            string query = "SELECT * FROM car";
+            SqlDataAdapter adapter = new SqlDataAdapter(query, con);
 
+            // insert data from extracted sql
+            DataTable dtable = new DataTable();
+            adapter.Fill(dtable);
 
+            dataGridView1.DataSource = dtable;
 
+            con.Close();
+        }
+
+        private void refreshToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            // connect to database
+            SqlConnection con = new SqlConnection(addVehicleDBForm);
+            con.Open();
+
+            // search through database, very inefficient but works for now with a small sql
+            string query = "SELECT * FROM car";
+            SqlDataAdapter adapter = new SqlDataAdapter(query, con);
+
+            // insert data from extracted sql
+            DataTable dtable = new DataTable();
+            adapter.Fill(dtable);
+
+            dataGridView1.DataSource = dtable;
+
+            con.Close();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Goodbye");
+            this.Close();
+        }
+
+        private void customersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void carTypesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void employeesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rentalTransactionsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void runQueryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void customersToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void carsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void employeesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void deleteCarVINtxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void addCarClearButton_Click(object sender, EventArgs e)
+        {
+            addCarVINtxt.Clear();
+            addCarTypeIDtxt.Clear();
+            addCarBrandtxt.Clear();
+            addCarModeltxt.Clear();
+            addCarYeartxt.Clear();
+            addCarColortxt.Clear();
+            addCarMileagetxt.Clear();
+            addCarLastTuneUptxt.Clear();
+            addCarConditiontxt.Clear();
+            addCarBranchLocationtxt.Clear();
+        }
+
+        private void searchCarClearButton_Click(object sender, EventArgs e)
+        {
+            searchCarVINtxt.Clear();
+            searchCarTypeIDtxt.Clear() ;
+            searchCarBrandtxt.Clear() ;
+            searchCarModeltxt.Clear() ;
+            searchCarYeartxt.Clear() ;
+            searchCarColortxt.Clear() ;
+            searchCarMileagetxt.Clear();
+            searchCarLastTuneUptxt.Clear();
+            searchCarConditiontxt.Clear();
+            searchCarBranchLocationtxt.Clear();
         }
     }
 }

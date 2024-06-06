@@ -71,11 +71,11 @@
     <Compile Include="CustomerWindow.Designer.cs">
       <DependentUpon>CustomerWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeWindow.cs">
+    <Compile Include="EmployeeBookCarWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmployeeWindow.Designer.cs">
-      <DependentUpon>EmployeeWindow.cs</DependentUpon>
+    <Compile Include="EmployeeBookCarWindow.Designer.cs">
+      <DependentUpon>EmployeeBookCarWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="FindCustomerInformation.cs">
       <SubType>Form</SubType>
@@ -106,8 +106,8 @@
     <EmbeddedResource Include="AddVehicle.resx">
       <DependentUpon>AddVehicle.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmployeeWindow.resx">
-      <DependentUpon>EmployeeWindow.cs</DependentUpon>
+    <EmbeddedResource Include="EmployeeBookCarWindow.resx">
+      <DependentUpon>EmployeeBookCarWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FindCustomerInformation.resx">
       <DependentUpon>FindCustomerInformation.cs</DependentUpon>

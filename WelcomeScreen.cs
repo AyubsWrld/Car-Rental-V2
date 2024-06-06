@@ -44,7 +44,7 @@ namespace Cmpt291UI
                     user_password = passwordBox.Text;
 
                     // page that needed to be loaded next
-                    EmployeeWindow form2 = new EmployeeWindow();
+                    EmployeeBookCarWindow form2 = new EmployeeBookCarWindow();
                     form2.Show();
                     this.Hide();
                     conn.Dispose();
