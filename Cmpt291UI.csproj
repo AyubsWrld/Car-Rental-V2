@@ -47,41 +47,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddCustomer.cs">
+    <Compile Include="AddRemoveCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddCustomer.Designer.cs">
-      <DependentUpon>AddCustomer.cs</DependentUpon>
+    <Compile Include="AddRemoveCustomer.Designer.cs">
+      <DependentUpon>AddRemoveCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddEmployee.cs">
+    <Compile Include="AddNewCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddEmployee.Designer.cs">
-      <DependentUpon>AddEmployee.cs</DependentUpon>
+    <Compile Include="AddNewCustomer.Designer.cs">
+      <DependentUpon>AddNewCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddVehicle.cs">
+    <Compile Include="AddNewEmployee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddVehicle.Designer.cs">
-      <DependentUpon>AddVehicle.cs</DependentUpon>
+    <Compile Include="AddNewEmployee.Designer.cs">
+      <DependentUpon>AddNewEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomerWindow.cs">
+    <Compile Include="AddRemoveVehicle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomerWindow.Designer.cs">
-      <DependentUpon>CustomerWindow.cs</DependentUpon>
+    <Compile Include="AddRemoveVehicle.Designer.cs">
+      <DependentUpon>AddRemoveVehicle.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeBookCarWindow.cs">
+    <Compile Include="CustomerMainWindowBook.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmployeeBookCarWindow.Designer.cs">
-      <DependentUpon>EmployeeBookCarWindow.cs</DependentUpon>
+    <Compile Include="CustomerMainWindowBook.Designer.cs">
+      <DependentUpon>CustomerMainWindowBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteCustomer.Designer.cs">
+      <DependentUpon>DeleteCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeMainWindowBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeMainWindowBook.Designer.cs">
+      <DependentUpon>EmployeeMainWindowBook.cs</DependentUpon>
     </Compile>
     <Compile Include="FindCustomerInformation.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FindCustomerInformation.Designer.cs">
       <DependentUpon>FindCustomerInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionPaymentWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionPaymentWindow.Designer.cs">
+      <DependentUpon>TransactionPaymentWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="TransactionsReceipt.cs">
       <SubType>Form</SubType>
@@ -97,20 +115,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AddCustomer.resx">
-      <DependentUpon>AddCustomer.cs</DependentUpon>
+    <EmbeddedResource Include="AddRemoveCustomer.resx">
+      <DependentUpon>AddRemoveCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddEmployee.resx">
-      <DependentUpon>AddEmployee.cs</DependentUpon>
+    <EmbeddedResource Include="AddNewCustomer.resx">
+      <DependentUpon>AddNewCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddVehicle.resx">
-      <DependentUpon>AddVehicle.cs</DependentUpon>
+    <EmbeddedResource Include="AddNewEmployee.resx">
+      <DependentUpon>AddNewEmployee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmployeeBookCarWindow.resx">
-      <DependentUpon>EmployeeBookCarWindow.cs</DependentUpon>
+    <EmbeddedResource Include="AddRemoveVehicle.resx">
+      <DependentUpon>AddRemoveVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeMainWindowBook.resx">
+      <DependentUpon>EmployeeMainWindowBook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FindCustomerInformation.resx">
       <DependentUpon>FindCustomerInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionPaymentWindow.resx">
+      <DependentUpon>TransactionPaymentWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TransactionsReceipt.resx">
       <DependentUpon>TransactionsReceipt.cs</DependentUpon>

@@ -44,7 +44,7 @@ namespace Cmpt291UI
                     user_password = passwordBox.Text;
 
                     // page that needed to be loaded next
-                    EmployeeBookCarWindow form2 = new EmployeeBookCarWindow();
+                    EmployeeMainWindowBook form2 = new EmployeeMainWindowBook();
                     form2.Show();
                     this.Hide();
                     conn.Dispose();
@@ -103,6 +103,18 @@ namespace Cmpt291UI
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SqlConnection conn = new SqlConnection(databasePath);
+
+            // load addnewcustomer window
+            AddNewCustomer addNewCustomersForm = new AddNewCustomer();
+            addNewCustomersForm.Show();
+            this.Hide();
+            conn.Dispose();
+            conn.Close();
         }
     }
 
