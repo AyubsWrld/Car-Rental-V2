@@ -1,6 +1,6 @@
 ﻿namespace Cmpt291UI
 {
-    partial class EmployeeWindow
+    partial class EmployeeMainWindowBook
     {
         /// <summary>
         /// Required designer variable.
@@ -61,33 +61,26 @@
             this.customersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.employeesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rentalTransactionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.queryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.runQueryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.customersToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.carsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.customersToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.employeesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.ClearBottomButton = new System.Windows.Forms.Button();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.SelectBottomButton = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.customToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
@@ -108,7 +101,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 350F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 607F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 350F));
             this.tableLayoutPanel1.Controls.Add(this.textBox10, 10, 1);
             this.tableLayoutPanel1.Controls.Add(this.textBox9, 9, 1);
             this.tableLayoutPanel1.Controls.Add(this.textBox8, 8, 1);
@@ -137,15 +130,16 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(2907, 114);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(2833, 114);
             this.tableLayoutPanel1.TabIndex = 0;
+            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // textBox10
             // 
             this.textBox10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox10.Location = new System.Drawing.Point(2303, 60);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(601, 38);
+            this.textBox10.Size = new System.Drawing.Size(527, 38);
             this.textBox10.TabIndex = 35;
             // 
             // textBox9
@@ -178,7 +172,7 @@
             this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label10.Location = new System.Drawing.Point(2303, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(601, 57);
+            this.label10.Size = new System.Drawing.Size(527, 57);
             this.label10.TabIndex = 31;
             this.label10.Text = "Date-to-(dd/mm/yyyy)";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -361,12 +355,11 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.databaseToolStripMenuItem,
-            this.queryToolStripMenuItem,
             this.addToolStripMenuItem,
-            this.deleteToolStripMenuItem});
+            this.reportsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(2907, 49);
+            this.menuStrip1.Size = new System.Drawing.Size(2833, 49);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -383,14 +376,14 @@
             // refreshToolStripMenuItem
             // 
             this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
-            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(282, 54);
             this.refreshToolStripMenuItem.Text = "Refresh";
             this.refreshToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(282, 54);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -409,70 +402,47 @@
             // carsToolStripMenuItem
             // 
             this.carsToolStripMenuItem.Name = "carsToolStripMenuItem";
-            this.carsToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.carsToolStripMenuItem.Size = new System.Drawing.Size(436, 54);
             this.carsToolStripMenuItem.Text = "Cars";
             this.carsToolStripMenuItem.Click += new System.EventHandler(this.carsToolStripMenuItem_Click);
             // 
             // carTypesToolStripMenuItem
             // 
             this.carTypesToolStripMenuItem.Name = "carTypesToolStripMenuItem";
-            this.carTypesToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.carTypesToolStripMenuItem.Size = new System.Drawing.Size(436, 54);
             this.carTypesToolStripMenuItem.Text = "Car Types";
             this.carTypesToolStripMenuItem.Click += new System.EventHandler(this.carTypesToolStripMenuItem_Click);
             // 
             // customersToolStripMenuItem
             // 
             this.customersToolStripMenuItem.Name = "customersToolStripMenuItem";
-            this.customersToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.customersToolStripMenuItem.Size = new System.Drawing.Size(436, 54);
             this.customersToolStripMenuItem.Text = "Customers";
             this.customersToolStripMenuItem.Click += new System.EventHandler(this.customersToolStripMenuItem_Click);
             // 
             // employeesToolStripMenuItem
             // 
             this.employeesToolStripMenuItem.Name = "employeesToolStripMenuItem";
-            this.employeesToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.employeesToolStripMenuItem.Size = new System.Drawing.Size(436, 54);
             this.employeesToolStripMenuItem.Text = "Employees";
             this.employeesToolStripMenuItem.Click += new System.EventHandler(this.employeesToolStripMenuItem_Click);
             // 
             // rentalTransactionsToolStripMenuItem
             // 
             this.rentalTransactionsToolStripMenuItem.Name = "rentalTransactionsToolStripMenuItem";
-            this.rentalTransactionsToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.rentalTransactionsToolStripMenuItem.Size = new System.Drawing.Size(436, 54);
             this.rentalTransactionsToolStripMenuItem.Text = "Rental Transactions";
             this.rentalTransactionsToolStripMenuItem.Click += new System.EventHandler(this.rentalTransactionsToolStripMenuItem_Click);
-            // 
-            // queryToolStripMenuItem
-            // 
-            this.queryToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.runQueryToolStripMenuItem});
-            this.queryToolStripMenuItem.Name = "queryToolStripMenuItem";
-            this.queryToolStripMenuItem.Size = new System.Drawing.Size(123, 45);
-            this.queryToolStripMenuItem.Text = "Query";
-            // 
-            // runQueryToolStripMenuItem
-            // 
-            this.runQueryToolStripMenuItem.Name = "runQueryToolStripMenuItem";
-            this.runQueryToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5;
-            this.runQueryToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
-            this.runQueryToolStripMenuItem.Text = "Run Query";
-            this.runQueryToolStripMenuItem.Click += new System.EventHandler(this.runQueryToolStripMenuItem_Click);
             // 
             // addToolStripMenuItem
             // 
             this.addToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.customersToolStripMenuItem1,
             this.carsToolStripMenuItem1,
+            this.customersToolStripMenuItem1,
             this.employeesToolStripMenuItem1});
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(97, 45);
-            this.addToolStripMenuItem.Text = "Add";
-            // 
-            // customersToolStripMenuItem1
-            // 
-            this.customersToolStripMenuItem1.Name = "customersToolStripMenuItem1";
-            this.customersToolStripMenuItem1.Size = new System.Drawing.Size(328, 54);
-            this.customersToolStripMenuItem1.Text = "Customers";
-            this.customersToolStripMenuItem1.Click += new System.EventHandler(this.customersToolStripMenuItem1_Click);
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(195, 45);
+            this.addToolStripMenuItem.Text = "Add/Delete";
             // 
             // carsToolStripMenuItem1
             // 
@@ -480,6 +450,13 @@
             this.carsToolStripMenuItem1.Size = new System.Drawing.Size(328, 54);
             this.carsToolStripMenuItem1.Text = "Cars";
             this.carsToolStripMenuItem1.Click += new System.EventHandler(this.carsToolStripMenuItem1_Click);
+            // 
+            // customersToolStripMenuItem1
+            // 
+            this.customersToolStripMenuItem1.Name = "customersToolStripMenuItem1";
+            this.customersToolStripMenuItem1.Size = new System.Drawing.Size(328, 54);
+            this.customersToolStripMenuItem1.Text = "Customers";
+            this.customersToolStripMenuItem1.Click += new System.EventHandler(this.customersToolStripMenuItem1_Click);
             // 
             // employeesToolStripMenuItem1
             // 
@@ -503,38 +480,30 @@
             // 
             // tableLayoutPanel4
             // 
-            this.tableLayoutPanel4.ColumnCount = 8;
+            this.tableLayoutPanel4.ColumnCount = 5;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 375F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 350F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 350F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 350F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 350F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 350F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 526F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 1476F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.Controls.Add(this.ClearBottomButton, 0, 1);
-            this.tableLayoutPanel4.Controls.Add(this.textBox18, 7, 1);
-            this.tableLayoutPanel4.Controls.Add(this.textBox17, 6, 1);
-            this.tableLayoutPanel4.Controls.Add(this.textBox16, 5, 1);
-            this.tableLayoutPanel4.Controls.Add(this.textBox15, 4, 1);
-            this.tableLayoutPanel4.Controls.Add(this.textBox14, 3, 1);
+            this.tableLayoutPanel4.Controls.Add(this.textBox16, 4, 1);
+            this.tableLayoutPanel4.Controls.Add(this.textBox15, 3, 1);
             this.tableLayoutPanel4.Controls.Add(this.textBox13, 2, 1);
             this.tableLayoutPanel4.Controls.Add(this.textBox12, 1, 1);
-            this.tableLayoutPanel4.Controls.Add(this.label17, 7, 0);
-            this.tableLayoutPanel4.Controls.Add(this.label16, 6, 0);
-            this.tableLayoutPanel4.Controls.Add(this.label15, 5, 0);
-            this.tableLayoutPanel4.Controls.Add(this.label14, 4, 0);
-            this.tableLayoutPanel4.Controls.Add(this.label13, 3, 0);
+            this.tableLayoutPanel4.Controls.Add(this.label15, 4, 0);
+            this.tableLayoutPanel4.Controls.Add(this.label14, 3, 0);
             this.tableLayoutPanel4.Controls.Add(this.label12, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.SelectBottomButton, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.label11, 1, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 816);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 1081);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(2901, 100);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(2827, 101);
             this.tableLayoutPanel4.TabIndex = 1;
             // 
             // ClearBottomButton
@@ -542,57 +511,34 @@
             this.ClearBottomButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ClearBottomButton.Location = new System.Drawing.Point(3, 53);
             this.ClearBottomButton.Name = "ClearBottomButton";
-            this.ClearBottomButton.Size = new System.Drawing.Size(244, 44);
+            this.ClearBottomButton.Size = new System.Drawing.Size(244, 45);
             this.ClearBottomButton.TabIndex = 28;
             this.ClearBottomButton.Text = "Clear";
             this.ClearBottomButton.UseVisualStyleBackColor = true;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox18.Location = new System.Drawing.Point(2378, 53);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(520, 38);
-            this.textBox18.TabIndex = 27;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox17.Location = new System.Drawing.Point(2028, 53);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(344, 38);
-            this.textBox17.TabIndex = 26;
+            this.ClearBottomButton.Click += new System.EventHandler(this.ClearBottomButton_Click);
             // 
             // textBox16
             // 
             this.textBox16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox16.Location = new System.Drawing.Point(1678, 53);
+            this.textBox16.Location = new System.Drawing.Point(1453, 53);
             this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(344, 38);
+            this.textBox16.Size = new System.Drawing.Size(1470, 38);
             this.textBox16.TabIndex = 25;
             // 
             // textBox15
             // 
             this.textBox15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox15.Location = new System.Drawing.Point(1328, 53);
+            this.textBox15.Location = new System.Drawing.Point(1053, 53);
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(344, 38);
+            this.textBox15.Size = new System.Drawing.Size(394, 38);
             this.textBox15.TabIndex = 24;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox14.Location = new System.Drawing.Point(978, 53);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(344, 38);
-            this.textBox14.TabIndex = 23;
             // 
             // textBox13
             // 
             this.textBox13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox13.Location = new System.Drawing.Point(628, 53);
+            this.textBox13.Location = new System.Drawing.Point(653, 53);
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(344, 38);
+            this.textBox13.Size = new System.Drawing.Size(394, 38);
             this.textBox13.TabIndex = 22;
             this.textBox13.TextChanged += new System.EventHandler(this.textBox13_TextChanged);
             // 
@@ -601,38 +547,16 @@
             this.textBox12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox12.Location = new System.Drawing.Point(253, 53);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(369, 38);
+            this.textBox12.Size = new System.Drawing.Size(394, 38);
             this.textBox12.TabIndex = 21;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label17.Location = new System.Drawing.Point(2378, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(520, 50);
-            this.label17.TabIndex = 7;
-            this.label17.Text = "label17";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label16.Location = new System.Drawing.Point(2028, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(344, 50);
-            this.label16.TabIndex = 6;
-            this.label16.Text = "label16";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label15.Location = new System.Drawing.Point(1678, 0);
+            this.label15.Location = new System.Drawing.Point(1453, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(344, 50);
+            this.label15.Size = new System.Drawing.Size(1470, 50);
             this.label15.TabIndex = 5;
             this.label15.Text = "Date-to-(dd/mm/yyyy)";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -641,32 +565,21 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label14.Location = new System.Drawing.Point(1328, 0);
+            this.label14.Location = new System.Drawing.Point(1053, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(344, 50);
+            this.label14.Size = new System.Drawing.Size(394, 50);
             this.label14.TabIndex = 4;
             this.label14.Text = "Date-from-(dd/mm/yyyy)";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label13.Location = new System.Drawing.Point(978, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(344, 50);
-            this.label13.TabIndex = 3;
-            this.label13.Text = "Customer ID";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label12.Location = new System.Drawing.Point(628, 0);
+            this.label12.Location = new System.Drawing.Point(653, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(344, 50);
+            this.label12.Size = new System.Drawing.Size(394, 50);
             this.label12.TabIndex = 2;
             this.label12.Text = "EmployeeID";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -678,8 +591,9 @@
             this.SelectBottomButton.Name = "SelectBottomButton";
             this.SelectBottomButton.Size = new System.Drawing.Size(244, 44);
             this.SelectBottomButton.TabIndex = 0;
-            this.SelectBottomButton.Text = "Select";
+            this.SelectBottomButton.Text = "Book";
             this.SelectBottomButton.UseVisualStyleBackColor = true;
+            this.SelectBottomButton.Click += new System.EventHandler(this.SelectBottomButton_Click);
             // 
             // label11
             // 
@@ -687,7 +601,7 @@
             this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label11.Location = new System.Drawing.Point(253, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(369, 50);
+            this.label11.Size = new System.Drawing.Size(394, 50);
             this.label11.TabIndex = 1;
             this.label11.Text = "Car VIN";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -701,7 +615,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 102;
             this.dataGridView1.RowTemplate.Height = 40;
-            this.dataGridView1.Size = new System.Drawing.Size(2901, 807);
+            this.dataGridView1.Size = new System.Drawing.Size(2827, 1072);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -716,28 +630,36 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 106F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(2907, 919);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 107F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(2833, 1185);
             this.tableLayoutPanel2.TabIndex = 2;
             this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
             // 
-            // deleteToolStripMenuItem
+            // reportsToolStripMenuItem
             // 
-            this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(128, 45);
-            this.deleteToolStripMenuItem.Text = "Delete";
+            this.reportsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.customToolStripMenuItem});
+            this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
+            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(144, 48);
+            this.reportsToolStripMenuItem.Text = "Reports";
             // 
-            // EmployeeWindow
+            // customToolStripMenuItem
+            // 
+            this.customToolStripMenuItem.Name = "customToolStripMenuItem";
+            this.customToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.customToolStripMenuItem.Text = "Custom";
+            // 
+            // EmployeeBookCarWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2907, 1082);
+            this.ClientSize = new System.Drawing.Size(2833, 1348);
             this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "EmployeeWindow";
+            this.Name = "EmployeeBookCarWindow";
             this.Text = "Employee Window";
             this.Load += new System.EventHandler(this.EmployeeWindow_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -759,8 +681,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem databaseToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem queryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem runQueryToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem carsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem carTypesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem customersToolStripMenuItem;
@@ -793,18 +713,8 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Button ClearBottomButton;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button SelectBottomButton;
         private System.Windows.Forms.Label label11;
@@ -814,6 +724,11 @@
         private System.Windows.Forms.ToolStripMenuItem customersToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem carsToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem employeesToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.ToolStripMenuItem reportsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem customToolStripMenuItem;
     }
 }

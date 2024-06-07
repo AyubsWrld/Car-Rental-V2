@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace Cmpt291UI
 {
-    public partial class AddVehicle : Form
+    public partial class AddRemoveVehicle : Form
     {
         string addVehicleDBForm = LoginScreen.databasePath;
         SqlCommand cmd;
-        public AddVehicle()
+        public AddRemoveVehicle()
         {
             InitializeComponent();
 

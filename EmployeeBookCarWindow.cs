@@ -11,12 +11,12 @@ using System.Windows.Forms;
 
 namespace Cmpt291UI
 {
-    public partial class EmployeeWindow : Form
+    public partial class EmployeeBookCarWindow : Form
     {
         // get the string from form1
         string dbForm2 = LoginScreen.databasePath;
         string employeeLoggedInForm2 = LoginScreen.employeeLoggedIn;
-        public EmployeeWindow()
+        public EmployeeBookCarWindow()
         {
             InitializeComponent();
             textBox13.Text = employeeLoggedInForm2;
@@ -268,6 +268,14 @@ namespace Cmpt291UI
         {
             AddEmployee addEmployeeForm = new AddEmployee();
             addEmployeeForm.Show();
+        }
+
+        private void SelectBottomButton_Click(object sender, EventArgs e)
+        {
+            // check if car is available at the indicated time
+            // save car vin
+            // open new customer window to search for customer info, or add new customer info
+
         }
     }
 }

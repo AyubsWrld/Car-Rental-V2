@@ -36,6 +36,7 @@
             this.Clear = new System.Windows.Forms.Button();
             this.Login = new System.Windows.Forms.Button();
             this.Exit = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Welcome
@@ -88,7 +89,7 @@
             // 
             this.Clear.Location = new System.Drawing.Point(259, 446);
             this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(184, 59);
+            this.Clear.Size = new System.Drawing.Size(184, 68);
             this.Clear.TabIndex = 5;
             this.Clear.Text = "Clear";
             this.Clear.UseVisualStyleBackColor = true;
@@ -98,7 +99,7 @@
             // 
             this.Login.Location = new System.Drawing.Point(489, 446);
             this.Login.Name = "Login";
-            this.Login.Size = new System.Drawing.Size(184, 59);
+            this.Login.Size = new System.Drawing.Size(184, 68);
             this.Login.TabIndex = 6;
             this.Login.Text = "Login";
             this.Login.UseVisualStyleBackColor = true;
@@ -114,11 +115,22 @@
             this.Exit.UseVisualStyleBackColor = true;
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(259, 536);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(414, 68);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Sign Up";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // LoginScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 785);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.Login);
             this.Controls.Add(this.Clear);
@@ -145,5 +157,6 @@
         private System.Windows.Forms.Button Clear;
         private System.Windows.Forms.Button Login;
         private System.Windows.Forms.Button Exit;
+        private System.Windows.Forms.Button button1;
     }
 }
