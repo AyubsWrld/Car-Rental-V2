@@ -11,12 +11,12 @@ using System.Windows.Forms;
 
 namespace Cmpt291UI
 {
-    public partial class EmployeeWindow : Form
+    public partial class EmployeeMainWindowBook : Form
     {
         // get the string from form1
         string dbForm2 = LoginScreen.databasePath;
         string employeeLoggedInForm2 = LoginScreen.employeeLoggedIn;
-        public EmployeeWindow()
+        public EmployeeMainWindowBook()
         {
             InitializeComponent();
             textBox13.Text = employeeLoggedInForm2;
@@ -182,10 +182,6 @@ namespace Cmpt291UI
             }
         }
 
-        private void runQueryToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void refreshToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -254,20 +250,41 @@ namespace Cmpt291UI
 
         private void carsToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            AddVehicle addVehicleForm = new AddVehicle();
+            AddRemoveVehicle addVehicleForm = new AddRemoveVehicle();
             addVehicleForm.Show();
         }
 
         private void customersToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            AddCustomer addCustomerForm = new AddCustomer();
+            AddRemoveCustomer addCustomerForm = new AddRemoveCustomer();
             addCustomerForm.Show();
         }
 
         private void employeesToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            AddEmployee addEmployeeForm = new AddEmployee();
+            AddNewEmployee addEmployeeForm = new AddNewEmployee();
             addEmployeeForm.Show();
+        }
+
+        private void SelectBottomButton_Click(object sender, EventArgs e)
+        {
+            // check if car is available at the indicated time
+            // save car vin
+            // open new customer window to search for customer info, or add new customer info
+            // check to see what branch the car is in and where the customer wants to pick it up from
+        }
+
+        private void ClearBottomButton_Click(object sender, EventArgs e)
+        {
+            textBox12.Clear();
+            textBox13.Clear();
+            textBox15.Clear();
+            textBox16.Clear();
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
