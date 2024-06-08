@@ -36,12 +36,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.BtnSearch = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.CarColor = new System.Windows.Forms.RichTextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.CarEngine = new System.Windows.Forms.RichTextBox();
             this.CarYear = new System.Windows.Forms.RichTextBox();
             this.CarTrim = new System.Windows.Forms.RichTextBox();
             this.CarName = new System.Windows.Forms.RichTextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.Logout = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.BtnReceipt = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -69,11 +73,11 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(26, 109);
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 162);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(396, 503);
+            this.pictureBox1.Size = new System.Drawing.Size(846, 492);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -95,9 +99,9 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label2.Location = new System.Drawing.Point(14, 49);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 24);
+            this.label2.Size = new System.Drawing.Size(87, 24);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Car Trim:";
+            this.label2.Text = "Car Type:";
             // 
             // label3
             // 
@@ -115,8 +119,8 @@
             this.BtnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.BtnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnSearch.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.BtnSearch.Location = new System.Drawing.Point(622, 175);
+            this.BtnSearch.ForeColor = System.Drawing.Color.White;
+            this.BtnSearch.Location = new System.Drawing.Point(613, 685);
             this.BtnSearch.Name = "BtnSearch";
             this.BtnSearch.Size = new System.Drawing.Size(277, 74);
             this.BtnSearch.TabIndex = 6;
@@ -126,6 +130,8 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.CarColor);
+            this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.CarEngine);
             this.panel2.Controls.Add(this.CarYear);
             this.panel2.Controls.Add(this.CarTrim);
@@ -134,15 +140,37 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(26, 629);
+            this.panel2.Location = new System.Drawing.Point(12, 685);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(570, 173);
+            this.panel2.Size = new System.Drawing.Size(570, 217);
             this.panel2.TabIndex = 7;
+            // 
+            // CarColor
+            // 
+            this.CarColor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.CarColor.Font = new System.Drawing.Font("Calibri", 10F);
+            this.CarColor.ForeColor = System.Drawing.Color.Black;
+            this.CarColor.Location = new System.Drawing.Point(84, 166);
+            this.CarColor.Name = "CarColor";
+            this.CarColor.Size = new System.Drawing.Size(217, 29);
+            this.CarColor.TabIndex = 11;
+            this.CarColor.Text = "";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Calibri", 12F);
+            this.label5.Location = new System.Drawing.Point(18, 166);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(60, 24);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Color:";
             // 
             // CarEngine
             // 
-            this.CarEngine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.CarEngine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.CarEngine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.CarEngine.Font = new System.Drawing.Font("Calibri", 10F);
+            this.CarEngine.ForeColor = System.Drawing.Color.Black;
             this.CarEngine.Location = new System.Drawing.Point(131, 126);
             this.CarEngine.Name = "CarEngine";
             this.CarEngine.Size = new System.Drawing.Size(170, 29);
@@ -151,9 +179,10 @@
             // 
             // CarYear
             // 
-            this.CarYear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.CarYear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.CarYear.Location = new System.Drawing.Point(61, 91);
+            this.CarYear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.CarYear.Font = new System.Drawing.Font("Calibri", 10F);
+            this.CarYear.ForeColor = System.Drawing.Color.Black;
+            this.CarYear.Location = new System.Drawing.Point(71, 88);
             this.CarYear.Name = "CarYear";
             this.CarYear.Size = new System.Drawing.Size(111, 29);
             this.CarYear.TabIndex = 8;
@@ -161,9 +190,10 @@
             // 
             // CarTrim
             // 
-            this.CarTrim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.CarTrim.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.CarTrim.Location = new System.Drawing.Point(94, 49);
+            this.CarTrim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.CarTrim.Font = new System.Drawing.Font("Calibri", 10F);
+            this.CarTrim.ForeColor = System.Drawing.Color.Black;
+            this.CarTrim.Location = new System.Drawing.Point(107, 49);
             this.CarTrim.Name = "CarTrim";
             this.CarTrim.Size = new System.Drawing.Size(282, 29);
             this.CarTrim.TabIndex = 7;
@@ -171,8 +201,9 @@
             // 
             // CarName
             // 
-            this.CarName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.CarName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.CarName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.CarName.Font = new System.Drawing.Font("Calibri", 10F);
+            this.CarName.ForeColor = System.Drawing.Color.Black;
             this.CarName.Location = new System.Drawing.Point(84, 10);
             this.CarName.Name = "CarName";
             this.CarName.Size = new System.Drawing.Size(440, 29);
@@ -196,19 +227,45 @@
             this.Logout.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Logout.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Logout.ForeColor = System.Drawing.Color.White;
-            this.Logout.Location = new System.Drawing.Point(622, 335);
+            this.Logout.Location = new System.Drawing.Point(613, 867);
             this.Logout.Name = "Logout";
-            this.Logout.Size = new System.Drawing.Size(277, 70);
-            this.Logout.TabIndex = 8;
+            this.Logout.Size = new System.Drawing.Size(277, 74);
+            this.Logout.TabIndex = 6;
             this.Logout.Text = "Log Out";
             this.Logout.UseVisualStyleBackColor = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Calibri", 14F);
+            this.label6.Location = new System.Drawing.Point(666, 120);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(160, 29);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Welcome, User";
+            // 
+            // BtnReceipt
+            // 
+            this.BtnReceipt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.BtnReceipt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BtnReceipt.Font = new System.Drawing.Font("Cambria", 12F);
+            this.BtnReceipt.ForeColor = System.Drawing.Color.White;
+            this.BtnReceipt.Location = new System.Drawing.Point(613, 777);
+            this.BtnReceipt.Name = "BtnReceipt";
+            this.BtnReceipt.Size = new System.Drawing.Size(277, 74);
+            this.BtnReceipt.TabIndex = 6;
+            this.BtnReceipt.Text = "Booking Receipt";
+            this.BtnReceipt.UseVisualStyleBackColor = false;
             // 
             // CustomerWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(936, 823);
+            this.ClientSize = new System.Drawing.Size(950, 989);
+            this.Controls.Add(this.BtnReceipt);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.Logout);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.BtnSearch);
@@ -222,6 +279,7 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -241,5 +299,9 @@
         private System.Windows.Forms.RichTextBox CarTrim;
         private System.Windows.Forms.RichTextBox CarName;
         private System.Windows.Forms.Button Logout;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.RichTextBox CarColor;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button BtnReceipt;
     }
 }

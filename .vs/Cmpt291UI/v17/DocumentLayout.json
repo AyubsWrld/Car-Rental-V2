@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Project\\",
+  "WorkspaceRootPath": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\Final Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\ayub haji\\desktop\\cmpt 291\\final project\\291_project\\customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\ayub haji\\desktop\\cmpt 291\\final project\\final project\\customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Project\\customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\Final Project\\customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\Final Project\\customerwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:customerwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\Final Project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,11 +34,37 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerWindow.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\Final Project\\CustomerWindow.cs",
+              "RelativeDocumentMoniker": "CustomerWindow.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\Final Project\\CustomerWindow.cs",
+              "RelativeToolTip": "CustomerWindow.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAuwGYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T21:45:03.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerWindow.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\Final Project\\CustomerWindow.Designer.cs",
+              "RelativeDocumentMoniker": "CustomerWindow.Designer.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\Final Project\\CustomerWindow.Designer.cs",
+              "RelativeToolTip": "CustomerWindow.Designer.cs",
+              "ViewState": "AQIAAPMAAAAAAAAAAAAAAAEBAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T19:06:14.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CustomerWindow.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Project\\CustomerWindow.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\Final Project\\CustomerWindow.cs",
               "RelativeDocumentMoniker": "CustomerWindow.cs",
-              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Project\\CustomerWindow.cs [Design]",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\Final Project\\CustomerWindow.cs [Design]",
               "RelativeToolTip": "CustomerWindow.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T20:43:19.977Z",
@@ -42,27 +72,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerWindow.cs",
-              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Project\\CustomerWindow.cs",
-              "RelativeDocumentMoniker": "CustomerWindow.cs",
-              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Project\\CustomerWindow.cs",
-              "RelativeToolTip": "CustomerWindow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:45:03.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Project\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\Final Project\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Project\\Program.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\Final Project\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T18:06:07.928Z"
+              "WhenOpened": "2024-06-03T18:06:07.928Z",
+              "EditorCaption": ""
             }
           ]
         }

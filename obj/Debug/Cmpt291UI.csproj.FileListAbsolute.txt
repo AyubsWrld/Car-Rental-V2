@@ -10,3 +10,16 @@ C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.pdb
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.LoginScreen.resources
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.EmployeeWindow.resources
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.AddVehicle.resources
+C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\bin\Debug\Cmpt291UI.exe.config
+C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\bin\Debug\Cmpt291UI.exe
+C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\bin\Debug\Cmpt291UI.pdb
+C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt291UI.csproj.AssemblyReference.cache
+C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt291UI.AddVehicle.resources
+C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt291UI.CustomerWindow.resources
+C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt291UI.EmployeeWindow.resources
+C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt291UI.LoginScreen.resources
+C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt291UI.Properties.Resources.resources
+C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt291UI.csproj.GenerateResource.cache
+C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt291UI.csproj.CoreCompileInputs.cache
+C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt291UI.exe
+C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt291UI.pdb
