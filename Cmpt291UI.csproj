@@ -95,6 +95,24 @@
     <Compile Include="FindCustomerInformation.Designer.cs">
       <DependentUpon>FindCustomerInformation.cs</DependentUpon>
     </Compile>
+    <Compile Include="FindCustomerSmallWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindCustomerSmallWindow.Designer.cs">
+      <DependentUpon>FindCustomerSmallWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReceiptList.Designer.cs">
+      <DependentUpon>ReceiptList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RentalTransactionWindowAddRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RentalTransactionWindowAddRemove.Designer.cs">
+      <DependentUpon>RentalTransactionWindowAddRemove.cs</DependentUpon>
+    </Compile>
     <Compile Include="TransactionPaymentWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,11 +145,20 @@
     <EmbeddedResource Include="AddRemoveVehicle.resx">
       <DependentUpon>AddRemoveVehicle.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DeleteCustomer.resx">
+      <DependentUpon>DeleteCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeMainWindowBook.resx">
       <DependentUpon>EmployeeMainWindowBook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FindCustomerInformation.resx">
       <DependentUpon>FindCustomerInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindCustomerSmallWindow.resx">
+      <DependentUpon>FindCustomerSmallWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RentalTransactionWindowAddRemove.resx">
+      <DependentUpon>RentalTransactionWindowAddRemove.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TransactionPaymentWindow.resx">
       <DependentUpon>TransactionPaymentWindow.cs</DependentUpon>

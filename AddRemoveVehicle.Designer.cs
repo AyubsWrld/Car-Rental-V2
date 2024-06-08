@@ -30,15 +30,15 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.addCarBranchLocationtxt = new System.Windows.Forms.TextBox();
-            this.addCarConditiontxt = new System.Windows.Forms.TextBox();
-            this.addCarLastTuneUptxt = new System.Windows.Forms.TextBox();
-            this.addCarMileagetxt = new System.Windows.Forms.TextBox();
-            this.addCarColortxt = new System.Windows.Forms.TextBox();
-            this.addCarYeartxt = new System.Windows.Forms.TextBox();
-            this.addCarModeltxt = new System.Windows.Forms.TextBox();
-            this.addCarBrandtxt = new System.Windows.Forms.TextBox();
-            this.addCarTypeIDtxt = new System.Windows.Forms.TextBox();
+            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -48,20 +48,18 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.addCarAddButton = new System.Windows.Forms.Button();
-            this.addCarClearButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.addCarVINtxt = new System.Windows.Forms.TextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.searchCarBranchLocationtxt = new System.Windows.Forms.TextBox();
-            this.searchCarConditiontxt = new System.Windows.Forms.TextBox();
-            this.searchCarLastTuneUptxt = new System.Windows.Forms.TextBox();
-            this.searchCarMileagetxt = new System.Windows.Forms.TextBox();
-            this.searchCarColortxt = new System.Windows.Forms.TextBox();
-            this.searchCarYeartxt = new System.Windows.Forms.TextBox();
-            this.searchCarModeltxt = new System.Windows.Forms.TextBox();
-            this.searchCarBrandtxt = new System.Windows.Forms.TextBox();
-            this.searchCarTypeIDtxt = new System.Windows.Forms.TextBox();
+            this.richTextBox20 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox19 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox18 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox17 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox16 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox15 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox14 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox13 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox12 = new System.Windows.Forms.RichTextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -71,10 +69,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.searchCarSearchButton = new System.Windows.Forms.Button();
-            this.searchCarClearButton = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
-            this.searchCarVINtxt = new System.Windows.Forms.TextBox();
+            this.richTextBox11 = new System.Windows.Forms.RichTextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -95,8 +91,12 @@
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.label21 = new System.Windows.Forms.Label();
-            this.deleteCarVINtxt = new System.Windows.Forms.TextBox();
+            this.richTextBox21 = new System.Windows.Forms.RichTextBox();
             this.DeleteCarButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -124,7 +124,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 150F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 150F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(2808, 1422);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(2923, 1422);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -140,16 +140,17 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 302F));
-            this.tableLayoutPanel2.Controls.Add(this.addCarBranchLocationtxt, 10, 1);
-            this.tableLayoutPanel2.Controls.Add(this.addCarConditiontxt, 9, 1);
-            this.tableLayoutPanel2.Controls.Add(this.addCarLastTuneUptxt, 8, 1);
-            this.tableLayoutPanel2.Controls.Add(this.addCarMileagetxt, 7, 1);
-            this.tableLayoutPanel2.Controls.Add(this.addCarColortxt, 6, 1);
-            this.tableLayoutPanel2.Controls.Add(this.addCarYeartxt, 5, 1);
-            this.tableLayoutPanel2.Controls.Add(this.addCarModeltxt, 4, 1);
-            this.tableLayoutPanel2.Controls.Add(this.addCarBrandtxt, 3, 1);
-            this.tableLayoutPanel2.Controls.Add(this.addCarTypeIDtxt, 2, 1);
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 417F));
+            this.tableLayoutPanel2.Controls.Add(this.button2, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox10, 10, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox9, 9, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox8, 8, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox7, 7, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox6, 6, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox5, 5, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox4, 4, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox3, 3, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox2, 2, 1);
             this.tableLayoutPanel2.Controls.Add(this.label10, 10, 0);
             this.tableLayoutPanel2.Controls.Add(this.label9, 9, 0);
             this.tableLayoutPanel2.Controls.Add(this.label8, 8, 0);
@@ -159,90 +160,99 @@
             this.tableLayoutPanel2.Controls.Add(this.label4, 4, 0);
             this.tableLayoutPanel2.Controls.Add(this.label3, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.label2, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.addCarAddButton, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.addCarClearButton, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.label1, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.addCarVINtxt, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox1, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.button1, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 53);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(2802, 144);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(2917, 144);
             this.tableLayoutPanel2.TabIndex = 7;
             // 
-            // addCarBranchLocationtxt
+            // richTextBox10
             // 
-            this.addCarBranchLocationtxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addCarBranchLocationtxt.Location = new System.Drawing.Point(2503, 75);
-            this.addCarBranchLocationtxt.Name = "addCarBranchLocationtxt";
-            this.addCarBranchLocationtxt.Size = new System.Drawing.Size(296, 38);
-            this.addCarBranchLocationtxt.TabIndex = 21;
+            this.richTextBox10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox10.Location = new System.Drawing.Point(2503, 75);
+            this.richTextBox10.Name = "richTextBox10";
+            this.richTextBox10.Size = new System.Drawing.Size(411, 66);
+            this.richTextBox10.TabIndex = 21;
+            this.richTextBox10.Text = "";
             // 
-            // addCarConditiontxt
+            // richTextBox9
             // 
-            this.addCarConditiontxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addCarConditiontxt.Location = new System.Drawing.Point(2253, 75);
-            this.addCarConditiontxt.Name = "addCarConditiontxt";
-            this.addCarConditiontxt.Size = new System.Drawing.Size(244, 38);
-            this.addCarConditiontxt.TabIndex = 20;
+            this.richTextBox9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox9.Location = new System.Drawing.Point(2253, 75);
+            this.richTextBox9.Name = "richTextBox9";
+            this.richTextBox9.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox9.TabIndex = 20;
+            this.richTextBox9.Text = "";
             // 
-            // addCarLastTuneUptxt
+            // richTextBox8
             // 
-            this.addCarLastTuneUptxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addCarLastTuneUptxt.Location = new System.Drawing.Point(2003, 75);
-            this.addCarLastTuneUptxt.Name = "addCarLastTuneUptxt";
-            this.addCarLastTuneUptxt.Size = new System.Drawing.Size(244, 38);
-            this.addCarLastTuneUptxt.TabIndex = 19;
+            this.richTextBox8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox8.Location = new System.Drawing.Point(2003, 75);
+            this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox8.TabIndex = 19;
+            this.richTextBox8.Text = "";
             // 
-            // addCarMileagetxt
+            // richTextBox7
             // 
-            this.addCarMileagetxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addCarMileagetxt.Location = new System.Drawing.Point(1753, 75);
-            this.addCarMileagetxt.Name = "addCarMileagetxt";
-            this.addCarMileagetxt.Size = new System.Drawing.Size(244, 38);
-            this.addCarMileagetxt.TabIndex = 18;
+            this.richTextBox7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox7.Location = new System.Drawing.Point(1753, 75);
+            this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox7.TabIndex = 18;
+            this.richTextBox7.Text = "";
             // 
-            // addCarColortxt
+            // richTextBox6
             // 
-            this.addCarColortxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addCarColortxt.Location = new System.Drawing.Point(1503, 75);
-            this.addCarColortxt.Name = "addCarColortxt";
-            this.addCarColortxt.Size = new System.Drawing.Size(244, 38);
-            this.addCarColortxt.TabIndex = 17;
+            this.richTextBox6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox6.Location = new System.Drawing.Point(1503, 75);
+            this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox6.TabIndex = 17;
+            this.richTextBox6.Text = "";
             // 
-            // addCarYeartxt
+            // richTextBox5
             // 
-            this.addCarYeartxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addCarYeartxt.Location = new System.Drawing.Point(1253, 75);
-            this.addCarYeartxt.Name = "addCarYeartxt";
-            this.addCarYeartxt.Size = new System.Drawing.Size(244, 38);
-            this.addCarYeartxt.TabIndex = 16;
+            this.richTextBox5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox5.Location = new System.Drawing.Point(1253, 75);
+            this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox5.TabIndex = 16;
+            this.richTextBox5.Text = "";
             // 
-            // addCarModeltxt
+            // richTextBox4
             // 
-            this.addCarModeltxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addCarModeltxt.Location = new System.Drawing.Point(1003, 75);
-            this.addCarModeltxt.Name = "addCarModeltxt";
-            this.addCarModeltxt.Size = new System.Drawing.Size(244, 38);
-            this.addCarModeltxt.TabIndex = 15;
+            this.richTextBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox4.Location = new System.Drawing.Point(1003, 75);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox4.TabIndex = 15;
+            this.richTextBox4.Text = "";
             // 
-            // addCarBrandtxt
+            // richTextBox3
             // 
-            this.addCarBrandtxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addCarBrandtxt.Location = new System.Drawing.Point(753, 75);
-            this.addCarBrandtxt.Name = "addCarBrandtxt";
-            this.addCarBrandtxt.Size = new System.Drawing.Size(244, 38);
-            this.addCarBrandtxt.TabIndex = 14;
+            this.richTextBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox3.Location = new System.Drawing.Point(753, 75);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox3.TabIndex = 14;
+            this.richTextBox3.Text = "";
             // 
-            // addCarTypeIDtxt
+            // richTextBox2
             // 
-            this.addCarTypeIDtxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addCarTypeIDtxt.Location = new System.Drawing.Point(503, 75);
-            this.addCarTypeIDtxt.Name = "addCarTypeIDtxt";
-            this.addCarTypeIDtxt.Size = new System.Drawing.Size(244, 38);
-            this.addCarTypeIDtxt.TabIndex = 13;
+            this.richTextBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox2.Location = new System.Drawing.Point(503, 75);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox2.TabIndex = 13;
+            this.richTextBox2.Text = "";
             // 
             // label10
             // 
@@ -250,7 +260,7 @@
             this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label10.Location = new System.Drawing.Point(2503, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(296, 72);
+            this.label10.Size = new System.Drawing.Size(411, 72);
             this.label10.TabIndex = 11;
             this.label10.Text = "Branch Location";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -343,28 +353,6 @@
             this.label2.Text = "Car Type ID";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // addCarAddButton
-            // 
-            this.addCarAddButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addCarAddButton.Location = new System.Drawing.Point(3, 3);
-            this.addCarAddButton.Name = "addCarAddButton";
-            this.addCarAddButton.Size = new System.Drawing.Size(244, 66);
-            this.addCarAddButton.TabIndex = 0;
-            this.addCarAddButton.Text = "Add";
-            this.addCarAddButton.UseVisualStyleBackColor = true;
-            this.addCarAddButton.Click += new System.EventHandler(this.addCarAddButton_Click);
-            // 
-            // addCarClearButton
-            // 
-            this.addCarClearButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addCarClearButton.Location = new System.Drawing.Point(3, 75);
-            this.addCarClearButton.Name = "addCarClearButton";
-            this.addCarClearButton.Size = new System.Drawing.Size(244, 66);
-            this.addCarClearButton.TabIndex = 1;
-            this.addCarClearButton.Text = "Clear";
-            this.addCarClearButton.UseVisualStyleBackColor = true;
-            this.addCarClearButton.Click += new System.EventHandler(this.addCarClearButton_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -376,14 +364,14 @@
             this.label1.Text = "Car VIN";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // addCarVINtxt
+            // richTextBox1
             // 
-            this.addCarVINtxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addCarVINtxt.Location = new System.Drawing.Point(253, 75);
-            this.addCarVINtxt.Name = "addCarVINtxt";
-            this.addCarVINtxt.Size = new System.Drawing.Size(244, 38);
-            this.addCarVINtxt.TabIndex = 12;
-            this.addCarVINtxt.TextChanged += new System.EventHandler(this.addCarVINtxt_TextChanged);
+            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox1.Location = new System.Drawing.Point(253, 75);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox1.TabIndex = 12;
+            this.richTextBox1.Text = "";
             // 
             // tableLayoutPanel3
             // 
@@ -398,16 +386,17 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 302F));
-            this.tableLayoutPanel3.Controls.Add(this.searchCarBranchLocationtxt, 10, 1);
-            this.tableLayoutPanel3.Controls.Add(this.searchCarConditiontxt, 9, 1);
-            this.tableLayoutPanel3.Controls.Add(this.searchCarLastTuneUptxt, 8, 1);
-            this.tableLayoutPanel3.Controls.Add(this.searchCarMileagetxt, 7, 1);
-            this.tableLayoutPanel3.Controls.Add(this.searchCarColortxt, 6, 1);
-            this.tableLayoutPanel3.Controls.Add(this.searchCarYeartxt, 5, 1);
-            this.tableLayoutPanel3.Controls.Add(this.searchCarModeltxt, 4, 1);
-            this.tableLayoutPanel3.Controls.Add(this.searchCarBrandtxt, 3, 1);
-            this.tableLayoutPanel3.Controls.Add(this.searchCarTypeIDtxt, 2, 1);
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 417F));
+            this.tableLayoutPanel3.Controls.Add(this.button4, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox20, 10, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox19, 9, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox18, 8, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox17, 7, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox16, 6, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox15, 5, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox14, 4, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox13, 3, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox12, 2, 1);
             this.tableLayoutPanel3.Controls.Add(this.label20, 10, 0);
             this.tableLayoutPanel3.Controls.Add(this.label18, 8, 0);
             this.tableLayoutPanel3.Controls.Add(this.label17, 7, 0);
@@ -417,90 +406,98 @@
             this.tableLayoutPanel3.Controls.Add(this.label13, 3, 0);
             this.tableLayoutPanel3.Controls.Add(this.label12, 2, 0);
             this.tableLayoutPanel3.Controls.Add(this.label11, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.searchCarSearchButton, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.searchCarClearButton, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.label19, 9, 0);
-            this.tableLayoutPanel3.Controls.Add(this.searchCarVINtxt, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox11, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.button3, 0, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 1125);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(2802, 144);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(2917, 144);
             this.tableLayoutPanel3.TabIndex = 3;
             // 
-            // searchCarBranchLocationtxt
+            // richTextBox20
             // 
-            this.searchCarBranchLocationtxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchCarBranchLocationtxt.Location = new System.Drawing.Point(2503, 75);
-            this.searchCarBranchLocationtxt.Name = "searchCarBranchLocationtxt";
-            this.searchCarBranchLocationtxt.Size = new System.Drawing.Size(296, 38);
-            this.searchCarBranchLocationtxt.TabIndex = 22;
+            this.richTextBox20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox20.Location = new System.Drawing.Point(2503, 75);
+            this.richTextBox20.Name = "richTextBox20";
+            this.richTextBox20.Size = new System.Drawing.Size(411, 66);
+            this.richTextBox20.TabIndex = 22;
+            this.richTextBox20.Text = "";
             // 
-            // searchCarConditiontxt
+            // richTextBox19
             // 
-            this.searchCarConditiontxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchCarConditiontxt.Location = new System.Drawing.Point(2253, 75);
-            this.searchCarConditiontxt.Name = "searchCarConditiontxt";
-            this.searchCarConditiontxt.Size = new System.Drawing.Size(244, 38);
-            this.searchCarConditiontxt.TabIndex = 21;
+            this.richTextBox19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox19.Location = new System.Drawing.Point(2253, 75);
+            this.richTextBox19.Name = "richTextBox19";
+            this.richTextBox19.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox19.TabIndex = 21;
+            this.richTextBox19.Text = "";
             // 
-            // searchCarLastTuneUptxt
+            // richTextBox18
             // 
-            this.searchCarLastTuneUptxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchCarLastTuneUptxt.Location = new System.Drawing.Point(2003, 75);
-            this.searchCarLastTuneUptxt.Name = "searchCarLastTuneUptxt";
-            this.searchCarLastTuneUptxt.Size = new System.Drawing.Size(244, 38);
-            this.searchCarLastTuneUptxt.TabIndex = 20;
+            this.richTextBox18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox18.Location = new System.Drawing.Point(2003, 75);
+            this.richTextBox18.Name = "richTextBox18";
+            this.richTextBox18.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox18.TabIndex = 20;
+            this.richTextBox18.Text = "";
             // 
-            // searchCarMileagetxt
+            // richTextBox17
             // 
-            this.searchCarMileagetxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchCarMileagetxt.Location = new System.Drawing.Point(1753, 75);
-            this.searchCarMileagetxt.Name = "searchCarMileagetxt";
-            this.searchCarMileagetxt.Size = new System.Drawing.Size(244, 38);
-            this.searchCarMileagetxt.TabIndex = 19;
+            this.richTextBox17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox17.Location = new System.Drawing.Point(1753, 75);
+            this.richTextBox17.Name = "richTextBox17";
+            this.richTextBox17.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox17.TabIndex = 19;
+            this.richTextBox17.Text = "";
             // 
-            // searchCarColortxt
+            // richTextBox16
             // 
-            this.searchCarColortxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchCarColortxt.Location = new System.Drawing.Point(1503, 75);
-            this.searchCarColortxt.Name = "searchCarColortxt";
-            this.searchCarColortxt.Size = new System.Drawing.Size(244, 38);
-            this.searchCarColortxt.TabIndex = 18;
+            this.richTextBox16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox16.Location = new System.Drawing.Point(1503, 75);
+            this.richTextBox16.Name = "richTextBox16";
+            this.richTextBox16.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox16.TabIndex = 18;
+            this.richTextBox16.Text = "";
             // 
-            // searchCarYeartxt
+            // richTextBox15
             // 
-            this.searchCarYeartxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchCarYeartxt.Location = new System.Drawing.Point(1253, 75);
-            this.searchCarYeartxt.Name = "searchCarYeartxt";
-            this.searchCarYeartxt.Size = new System.Drawing.Size(244, 38);
-            this.searchCarYeartxt.TabIndex = 17;
+            this.richTextBox15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox15.Location = new System.Drawing.Point(1253, 75);
+            this.richTextBox15.Name = "richTextBox15";
+            this.richTextBox15.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox15.TabIndex = 17;
+            this.richTextBox15.Text = "";
             // 
-            // searchCarModeltxt
+            // richTextBox14
             // 
-            this.searchCarModeltxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchCarModeltxt.Location = new System.Drawing.Point(1003, 75);
-            this.searchCarModeltxt.Name = "searchCarModeltxt";
-            this.searchCarModeltxt.Size = new System.Drawing.Size(244, 38);
-            this.searchCarModeltxt.TabIndex = 16;
+            this.richTextBox14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox14.Location = new System.Drawing.Point(1003, 75);
+            this.richTextBox14.Name = "richTextBox14";
+            this.richTextBox14.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox14.TabIndex = 16;
+            this.richTextBox14.Text = "";
             // 
-            // searchCarBrandtxt
+            // richTextBox13
             // 
-            this.searchCarBrandtxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchCarBrandtxt.Location = new System.Drawing.Point(753, 75);
-            this.searchCarBrandtxt.Name = "searchCarBrandtxt";
-            this.searchCarBrandtxt.Size = new System.Drawing.Size(244, 38);
-            this.searchCarBrandtxt.TabIndex = 15;
+            this.richTextBox13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox13.Location = new System.Drawing.Point(753, 75);
+            this.richTextBox13.Name = "richTextBox13";
+            this.richTextBox13.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox13.TabIndex = 15;
+            this.richTextBox13.Text = "";
             // 
-            // searchCarTypeIDtxt
+            // richTextBox12
             // 
-            this.searchCarTypeIDtxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchCarTypeIDtxt.Location = new System.Drawing.Point(503, 75);
-            this.searchCarTypeIDtxt.Name = "searchCarTypeIDtxt";
-            this.searchCarTypeIDtxt.Size = new System.Drawing.Size(244, 38);
-            this.searchCarTypeIDtxt.TabIndex = 14;
+            this.richTextBox12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox12.Location = new System.Drawing.Point(503, 75);
+            this.richTextBox12.Name = "richTextBox12";
+            this.richTextBox12.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox12.TabIndex = 14;
+            this.richTextBox12.Text = "";
             // 
             // label20
             // 
@@ -508,7 +505,7 @@
             this.label20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label20.Location = new System.Drawing.Point(2503, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(296, 72);
+            this.label20.Size = new System.Drawing.Size(411, 72);
             this.label20.TabIndex = 12;
             this.label20.Text = "Branch Location";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -601,28 +598,6 @@
             this.label11.Text = "Car VIN";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // searchCarSearchButton
-            // 
-            this.searchCarSearchButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchCarSearchButton.Location = new System.Drawing.Point(3, 3);
-            this.searchCarSearchButton.Name = "searchCarSearchButton";
-            this.searchCarSearchButton.Size = new System.Drawing.Size(244, 66);
-            this.searchCarSearchButton.TabIndex = 0;
-            this.searchCarSearchButton.Text = "Search";
-            this.searchCarSearchButton.UseVisualStyleBackColor = true;
-            this.searchCarSearchButton.Click += new System.EventHandler(this.SearchCarButton);
-            // 
-            // searchCarClearButton
-            // 
-            this.searchCarClearButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchCarClearButton.Location = new System.Drawing.Point(3, 75);
-            this.searchCarClearButton.Name = "searchCarClearButton";
-            this.searchCarClearButton.Size = new System.Drawing.Size(244, 66);
-            this.searchCarClearButton.TabIndex = 1;
-            this.searchCarClearButton.Text = "Clear";
-            this.searchCarClearButton.UseVisualStyleBackColor = true;
-            this.searchCarClearButton.Click += new System.EventHandler(this.searchCarClearButton_Click);
-            // 
             // label19
             // 
             this.label19.AutoSize = true;
@@ -634,23 +609,23 @@
             this.label19.Text = "Condition";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // searchCarVINtxt
+            // richTextBox11
             // 
-            this.searchCarVINtxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchCarVINtxt.Location = new System.Drawing.Point(253, 75);
-            this.searchCarVINtxt.Name = "searchCarVINtxt";
-            this.searchCarVINtxt.Size = new System.Drawing.Size(244, 38);
-            this.searchCarVINtxt.TabIndex = 13;
+            this.richTextBox11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox11.Location = new System.Drawing.Point(253, 75);
+            this.richTextBox11.Name = "richTextBox11";
+            this.richTextBox11.Size = new System.Drawing.Size(244, 66);
+            this.richTextBox11.TabIndex = 13;
+            this.richTextBox11.Text = "";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 203);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 102;
             this.dataGridView1.RowTemplate.Height = 40;
-            this.dataGridView1.Size = new System.Drawing.Size(2802, 916);
+            this.dataGridView1.Size = new System.Drawing.Size(2917, 916);
             this.dataGridView1.TabIndex = 4;
             // 
             // menuStrip1
@@ -664,7 +639,7 @@
             this.reportsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(2808, 49);
+            this.menuStrip1.Size = new System.Drawing.Size(2923, 50);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -787,31 +762,31 @@
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.ColumnCount = 2;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.922198F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 91.0778F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 99.99999F));
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel5, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.DeleteCarButton, 0, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 1275);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(2802, 144);
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(2917, 144);
             this.tableLayoutPanel4.TabIndex = 8;
             // 
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.ColumnCount = 1;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 2661F));
             this.tableLayoutPanel5.Controls.Add(this.label21, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.deleteCarVINtxt, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.richTextBox21, 0, 1);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(253, 3);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 2;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(2546, 138);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(2661, 138);
             this.tableLayoutPanel5.TabIndex = 0;
             // 
             // label21
@@ -820,19 +795,19 @@
             this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label21.Location = new System.Drawing.Point(3, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(2540, 69);
+            this.label21.Size = new System.Drawing.Size(2655, 69);
             this.label21.TabIndex = 0;
             this.label21.Text = "Car VIN";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // deleteCarVINtxt
+            // richTextBox21
             // 
-            this.deleteCarVINtxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.deleteCarVINtxt.Location = new System.Drawing.Point(3, 72);
-            this.deleteCarVINtxt.Name = "deleteCarVINtxt";
-            this.deleteCarVINtxt.Size = new System.Drawing.Size(2540, 38);
-            this.deleteCarVINtxt.TabIndex = 1;
-            this.deleteCarVINtxt.TextChanged += new System.EventHandler(this.deleteCarVINtxt_TextChanged);
+            this.richTextBox21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox21.Location = new System.Drawing.Point(3, 72);
+            this.richTextBox21.Name = "richTextBox21";
+            this.richTextBox21.Size = new System.Drawing.Size(2655, 63);
+            this.richTextBox21.TabIndex = 1;
+            this.richTextBox21.Text = "";
             // 
             // DeleteCarButton
             // 
@@ -845,11 +820,51 @@
             this.DeleteCarButton.UseVisualStyleBackColor = true;
             this.DeleteCarButton.Click += new System.EventHandler(this.DeleteCarButton_Click);
             // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(244, 66);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "Search";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button2.Location = new System.Drawing.Point(3, 75);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(244, 66);
+            this.button2.TabIndex = 23;
+            this.button2.Text = "Clear";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button3.Location = new System.Drawing.Point(3, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(244, 66);
+            this.button3.TabIndex = 23;
+            this.button3.Text = "Add";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button4.Location = new System.Drawing.Point(3, 75);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(244, 66);
+            this.button4.TabIndex = 24;
+            this.button4.Text = "Clear";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // AddRemoveVehicle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2808, 1422);
+            this.ClientSize = new System.Drawing.Size(2923, 1422);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "AddRemoveVehicle";
@@ -875,16 +890,6 @@
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.TextBox addCarBranchLocationtxt;
-        private System.Windows.Forms.TextBox addCarConditiontxt;
-        private System.Windows.Forms.TextBox addCarLastTuneUptxt;
-        private System.Windows.Forms.TextBox addCarMileagetxt;
-        private System.Windows.Forms.TextBox addCarColortxt;
-        private System.Windows.Forms.TextBox addCarYeartxt;
-        private System.Windows.Forms.TextBox addCarModeltxt;
-        private System.Windows.Forms.TextBox addCarBrandtxt;
-        private System.Windows.Forms.TextBox addCarTypeIDtxt;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
@@ -893,10 +898,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button addCarAddButton;
-        private System.Windows.Forms.Button addCarClearButton;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox addCarVINtxt;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
@@ -913,15 +915,6 @@
         private System.Windows.Forms.ToolStripMenuItem carsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem employeesToolStripMenuItem1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.TextBox searchCarBranchLocationtxt;
-        private System.Windows.Forms.TextBox searchCarConditiontxt;
-        private System.Windows.Forms.TextBox searchCarLastTuneUptxt;
-        private System.Windows.Forms.TextBox searchCarMileagetxt;
-        private System.Windows.Forms.TextBox searchCarColortxt;
-        private System.Windows.Forms.TextBox searchCarYeartxt;
-        private System.Windows.Forms.TextBox searchCarModeltxt;
-        private System.Windows.Forms.TextBox searchCarBrandtxt;
-        private System.Windows.Forms.TextBox searchCarTypeIDtxt;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
@@ -931,16 +924,38 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button searchCarSearchButton;
-        private System.Windows.Forms.Button searchCarClearButton;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox searchCarVINtxt;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox deleteCarVINtxt;
         private System.Windows.Forms.Button DeleteCarButton;
         private System.Windows.Forms.ToolStripMenuItem reportsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem customToolStripMenuItem;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.RichTextBox richTextBox10;
+        private System.Windows.Forms.RichTextBox richTextBox9;
+        private System.Windows.Forms.RichTextBox richTextBox8;
+        private System.Windows.Forms.RichTextBox richTextBox7;
+        private System.Windows.Forms.RichTextBox richTextBox6;
+        private System.Windows.Forms.RichTextBox richTextBox5;
+        private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBox20;
+        private System.Windows.Forms.RichTextBox richTextBox19;
+        private System.Windows.Forms.RichTextBox richTextBox18;
+        private System.Windows.Forms.RichTextBox richTextBox17;
+        private System.Windows.Forms.RichTextBox richTextBox16;
+        private System.Windows.Forms.RichTextBox richTextBox15;
+        private System.Windows.Forms.RichTextBox richTextBox14;
+        private System.Windows.Forms.RichTextBox richTextBox13;
+        private System.Windows.Forms.RichTextBox richTextBox12;
+        private System.Windows.Forms.RichTextBox richTextBox11;
+        private System.Windows.Forms.RichTextBox richTextBox21;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
     }
 }

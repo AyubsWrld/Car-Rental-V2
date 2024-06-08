@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace Cmpt291UI
 {
-    public partial class TransactionPaymentWindow : Form
+    public partial class RentalTransactionWindowAddRemove : Form
     {
-        public TransactionPaymentWindow()
+        public RentalTransactionWindowAddRemove()
         {
             InitializeComponent();
         }
 
-        private void TransactionPaymentWindow_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }
