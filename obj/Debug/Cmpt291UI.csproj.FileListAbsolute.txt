@@ -10,8 +10,9 @@ C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.pdb
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.LoginScreen.resources
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.FindCustomerInformation.resources
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.TransactionsReceipt.resources
-C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.AddEmployee.resources
-C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.EmployeeBookCarWindow.resources
-C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.AddAndRemoveCustomerScreen.resources
-C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.AddNewCustomers.resources
-C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.AddAndRemoveVehicleScreen.resources
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.AddRemoveCustomer.resources
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.AddNewCustomer.resources
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.AddNewEmployee.resources
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.AddRemoveVehicle.resources
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.EmployeeMainWindowBook.resources
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.TransactionPaymentWindow.resources

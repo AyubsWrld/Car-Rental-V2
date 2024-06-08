@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Cmpt291UI
 {
-    public partial class TransactionsReceipt : Form
+    public partial class FindCustomerSmallWindow : Form
     {
-        public TransactionsReceipt()
+        public FindCustomerSmallWindow()
         {
             InitializeComponent();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
