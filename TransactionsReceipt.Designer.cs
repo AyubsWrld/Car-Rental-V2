@@ -577,7 +577,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1493, 200);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Rental Payment";
+            this.label1.Text = "Rental Receipt";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2

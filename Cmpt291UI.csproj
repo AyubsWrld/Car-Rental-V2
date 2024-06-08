@@ -71,11 +71,11 @@
     <Compile Include="AddRemoveVehicle.Designer.cs">
       <DependentUpon>AddRemoveVehicle.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomerMainWindowBook.cs">
+    <Compile Include="CustomerWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomerMainWindowBook.Designer.cs">
-      <DependentUpon>CustomerMainWindowBook.cs</DependentUpon>
+    <Compile Include="CustomerWindow.Designer.cs">
+      <DependentUpon>CustomerWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="DeleteCustomer.cs">
       <SubType>Form</SubType>
@@ -145,6 +145,9 @@
     <EmbeddedResource Include="AddRemoveVehicle.resx">
       <DependentUpon>AddRemoveVehicle.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CustomerWindow.resx">
+      <DependentUpon>CustomerWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DeleteCustomer.resx">
       <DependentUpon>DeleteCustomer.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FindCustomerSmallWindow.resx">
       <DependentUpon>FindCustomerSmallWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceiptList.resx">
+      <DependentUpon>ReceiptList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RentalTransactionWindowAddRemove.resx">
       <DependentUpon>RentalTransactionWindowAddRemove.cs</DependentUpon>
