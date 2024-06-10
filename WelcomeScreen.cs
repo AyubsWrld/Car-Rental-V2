@@ -32,7 +32,7 @@ namespace Cmpt291UI
             try
             {
                 SqlConnection conn = new SqlConnection(databasePath);
-                String query = "SELECT * FROM Employees where employeeNum = '"+employeeNumBox.Text+"' AND password = '"+ passwordBox.Text+"'";
+                String query = "SELECT * FROM Employees where EmployeeNum = '"+employeeNumBox.Text+"' AND password = '"+ passwordBox.Text+"'";
                 SqlDataAdapter sda = new SqlDataAdapter(query, conn);
 
                 DataTable dtable = new DataTable();
@@ -44,7 +44,7 @@ namespace Cmpt291UI
                     user_password = passwordBox.Text;
 
                     // page that needed to be loaded next
-                    EmployeeWindow form2 = new EmployeeWindow();
+                    EmployeeMainWindowBook form2 = new EmployeeMainWindowBook();
                     form2.Show();
                     this.Hide();
                     conn.Dispose();
@@ -82,18 +82,11 @@ namespace Cmpt291UI
         }
 
         private void Exit_Click(object sender, EventArgs e)
-        {
-            DialogResult res;
-            res = MessageBox.Show("Do you want to exit", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (res == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
-            else
-            {
-                this.Show();
-            }
+        {   
+            //Goes back to Main Page
+            Login goBack = new Login();
+            this.Hide();
+            goBack.Show();
         }
         private void LoginScreen_Load(object sender, EventArgs e)
         {
@@ -101,6 +94,28 @@ namespace Cmpt291UI
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SqlConnection conn = new SqlConnection(databasePath);
+
+            // load addnewcustomer window
+            AddNewCustomer addNewCustomersForm = new AddNewCustomer();
+            addNewCustomersForm.Show();
+            this.Hide();
+            conn.Dispose();
+            conn.Close();
+        }
+
+        private void passwordBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Welcome_Click(object sender, EventArgs e)
         {
 
         }

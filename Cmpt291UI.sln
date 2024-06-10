@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34728.123
+VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cmpt291UI", "Cmpt291UI.csproj", "{BBCD64D6-43BA-4292-9440-DCC874F524F9}"
 EndProject
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0BE3962E-C258-400A-8BFA-3929AC5FF4FA}
+		SolutionGuid = {1E55E10D-810B-4200-A73B-67889C77C880}
 	EndGlobalSection
 EndGlobal
