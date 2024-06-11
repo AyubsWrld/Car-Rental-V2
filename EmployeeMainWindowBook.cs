@@ -15,6 +15,7 @@ namespace Cmpt291UI
     {
         // get the string from form1
         public static string employeeLoggedInForm2 = LoginScreen.employeeLoggedIn;
+        public static string carVINcarry, dateFromCarry, dateToCarry;
         public EmployeeMainWindowBook()
         {
             InitializeComponent();
@@ -361,12 +362,40 @@ namespace Cmpt291UI
             SqlConnection con = new SqlConnection(LoginScreen.databasePath);
             con.Open();
 
-            FindCustomerSmallWindow findCustomerSmallWindowForm = new FindCustomerSmallWindow();
+            // splitting the dates
+            string[] carDateFrom = bookDateFromBox.Text.Split('/');
+            string[] carDateTo = bookDateToBox.Text.Split('/');
 
-            findCustomerSmallWindowForm.Show();
+            // check if car vin exists and is available
+            String query = "SELECT * FROM cars, rentalTransactions WHERE carVIN = '" + bookCarVINBox.Text + "' AND " +
+                "cars.'" + bookCarVINBox.Text + "' = rentalTransactions.'" + bookCarVINBox.Text + "' AND " +
+                "rentalTransactions.'" + bookDateFromBox.Text + "' = rentalTransactions.'" + bookCarVINBox.Text + "' AND " +
+                "'";
 
-            con.Dispose();
-            con.Close();
+
+
+            SqlDataAdapter sda = new SqlDataAdapter(query, con);
+
+            DataTable dtable = new DataTable();
+            sda.Fill(dtable);
+
+            if (dtable.Rows.Count > 0)
+            {
+                carVINcarry = bookCarVINBox.Text;
+                dateFromCarry = bookDateFromBox.Text;
+                dateToCarry = bookDateToBox.Text;
+
+                FindCustomerSmallWindow findCustomerSmallWindowForm = new FindCustomerSmallWindow();
+
+                findCustomerSmallWindowForm.Show();
+
+                con.Dispose();
+                con.Close();
+            }
+            else
+            {
+                MessageBox.Show("Invalid Car VIN details", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void SearchTopButton_Click(object sender, EventArgs e)
@@ -392,6 +421,11 @@ namespace Cmpt291UI
             // add customer, switch forms
             AddNewCustomer addNewCustomerForm = new AddNewCustomer();
             addNewCustomerForm.Show();
+        }
+
+        private void bookDateFromBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void removeCustomerToolStripMenuItem_Click(object sender, EventArgs e)
