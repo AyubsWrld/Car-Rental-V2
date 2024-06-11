@@ -22,3 +22,4 @@ C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.FindCustomerSm
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.ReceiptList.resources
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.RentalTransactionWindowAddRemove.resources
 C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.AddRemoveEmployee.resources
+C:\Users\Jae\source\repos\Cmpt291UI\Cmpt291UI\obj\Debug\Cmpt291UI.DeleteEmployee.resources

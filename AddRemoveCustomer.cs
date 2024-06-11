@@ -155,9 +155,9 @@ namespace Cmpt291UI
 
         private void employeesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AddNewEmployee addEmployeeForm = new AddNewEmployee();
-            addEmployeeForm.Show();
-            //this.Close();
+            AddRemoveEmployee addRemoveEmployeeForm = new AddRemoveEmployee();
+            addRemoveEmployeeForm.Show();
+            this.Close();
         }
 
         private void carsToolStripMenuItem1_Click(object sender, EventArgs e)

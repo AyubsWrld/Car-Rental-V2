@@ -77,33 +77,6 @@ namespace Cmpt291UI
             // string together all the boxes for DOB insert
             string DateOfBirth = richTextBox3.Text + "-" + richTextBox23.Text + "-" + richTextBox24.Text;
 
-            ////// get max of cusid, increment by 1
-            //string newCusID;
-            //int maxCusID = -1, placeholder;
-
-            //String query = "SELECT CusID FROM Customers";
-            //SqlCommand cmdFindMax = new SqlCommand(query, con);
-
-
-            //using (SqlDataReader reader = cmdFindMax.ExecuteReader())
-            //{
-            //    while (reader.Read())
-            //    {
-            //        string readLineByLine = reader.GetString(0);
-            //        placeholder = Convert.ToInt32(readLineByLine);
-            //        if (maxCusID < placeholder)
-            //        {
-            //            maxCusID = placeholder;
-            //        }
-            //        else
-            //        {
-            //            continue;
-            //        }
-            //    }
-            //}
-
-
-
 
             SqlCommand cmd = new SqlCommand();
 

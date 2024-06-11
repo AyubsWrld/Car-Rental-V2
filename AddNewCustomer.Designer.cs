@@ -65,6 +65,8 @@
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.richTextBox11 = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -339,6 +341,8 @@
             this.tableLayoutPanel2.Controls.Add(this.richTextBox5, 1, 2);
             this.tableLayoutPanel2.Controls.Add(this.label19, 2, 1);
             this.tableLayoutPanel2.Controls.Add(this.richTextBox4, 3, 1);
+            this.tableLayoutPanel2.Controls.Add(this.label8, 2, 2);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox11, 3, 2);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 203);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -527,6 +531,26 @@
             this.richTextBox4.TabIndex = 67;
             this.richTextBox4.Text = "";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label8.Location = new System.Drawing.Point(749, 120);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(367, 60);
+            this.label8.TabIndex = 68;
+            this.label8.Text = "Customer ID:";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // richTextBox11
+            // 
+            this.richTextBox11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox11.Location = new System.Drawing.Point(1122, 123);
+            this.richTextBox11.Name = "richTextBox11";
+            this.richTextBox11.Size = new System.Drawing.Size(368, 54);
+            this.richTextBox11.TabIndex = 69;
+            this.richTextBox11.Text = "";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -640,5 +664,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.RichTextBox richTextBox11;
     }
 }

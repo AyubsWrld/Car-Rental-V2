@@ -111,7 +111,7 @@
             this.refreshToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(87, 48);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(87, 45);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // refreshToolStripMenuItem
@@ -133,7 +133,7 @@
             this.databaseToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.carsToolStripMenuItem});
             this.databaseToolStripMenuItem.Name = "databaseToolStripMenuItem";
-            this.databaseToolStripMenuItem.Size = new System.Drawing.Size(162, 48);
+            this.databaseToolStripMenuItem.Size = new System.Drawing.Size(162, 45);
             this.databaseToolStripMenuItem.Text = "Book Car";
             // 
             // carsToolStripMenuItem
@@ -151,13 +151,13 @@
             this.employeesToolStripMenuItem1,
             this.rentalTransactionsToolStripMenuItem});
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(216, 48);
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(216, 45);
             this.addToolStripMenuItem.Text = "Add/Remove";
             // 
             // carsToolStripMenuItem1
             // 
             this.carsToolStripMenuItem1.Name = "carsToolStripMenuItem1";
-            this.carsToolStripMenuItem1.Size = new System.Drawing.Size(448, 54);
+            this.carsToolStripMenuItem1.Size = new System.Drawing.Size(436, 54);
             this.carsToolStripMenuItem1.Text = "Cars";
             this.carsToolStripMenuItem1.Click += new System.EventHandler(this.carsToolStripMenuItem1_Click);
             // 
@@ -167,7 +167,7 @@
             this.addCustomerToolStripMenuItem,
             this.removeCustomerToolStripMenuItem});
             this.customersToolStripMenuItem1.Name = "customersToolStripMenuItem1";
-            this.customersToolStripMenuItem1.Size = new System.Drawing.Size(448, 54);
+            this.customersToolStripMenuItem1.Size = new System.Drawing.Size(436, 54);
             this.customersToolStripMenuItem1.Text = "Customers";
             this.customersToolStripMenuItem1.Click += new System.EventHandler(this.customersToolStripMenuItem1_Click);
             // 
@@ -191,27 +191,27 @@
             this.addEmployeeToolStripMenuItem,
             this.removeEmployeeToolStripMenuItem});
             this.employeesToolStripMenuItem1.Name = "employeesToolStripMenuItem1";
-            this.employeesToolStripMenuItem1.Size = new System.Drawing.Size(448, 54);
+            this.employeesToolStripMenuItem1.Size = new System.Drawing.Size(436, 54);
             this.employeesToolStripMenuItem1.Text = "Employees";
             this.employeesToolStripMenuItem1.Click += new System.EventHandler(this.employeesToolStripMenuItem1_Click);
             // 
             // addEmployeeToolStripMenuItem
             // 
             this.addEmployeeToolStripMenuItem.Name = "addEmployeeToolStripMenuItem";
-            this.addEmployeeToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.addEmployeeToolStripMenuItem.Size = new System.Drawing.Size(430, 54);
             this.addEmployeeToolStripMenuItem.Text = "Add Employee";
             this.addEmployeeToolStripMenuItem.Click += new System.EventHandler(this.addEmployeeToolStripMenuItem_Click);
             // 
             // removeEmployeeToolStripMenuItem
             // 
             this.removeEmployeeToolStripMenuItem.Name = "removeEmployeeToolStripMenuItem";
-            this.removeEmployeeToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.removeEmployeeToolStripMenuItem.Size = new System.Drawing.Size(430, 54);
             this.removeEmployeeToolStripMenuItem.Text = "Remove Employee";
             // 
             // rentalTransactionsToolStripMenuItem
             // 
             this.rentalTransactionsToolStripMenuItem.Name = "rentalTransactionsToolStripMenuItem";
-            this.rentalTransactionsToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.rentalTransactionsToolStripMenuItem.Size = new System.Drawing.Size(436, 54);
             this.rentalTransactionsToolStripMenuItem.Text = "Rental Transactions";
             this.rentalTransactionsToolStripMenuItem.Click += new System.EventHandler(this.rentalTransactionsToolStripMenuItem_Click_1);
             // 
@@ -220,13 +220,13 @@
             this.reportsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.customToolStripMenuItem});
             this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
-            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(144, 48);
+            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(144, 45);
             this.reportsToolStripMenuItem.Text = "Reports";
             // 
             // customToolStripMenuItem
             // 
             this.customToolStripMenuItem.Name = "customToolStripMenuItem";
-            this.customToolStripMenuItem.Size = new System.Drawing.Size(287, 54);
+            this.customToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
             this.customToolStripMenuItem.Text = "Custom";
             // 
             // tableLayoutPanel3
@@ -262,13 +262,17 @@
             // 
             // tableLayoutPanel4
             // 
-            this.tableLayoutPanel4.ColumnCount = 6;
+            this.tableLayoutPanel4.ColumnCount = 10;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 1067F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.Controls.Add(this.bookEmployeeIDBox, 2, 1);
             this.tableLayoutPanel4.Controls.Add(this.ClearBottomButton, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.label15, 4, 0);
@@ -283,26 +287,26 @@
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 1226);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 76F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 64F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(2917, 134);
             this.tableLayoutPanel4.TabIndex = 7;
             // 
             // bookEmployeeIDBox
             // 
             this.bookEmployeeIDBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bookEmployeeIDBox.Location = new System.Drawing.Point(653, 73);
+            this.bookEmployeeIDBox.Location = new System.Drawing.Point(653, 79);
             this.bookEmployeeIDBox.Name = "bookEmployeeIDBox";
-            this.bookEmployeeIDBox.Size = new System.Drawing.Size(394, 64);
+            this.bookEmployeeIDBox.Size = new System.Drawing.Size(394, 58);
             this.bookEmployeeIDBox.TabIndex = 31;
             this.bookEmployeeIDBox.Text = "";
             // 
             // ClearBottomButton
             // 
             this.ClearBottomButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ClearBottomButton.Location = new System.Drawing.Point(3, 73);
+            this.ClearBottomButton.Location = new System.Drawing.Point(3, 79);
             this.ClearBottomButton.Name = "ClearBottomButton";
-            this.ClearBottomButton.Size = new System.Drawing.Size(244, 64);
+            this.ClearBottomButton.Size = new System.Drawing.Size(244, 58);
             this.ClearBottomButton.TabIndex = 28;
             this.ClearBottomButton.Text = "Clear";
             this.ClearBottomButton.UseVisualStyleBackColor = true;
@@ -314,7 +318,7 @@
             this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label15.Location = new System.Drawing.Point(1453, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(394, 70);
+            this.label15.Size = new System.Drawing.Size(394, 76);
             this.label15.TabIndex = 5;
             this.label15.Text = "Date-To-(DD/MM/YYYY)";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -325,7 +329,7 @@
             this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label14.Location = new System.Drawing.Point(1053, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(394, 70);
+            this.label14.Size = new System.Drawing.Size(394, 76);
             this.label14.TabIndex = 4;
             this.label14.Text = "Date-From-(DD/MM/YYYY)";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -336,7 +340,7 @@
             this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label12.Location = new System.Drawing.Point(653, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(394, 70);
+            this.label12.Size = new System.Drawing.Size(394, 76);
             this.label12.TabIndex = 2;
             this.label12.Text = "EmployeeID";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -346,7 +350,7 @@
             this.SelectBottomButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SelectBottomButton.Location = new System.Drawing.Point(3, 3);
             this.SelectBottomButton.Name = "SelectBottomButton";
-            this.SelectBottomButton.Size = new System.Drawing.Size(244, 64);
+            this.SelectBottomButton.Size = new System.Drawing.Size(244, 70);
             this.SelectBottomButton.TabIndex = 0;
             this.SelectBottomButton.Text = "Book";
             this.SelectBottomButton.UseVisualStyleBackColor = true;
@@ -358,7 +362,7 @@
             this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label11.Location = new System.Drawing.Point(253, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(394, 70);
+            this.label11.Size = new System.Drawing.Size(394, 76);
             this.label11.TabIndex = 1;
             this.label11.Text = "Car VIN";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -366,27 +370,28 @@
             // bookCarVINBox
             // 
             this.bookCarVINBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bookCarVINBox.Location = new System.Drawing.Point(253, 73);
+            this.bookCarVINBox.Location = new System.Drawing.Point(253, 79);
             this.bookCarVINBox.Name = "bookCarVINBox";
-            this.bookCarVINBox.Size = new System.Drawing.Size(394, 64);
+            this.bookCarVINBox.Size = new System.Drawing.Size(394, 58);
             this.bookCarVINBox.TabIndex = 29;
             this.bookCarVINBox.Text = "";
             // 
             // bookDateFromBox
             // 
             this.bookDateFromBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bookDateFromBox.Location = new System.Drawing.Point(1053, 73);
+            this.bookDateFromBox.Location = new System.Drawing.Point(1053, 79);
             this.bookDateFromBox.Name = "bookDateFromBox";
-            this.bookDateFromBox.Size = new System.Drawing.Size(394, 64);
+            this.bookDateFromBox.Size = new System.Drawing.Size(394, 58);
             this.bookDateFromBox.TabIndex = 30;
             this.bookDateFromBox.Text = "";
+            this.bookDateFromBox.TextChanged += new System.EventHandler(this.bookDateFromBox_TextChanged);
             // 
             // bookDateToBox
             // 
             this.bookDateToBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bookDateToBox.Location = new System.Drawing.Point(1453, 73);
+            this.bookDateToBox.Location = new System.Drawing.Point(1453, 79);
             this.bookDateToBox.Name = "bookDateToBox";
-            this.bookDateToBox.Size = new System.Drawing.Size(394, 64);
+            this.bookDateToBox.Size = new System.Drawing.Size(394, 58);
             this.bookDateToBox.TabIndex = 32;
             this.bookDateToBox.Text = "";
             // 

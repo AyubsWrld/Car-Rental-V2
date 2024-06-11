@@ -14,7 +14,7 @@ namespace Cmpt291UI
 {
     public partial class LoginScreen : Form
     {
-        public static string databasePath = "Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291;Integrated Security=True;Encrypt=False";
+        public static string databasePath = "Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291Ver2.0;Integrated Security=True;Encrypt=False";
         public static string employeeLoggedIn;
 
         public LoginScreen()
@@ -99,8 +99,8 @@ namespace Cmpt291UI
         private void button1_Click(object sender, EventArgs e)
         {
             // load addnewcustomer window
-            AddNewCustomer addNewCustomersForm = new AddNewCustomer();
-            addNewCustomersForm.Show();
+            AddNewEmployee addNewEmployeeForm = new AddNewEmployee();
+            addNewEmployeeForm.Show();
         }
     }
 

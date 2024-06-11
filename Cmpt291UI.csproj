@@ -172,6 +172,9 @@
     <EmbeddedResource Include="DeleteCustomer.resx">
       <DependentUpon>DeleteCustomer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DeleteEmployee.resx">
+      <DependentUpon>DeleteEmployee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeMainWindowBook.resx">
       <DependentUpon>EmployeeMainWindowBook.cs</DependentUpon>
     </EmbeddedResource>
