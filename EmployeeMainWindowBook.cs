@@ -14,26 +14,49 @@ namespace Cmpt291UI
     public partial class EmployeeMainWindowBook : Form
     {
         // get the string from form1
-        string dbForm2 = LoginScreen.databasePath;
-        string employeeLoggedInForm2 = LoginScreen.employeeLoggedIn;
+        public static string employeeLoggedInForm2 = LoginScreen.employeeLoggedIn;
         public EmployeeMainWindowBook()
         {
             InitializeComponent();
-            textBox13.Text = employeeLoggedInForm2;
+
+            WindowState = FormWindowState.Maximized;
+
+            bookEmployeeIDBox.Text = employeeLoggedInForm2;
 
             // connect to database
-            SqlConnection con = new SqlConnection(dbForm2);
+            SqlConnection con = new SqlConnection(LoginScreen.databasePath);
             con.Open();
 
+            //// search through database
+            //string query = "SELECT workatbranchnum FROM employees where employeeNum = '" + employeeLoggedInForm2 + "'";
+
+            //using (con)
+            //{
+            //    SqlCommand com = new SqlCommand(query, con);
+            //    //com.Parameters.Add();
+            //}
+
+            //SqlDataAdapter adapter = new SqlDataAdapter(query, con);
+
+            ////insert data from extracted sql
+
+            //DataTable dtable = new DataTable();
+            //adapter.Fill(dtable);
+
+            //string branchBox = SearchBranchBox.Text;
+
             // search through database
-            string query = "SELECT workatbranchnum FROM employees where employeeNum = '" + employeeLoggedInForm2 + "'";
+            string query = "SELECT * FROM car";
             SqlDataAdapter adapter = new SqlDataAdapter(query, con);
 
             // insert data from extracted sql
-            DataTable dtable = new DataTable();
-            adapter.Fill(dtable);
+            DataTable cars = new DataTable();
+            adapter.Fill(cars);
 
-            textBox1.Text = dtable.ToString();
+            dataGridView1.DataSource = cars;
+
+            con.Dispose();
+            con.Close();
 
             con.Close();
         }
@@ -53,7 +76,7 @@ namespace Cmpt291UI
             try
             {
                 // connect to database
-                SqlConnection con = new SqlConnection(dbForm2);
+                SqlConnection con = new SqlConnection(LoginScreen.databasePath);
                 con.Open();
 
                 // search through database
@@ -66,6 +89,7 @@ namespace Cmpt291UI
 
                 dataGridView1.DataSource = cars;
 
+                con.Dispose();
                 con.Close();
             }
 
@@ -80,7 +104,7 @@ namespace Cmpt291UI
             try
             {
                 // connect to database
-                SqlConnection con = new SqlConnection(dbForm2);
+                SqlConnection con = new SqlConnection(LoginScreen.databasePath);
                 con.Open();
 
                 // search through database
@@ -93,6 +117,7 @@ namespace Cmpt291UI
 
                 dataGridView1.DataSource = cartypes;
 
+                con.Dispose();
                 con.Close();
             }
 
@@ -107,7 +132,7 @@ namespace Cmpt291UI
             try
             {
                 // connect to database
-                SqlConnection con = new SqlConnection(dbForm2);
+                SqlConnection con = new SqlConnection(LoginScreen.databasePath);
                 con.Open();
 
                 // search through database
@@ -120,6 +145,7 @@ namespace Cmpt291UI
 
                 dataGridView1.DataSource = customers;
 
+                con.Dispose();
                 con.Close();
             }
 
@@ -134,7 +160,7 @@ namespace Cmpt291UI
             try
             {
                 // connect to database
-                SqlConnection con = new SqlConnection(dbForm2);
+                SqlConnection con = new SqlConnection(LoginScreen.databasePath);
                 con.Open();
 
                 // search through database
@@ -147,6 +173,7 @@ namespace Cmpt291UI
 
                 dataGridView1.DataSource = employees;
 
+                con.Dispose();
                 con.Close();
             }
 
@@ -161,7 +188,7 @@ namespace Cmpt291UI
             try
             {
                 // connect to database
-                SqlConnection con = new SqlConnection(dbForm2);
+                SqlConnection con = new SqlConnection(LoginScreen.databasePath);
                 con.Open();
 
                 // search through database
@@ -174,6 +201,7 @@ namespace Cmpt291UI
 
                 dataGridView1.DataSource = rentaltransactions;
 
+                con.Dispose();
                 con.Close();
             }
             catch (Exception ex)
@@ -185,22 +213,35 @@ namespace Cmpt291UI
 
         private void refreshToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            try
+            {
+                // connect to database
+                SqlConnection con = new SqlConnection(LoginScreen.databasePath);
+                con.Open();
 
+                // search through database
+                string query = "SELECT * FROM car";
+                SqlDataAdapter adapter = new SqlDataAdapter(query, con);
+
+                // insert data from extracted sql
+                DataTable cars = new DataTable();
+                adapter.Fill(cars);
+
+                dataGridView1.DataSource = cars;
+
+                con.Dispose();
+                con.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            DialogResult res;
-            res = MessageBox.Show("Do you want to exit", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (res == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
-            else
-            {
-                this.Show();
-            }
+            this.Close();
         }
 
         private void EmployeeWindow_Load(object sender, EventArgs e)
@@ -252,18 +293,21 @@ namespace Cmpt291UI
         {
             AddRemoveVehicle addVehicleForm = new AddRemoveVehicle();
             addVehicleForm.Show();
+            this.Close();
         }
 
         private void customersToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             AddRemoveCustomer addCustomerForm = new AddRemoveCustomer();
             addCustomerForm.Show();
+            this.Close();
         }
 
         private void employeesToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            AddNewEmployee addEmployeeForm = new AddNewEmployee();
-            addEmployeeForm.Show();
+            AddRemoveEmployee addRemoveEmployeeForm = new AddRemoveEmployee();
+            addRemoveEmployeeForm.Show();
+            this.Close();
         }
 
         private void SelectBottomButton_Click(object sender, EventArgs e)
@@ -272,14 +316,7 @@ namespace Cmpt291UI
             // save car vin
             // open new customer window to search for customer info, or add new customer info
             // check to see what branch the car is in and where the customer wants to pick it up from
-        }
-
-        private void ClearBottomButton_Click(object sender, EventArgs e)
-        {
-            textBox12.Clear();
-            textBox13.Clear();
-            textBox15.Clear();
-            textBox16.Clear();
+            
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -290,6 +327,84 @@ namespace Cmpt291UI
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SearchBranchBox.Clear();
+            SearchCarTypeBox.Clear();
+            SearchCarEngineBox.Clear();
+            SearchCarTrimBox.Clear();
+            searchCarYearBox.Clear();
+            searchDailyCostBox.Clear();
+            SearchWeeklyCostBox.Clear();
+            searchMonthlyCostBox.Clear();
+            searchDateFromBox.Clear();
+            searchDateToBox.Clear();
+
+            SearchBranchBox.Focus();
+        }
+
+        private void ClearBottomButton_Click_1(object sender, EventArgs e)
+        {
+            bookCarVINBox.Clear();
+            bookEmployeeIDBox.Clear();
+            bookDateFromBox.Clear();
+            bookDateToBox.Clear();
+
+            bookCarVINBox.Focus();
+        }
+
+        private void SelectBottomButton_Click_1(object sender, EventArgs e)
+        {
+            // connect to database
+            SqlConnection con = new SqlConnection(LoginScreen.databasePath);
+            con.Open();
+
+            FindCustomerSmallWindow findCustomerSmallWindowForm = new FindCustomerSmallWindow();
+
+            findCustomerSmallWindowForm.Show();
+
+            con.Dispose();
+            con.Close();
+        }
+
+        private void SearchTopButton_Click(object sender, EventArgs e)
+        {
+            // connect to database
+            SqlConnection con = new SqlConnection(LoginScreen.databasePath);
+            con.Open();
+
+
+            con.Dispose();
+            con.Close();
+        }
+
+        private void rentalTransactionsToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            RentalTransactionWindowAddRemove rentalTransactionForm = new RentalTransactionWindowAddRemove();
+            rentalTransactionForm.Show();
+            this.Close();
+        }
+
+        private void addCustomerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // add customer, switch forms
+            AddNewCustomer addNewCustomerForm = new AddNewCustomer();
+            addNewCustomerForm.Show();
+        }
+
+        private void removeCustomerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // remove customer, switch forms
+            DeleteCustomer deleteCustomerForm = new DeleteCustomer();
+            deleteCustomerForm.Show();
+        }
+
+        private void addEmployeeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddNewEmployee addEmployeeForm = new AddNewEmployee();
+            addEmployeeForm.Show();
         }
     }
 }
