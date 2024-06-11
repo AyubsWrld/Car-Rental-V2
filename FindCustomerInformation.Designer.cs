@@ -30,21 +30,18 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -52,10 +49,13 @@
             this.label5 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,16 +63,12 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.databaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.carsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.carTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.customersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.employeesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rentalTransactionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.queryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.runQueryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addDeleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.carsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.customersToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.employeesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rentalTransactionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
@@ -92,11 +88,12 @@
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
+            this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 150F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(2415, 1484);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -109,18 +106,18 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 300F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 350F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 909F));
-            this.tableLayoutPanel2.Controls.Add(this.textBox7, 4, 1);
-            this.tableLayoutPanel2.Controls.Add(this.textBox6, 3, 1);
-            this.tableLayoutPanel2.Controls.Add(this.textBox5, 2, 1);
-            this.tableLayoutPanel2.Controls.Add(this.textBox4, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox7, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.button2, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.label8, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.label9, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.button1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.label1, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.label2, 4, 0);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox8, 2, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox9, 3, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox10, 4, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 1337);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 1327);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -128,37 +125,14 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(2409, 144);
             this.tableLayoutPanel2.TabIndex = 7;
             // 
-            // textBox7
+            // richTextBox7
             // 
-            this.textBox7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox7.Location = new System.Drawing.Point(1153, 75);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(344, 38);
-            this.textBox7.TabIndex = 20;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox6.Location = new System.Drawing.Point(853, 75);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(294, 38);
-            this.textBox6.TabIndex = 18;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox5.Location = new System.Drawing.Point(553, 75);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(294, 38);
-            this.textBox5.TabIndex = 17;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox4.Location = new System.Drawing.Point(253, 75);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(294, 38);
-            this.textBox4.TabIndex = 16;
+            this.richTextBox7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox7.Location = new System.Drawing.Point(253, 75);
+            this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.Size = new System.Drawing.Size(294, 66);
+            this.richTextBox7.TabIndex = 19;
+            this.richTextBox7.Text = "";
             // 
             // button2
             // 
@@ -169,6 +143,7 @@
             this.button2.TabIndex = 14;
             this.button2.Text = "Clear";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label8
             // 
@@ -201,6 +176,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Select";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -223,6 +199,33 @@
             this.label2.TabIndex = 19;
             this.label2.Text = "Phone Number";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // richTextBox8
+            // 
+            this.richTextBox8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox8.Location = new System.Drawing.Point(553, 75);
+            this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.Size = new System.Drawing.Size(294, 66);
+            this.richTextBox8.TabIndex = 20;
+            this.richTextBox8.Text = "";
+            // 
+            // richTextBox9
+            // 
+            this.richTextBox9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox9.Location = new System.Drawing.Point(853, 75);
+            this.richTextBox9.Name = "richTextBox9";
+            this.richTextBox9.Size = new System.Drawing.Size(294, 66);
+            this.richTextBox9.TabIndex = 21;
+            this.richTextBox9.Text = "";
+            // 
+            // richTextBox10
+            // 
+            this.richTextBox10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox10.Location = new System.Drawing.Point(1153, 75);
+            this.richTextBox10.Name = "richTextBox10";
+            this.richTextBox10.Size = new System.Drawing.Size(344, 66);
+            this.richTextBox10.TabIndex = 22;
+            this.richTextBox10.Text = "";
             // 
             // tableLayoutPanel4
             // 
@@ -248,9 +251,6 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 300F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 253F));
-            this.tableLayoutPanel3.Controls.Add(this.textBox11, 6, 1);
-            this.tableLayoutPanel3.Controls.Add(this.textBox10, 5, 1);
-            this.tableLayoutPanel3.Controls.Add(this.textBox9, 4, 1);
             this.tableLayoutPanel3.Controls.Add(this.label15, 6, 0);
             this.tableLayoutPanel3.Controls.Add(this.label14, 5, 0);
             this.tableLayoutPanel3.Controls.Add(this.label7, 3, 0);
@@ -258,10 +258,13 @@
             this.tableLayoutPanel3.Controls.Add(this.label5, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.button3, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.button4, 0, 1);
-            this.tableLayoutPanel3.Controls.Add(this.textBox1, 1, 1);
-            this.tableLayoutPanel3.Controls.Add(this.textBox2, 2, 1);
-            this.tableLayoutPanel3.Controls.Add(this.textBox3, 3, 1);
             this.tableLayoutPanel3.Controls.Add(this.label13, 4, 0);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox1, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox2, 2, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox3, 3, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox4, 4, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox5, 5, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox6, 6, 1);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -270,30 +273,6 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(2403, 138);
             this.tableLayoutPanel3.TabIndex = 4;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox11.Location = new System.Drawing.Point(1753, 72);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(394, 38);
-            this.textBox11.TabIndex = 16;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox10.Location = new System.Drawing.Point(1453, 72);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(294, 38);
-            this.textBox10.TabIndex = 15;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox9.Location = new System.Drawing.Point(1153, 72);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(294, 38);
-            this.textBox9.TabIndex = 14;
             // 
             // label15
             // 
@@ -359,6 +338,7 @@
             this.button3.TabIndex = 0;
             this.button3.Text = "Search";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -369,30 +349,7 @@
             this.button4.TabIndex = 1;
             this.button4.Text = "Clear";
             this.button4.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(253, 72);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(294, 38);
-            this.textBox1.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox2.Location = new System.Drawing.Point(553, 72);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(294, 38);
-            this.textBox2.TabIndex = 3;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox3.Location = new System.Drawing.Point(853, 72);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(294, 38);
-            this.textBox3.TabIndex = 4;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label13
             // 
@@ -405,15 +362,70 @@
             this.label13.Text = "Customer ID";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox1.Location = new System.Drawing.Point(253, 72);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(294, 63);
+            this.richTextBox1.TabIndex = 13;
+            this.richTextBox1.Text = "";
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox2.Location = new System.Drawing.Point(553, 72);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(294, 63);
+            this.richTextBox2.TabIndex = 14;
+            this.richTextBox2.Text = "";
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox3.Location = new System.Drawing.Point(853, 72);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(294, 63);
+            this.richTextBox3.TabIndex = 15;
+            this.richTextBox3.Text = "";
+            // 
+            // richTextBox4
+            // 
+            this.richTextBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox4.Location = new System.Drawing.Point(1153, 72);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.Size = new System.Drawing.Size(294, 63);
+            this.richTextBox4.TabIndex = 16;
+            this.richTextBox4.Text = "";
+            // 
+            // richTextBox5
+            // 
+            this.richTextBox5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox5.Location = new System.Drawing.Point(1453, 72);
+            this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.Size = new System.Drawing.Size(294, 63);
+            this.richTextBox5.TabIndex = 17;
+            this.richTextBox5.Text = "";
+            // 
+            // richTextBox6
+            // 
+            this.richTextBox6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox6.Location = new System.Drawing.Point(1753, 72);
+            this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.Size = new System.Drawing.Size(394, 63);
+            this.richTextBox6.TabIndex = 18;
+            this.richTextBox6.Text = "";
+            // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 203);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 102;
             this.dataGridView1.RowTemplate.Height = 40;
-            this.dataGridView1.Size = new System.Drawing.Size(2409, 1128);
+            this.dataGridView1.Size = new System.Drawing.Size(2409, 1118);
             this.dataGridView1.TabIndex = 5;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
             // 
@@ -424,11 +436,11 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.databaseToolStripMenuItem,
-            this.queryToolStripMenuItem,
-            this.addDeleteToolStripMenuItem});
+            this.addDeleteToolStripMenuItem,
+            this.reportsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(2415, 49);
+            this.menuStrip1.Size = new System.Drawing.Size(2415, 50);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -438,104 +450,82 @@
             this.refreshToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(87, 45);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(87, 46);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // refreshToolStripMenuItem
             // 
             this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
-            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(282, 54);
+            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
             this.refreshToolStripMenuItem.Text = "Refresh";
+            this.refreshToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(282, 54);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // databaseToolStripMenuItem
             // 
             this.databaseToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.carsToolStripMenuItem,
-            this.carTypesToolStripMenuItem,
-            this.customersToolStripMenuItem,
-            this.employeesToolStripMenuItem,
-            this.rentalTransactionsToolStripMenuItem});
+            this.carsToolStripMenuItem});
             this.databaseToolStripMenuItem.Name = "databaseToolStripMenuItem";
-            this.databaseToolStripMenuItem.Size = new System.Drawing.Size(165, 45);
-            this.databaseToolStripMenuItem.Text = "Database";
+            this.databaseToolStripMenuItem.Size = new System.Drawing.Size(162, 46);
+            this.databaseToolStripMenuItem.Text = "Book Car";
             // 
             // carsToolStripMenuItem
             // 
             this.carsToolStripMenuItem.Name = "carsToolStripMenuItem";
-            this.carsToolStripMenuItem.Size = new System.Drawing.Size(436, 54);
+            this.carsToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
             this.carsToolStripMenuItem.Text = "Cars";
-            // 
-            // carTypesToolStripMenuItem
-            // 
-            this.carTypesToolStripMenuItem.Name = "carTypesToolStripMenuItem";
-            this.carTypesToolStripMenuItem.Size = new System.Drawing.Size(436, 54);
-            this.carTypesToolStripMenuItem.Text = "Car Types";
-            // 
-            // customersToolStripMenuItem
-            // 
-            this.customersToolStripMenuItem.Name = "customersToolStripMenuItem";
-            this.customersToolStripMenuItem.Size = new System.Drawing.Size(436, 54);
-            this.customersToolStripMenuItem.Text = "Customers";
-            // 
-            // employeesToolStripMenuItem
-            // 
-            this.employeesToolStripMenuItem.Name = "employeesToolStripMenuItem";
-            this.employeesToolStripMenuItem.Size = new System.Drawing.Size(436, 54);
-            this.employeesToolStripMenuItem.Text = "Employees";
-            // 
-            // rentalTransactionsToolStripMenuItem
-            // 
-            this.rentalTransactionsToolStripMenuItem.Name = "rentalTransactionsToolStripMenuItem";
-            this.rentalTransactionsToolStripMenuItem.Size = new System.Drawing.Size(436, 54);
-            this.rentalTransactionsToolStripMenuItem.Text = "Rental Transactions";
-            // 
-            // queryToolStripMenuItem
-            // 
-            this.queryToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.runQueryToolStripMenuItem});
-            this.queryToolStripMenuItem.Name = "queryToolStripMenuItem";
-            this.queryToolStripMenuItem.Size = new System.Drawing.Size(123, 45);
-            this.queryToolStripMenuItem.Text = "Query";
-            // 
-            // runQueryToolStripMenuItem
-            // 
-            this.runQueryToolStripMenuItem.Name = "runQueryToolStripMenuItem";
-            this.runQueryToolStripMenuItem.Size = new System.Drawing.Size(325, 54);
-            this.runQueryToolStripMenuItem.Text = "Run Query";
+            this.carsToolStripMenuItem.Click += new System.EventHandler(this.carsToolStripMenuItem_Click);
             // 
             // addDeleteToolStripMenuItem
             // 
             this.addDeleteToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.carsToolStripMenuItem1,
             this.customersToolStripMenuItem1,
-            this.employeesToolStripMenuItem1});
+            this.employeesToolStripMenuItem1,
+            this.rentalTransactionsToolStripMenuItem});
             this.addDeleteToolStripMenuItem.Name = "addDeleteToolStripMenuItem";
-            this.addDeleteToolStripMenuItem.Size = new System.Drawing.Size(195, 45);
+            this.addDeleteToolStripMenuItem.Size = new System.Drawing.Size(195, 46);
             this.addDeleteToolStripMenuItem.Text = "Add/Delete";
             // 
             // carsToolStripMenuItem1
             // 
             this.carsToolStripMenuItem1.Name = "carsToolStripMenuItem1";
-            this.carsToolStripMenuItem1.Size = new System.Drawing.Size(328, 54);
+            this.carsToolStripMenuItem1.Size = new System.Drawing.Size(448, 54);
             this.carsToolStripMenuItem1.Text = "Cars";
+            this.carsToolStripMenuItem1.Click += new System.EventHandler(this.carsToolStripMenuItem1_Click);
             // 
             // customersToolStripMenuItem1
             // 
             this.customersToolStripMenuItem1.Name = "customersToolStripMenuItem1";
-            this.customersToolStripMenuItem1.Size = new System.Drawing.Size(328, 54);
+            this.customersToolStripMenuItem1.Size = new System.Drawing.Size(448, 54);
             this.customersToolStripMenuItem1.Text = "Customers";
+            this.customersToolStripMenuItem1.Click += new System.EventHandler(this.customersToolStripMenuItem1_Click);
             // 
             // employeesToolStripMenuItem1
             // 
             this.employeesToolStripMenuItem1.Name = "employeesToolStripMenuItem1";
-            this.employeesToolStripMenuItem1.Size = new System.Drawing.Size(328, 54);
+            this.employeesToolStripMenuItem1.Size = new System.Drawing.Size(448, 54);
             this.employeesToolStripMenuItem1.Text = "Employees";
+            this.employeesToolStripMenuItem1.Click += new System.EventHandler(this.employeesToolStripMenuItem1_Click);
+            // 
+            // reportsToolStripMenuItem
+            // 
+            this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
+            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(144, 46);
+            this.reportsToolStripMenuItem.Text = "Reports";
+            // 
+            // rentalTransactionsToolStripMenuItem
+            // 
+            this.rentalTransactionsToolStripMenuItem.Name = "rentalTransactionsToolStripMenuItem";
+            this.rentalTransactionsToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.rentalTransactionsToolStripMenuItem.Text = "Rental Transactions";
+            this.rentalTransactionsToolStripMenuItem.Click += new System.EventHandler(this.rentalTransactionsToolStripMenuItem_Click);
             // 
             // FindCustomerInformation
             // 
@@ -570,14 +560,8 @@
         private System.Windows.Forms.ToolStripMenuItem refreshToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem databaseToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem queryToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addDeleteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem carsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem carTypesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem customersToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem employeesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rentalTransactionsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem runQueryToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem carsToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem customersToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem employeesToolStripMenuItem1;
@@ -586,9 +570,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label7;
@@ -596,16 +577,21 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBox7;
+        private System.Windows.Forms.RichTextBox richTextBox8;
+        private System.Windows.Forms.RichTextBox richTextBox9;
+        private System.Windows.Forms.RichTextBox richTextBox10;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.RichTextBox richTextBox5;
+        private System.Windows.Forms.RichTextBox richTextBox6;
+        private System.Windows.Forms.ToolStripMenuItem reportsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rentalTransactionsToolStripMenuItem;
     }
 }

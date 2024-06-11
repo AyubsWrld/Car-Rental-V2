@@ -72,9 +72,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -149,54 +149,72 @@
             // 
             // richTextBox18
             // 
+            this.richTextBox18.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox18.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox18.Location = new System.Drawing.Point(1122, 198);
             this.richTextBox18.Name = "richTextBox18";
+            this.richTextBox18.ReadOnly = true;
             this.richTextBox18.Size = new System.Drawing.Size(368, 59);
             this.richTextBox18.TabIndex = 15;
             this.richTextBox18.Text = "";
             // 
             // richTextBox16
             // 
+            this.richTextBox16.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox16.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox16.Location = new System.Drawing.Point(1122, 133);
             this.richTextBox16.Name = "richTextBox16";
+            this.richTextBox16.ReadOnly = true;
             this.richTextBox16.Size = new System.Drawing.Size(368, 59);
             this.richTextBox16.TabIndex = 13;
             this.richTextBox16.Text = "";
             // 
             // richTextBox15
             // 
+            this.richTextBox15.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox15.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox15.Location = new System.Drawing.Point(376, 133);
             this.richTextBox15.Name = "richTextBox15";
+            this.richTextBox15.ReadOnly = true;
             this.richTextBox15.Size = new System.Drawing.Size(367, 59);
             this.richTextBox15.TabIndex = 12;
             this.richTextBox15.Text = "";
             // 
             // richTextBox14
             // 
+            this.richTextBox14.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox14.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox14.Location = new System.Drawing.Point(1122, 68);
             this.richTextBox14.Name = "richTextBox14";
+            this.richTextBox14.ReadOnly = true;
             this.richTextBox14.Size = new System.Drawing.Size(368, 59);
             this.richTextBox14.TabIndex = 11;
             this.richTextBox14.Text = "";
             // 
             // richTextBox13
             // 
+            this.richTextBox13.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox13.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox13.Location = new System.Drawing.Point(376, 68);
             this.richTextBox13.Name = "richTextBox13";
+            this.richTextBox13.ReadOnly = true;
             this.richTextBox13.Size = new System.Drawing.Size(367, 59);
             this.richTextBox13.TabIndex = 10;
             this.richTextBox13.Text = "";
             // 
             // richTextBox12
             // 
+            this.richTextBox12.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox12.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox12.Location = new System.Drawing.Point(1122, 3);
             this.richTextBox12.Name = "richTextBox12";
+            this.richTextBox12.ReadOnly = true;
             this.richTextBox12.Size = new System.Drawing.Size(368, 59);
             this.richTextBox12.TabIndex = 9;
             this.richTextBox12.Text = "";
@@ -280,9 +298,12 @@
             // 
             // richTextBox11
             // 
+            this.richTextBox11.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox11.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox11.Location = new System.Drawing.Point(376, 3);
             this.richTextBox11.Name = "richTextBox11";
+            this.richTextBox11.ReadOnly = true;
             this.richTextBox11.Size = new System.Drawing.Size(367, 59);
             this.richTextBox11.TabIndex = 8;
             this.richTextBox11.Text = "";
@@ -300,9 +321,12 @@
             // 
             // richTextBox17
             // 
+            this.richTextBox17.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox17.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox17.Location = new System.Drawing.Point(1122, 328);
             this.richTextBox17.Name = "richTextBox17";
+            this.richTextBox17.ReadOnly = true;
             this.richTextBox17.Size = new System.Drawing.Size(368, 59);
             this.richTextBox17.TabIndex = 17;
             this.richTextBox17.Text = "";
@@ -345,45 +369,60 @@
             // 
             // richTextBox10
             // 
+            this.richTextBox10.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox10.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox10.Location = new System.Drawing.Point(1122, 133);
             this.richTextBox10.Name = "richTextBox10";
+            this.richTextBox10.ReadOnly = true;
             this.richTextBox10.Size = new System.Drawing.Size(368, 59);
             this.richTextBox10.TabIndex = 11;
             this.richTextBox10.Text = "";
             // 
             // richTextBox9
             // 
+            this.richTextBox9.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox9.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox9.Location = new System.Drawing.Point(376, 133);
             this.richTextBox9.Name = "richTextBox9";
+            this.richTextBox9.ReadOnly = true;
             this.richTextBox9.Size = new System.Drawing.Size(367, 59);
             this.richTextBox9.TabIndex = 10;
             this.richTextBox9.Text = "";
             // 
             // richTextBox8
             // 
+            this.richTextBox8.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox8.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox8.Location = new System.Drawing.Point(1122, 68);
             this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.ReadOnly = true;
             this.richTextBox8.Size = new System.Drawing.Size(368, 59);
             this.richTextBox8.TabIndex = 9;
             this.richTextBox8.Text = "";
             // 
             // richTextBox7
             // 
+            this.richTextBox7.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox7.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox7.Location = new System.Drawing.Point(376, 68);
             this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.ReadOnly = true;
             this.richTextBox7.Size = new System.Drawing.Size(367, 59);
             this.richTextBox7.TabIndex = 8;
             this.richTextBox7.Text = "";
             // 
             // richTextBox6
             // 
+            this.richTextBox6.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox6.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox6.Location = new System.Drawing.Point(1122, 3);
             this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.ReadOnly = true;
             this.richTextBox6.Size = new System.Drawing.Size(368, 59);
             this.richTextBox6.TabIndex = 7;
             this.richTextBox6.Text = "";
@@ -456,9 +495,12 @@
             // 
             // richTextBox5
             // 
+            this.richTextBox5.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox5.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox5.Location = new System.Drawing.Point(376, 3);
             this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.ReadOnly = true;
             this.richTextBox5.Size = new System.Drawing.Size(367, 59);
             this.richTextBox5.TabIndex = 6;
             this.richTextBox5.Text = "";
@@ -490,27 +532,36 @@
             // 
             // richTextBox4
             // 
+            this.richTextBox4.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox4.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox4.Location = new System.Drawing.Point(1122, 68);
             this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
             this.richTextBox4.Size = new System.Drawing.Size(368, 59);
             this.richTextBox4.TabIndex = 7;
             this.richTextBox4.Text = "";
             // 
             // richTextBox3
             // 
+            this.richTextBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox3.Location = new System.Drawing.Point(376, 68);
             this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(367, 59);
             this.richTextBox3.TabIndex = 6;
             this.richTextBox3.Text = "";
             // 
             // richTextBox2
             // 
+            this.richTextBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox2.Location = new System.Drawing.Point(1122, 3);
             this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
             this.richTextBox2.Size = new System.Drawing.Size(368, 59);
             this.richTextBox2.TabIndex = 5;
             this.richTextBox2.Text = "";
@@ -561,9 +612,12 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox1.Location = new System.Drawing.Point(376, 3);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(367, 59);
             this.richTextBox1.TabIndex = 4;
             this.richTextBox1.Text = "";
@@ -579,6 +633,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Rental Receipt";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -616,17 +671,6 @@
             this.label4.Text = "Payment Information";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
-            // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(740, 188);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Print";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.ColumnCount = 2;
@@ -652,6 +696,19 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(740, 188);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Print";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // TransactionsReceipt
             // 

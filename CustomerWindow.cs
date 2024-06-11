@@ -36,7 +36,7 @@ namespace Cmpt291UI
 
         private void LoadCars()
         {
-            string imgPath = @"C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\img";
+            string imgPath = @"C:\Users\Jae\Desktop\Car-Rental-System-Jae\img";
             cars = new List<Car>
             {
             new Car { Name = "Honda Accord", Type = "Sedan", Year = 2020, Engine = "Gas", Color = "Black", Image = LoadImage(Path.Combine(imgPath, "Honda_Accord_2020_Black.jpg"))},

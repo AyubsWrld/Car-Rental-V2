@@ -44,9 +44,10 @@ namespace Cmpt291UI
                     user_password = passwordBox.Text;
 
                     // page that needed to be loaded next
-                    EmployeeMainWindowBook form2 = new EmployeeMainWindowBook();
-                    form2.Show();
+                    EmployeeMainWindowBook employeeMainWindowBookForm = new EmployeeMainWindowBook();
+                    employeeMainWindowBookForm.Show();
                     this.Hide();
+
                     conn.Dispose();
                     conn.Close();
                 }
@@ -83,17 +84,7 @@ namespace Cmpt291UI
 
         private void Exit_Click(object sender, EventArgs e)
         {
-            DialogResult res;
-            res = MessageBox.Show("Do you want to exit", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (res == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
-            else
-            {
-                this.Show();
-            }
+            this.Close();
         }
         private void LoginScreen_Load(object sender, EventArgs e)
         {
@@ -107,14 +98,9 @@ namespace Cmpt291UI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(databasePath);
-
             // load addnewcustomer window
             AddNewCustomer addNewCustomersForm = new AddNewCustomer();
             addNewCustomersForm.Show();
-            this.Hide();
-            conn.Dispose();
-            conn.Close();
         }
     }
 
