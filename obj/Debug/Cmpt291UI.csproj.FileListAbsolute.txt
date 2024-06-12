@@ -30,7 +30,6 @@ C:\Users\pc\source\repos\Car-Rental-System\obj\Debug\Cmpt291UI.ReceiptList.resou
 C:\Users\pc\source\repos\Car-Rental-System\obj\Debug\Cmpt291UI.RentalTransactionWindowAddRemove.resources
 C:\Users\pc\source\repos\Car-Rental-System\obj\Debug\Cmpt291UI.TransactionPaymentWindow.resources
 C:\Users\pc\source\repos\Car-Rental-System\obj\Debug\Cmpt291UI.TransactionsReceipt.resources
-C:\Users\pc\source\repos\Car-Rental-System\obj\Debug\Cmpt291UI.LoginScreen.resources
 C:\Users\pc\source\repos\Car-Rental-System\obj\Debug\Cmpt291UI.Properties.Resources.resources
 C:\Users\pc\source\repos\Car-Rental-System\obj\Debug\Cmpt291UI.csproj.GenerateResource.cache
 C:\Users\pc\source\repos\Car-Rental-System\obj\Debug\Cmpt291UI.csproj.CoreCompileInputs.cache
@@ -66,3 +65,5 @@ C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt29
 C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt291UI.csproj.CoreCompileInputs.cache
 C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt291UI.exe
 C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\obj\Debug\Cmpt291UI.pdb
+C:\Users\pc\source\repos\Car-Rental-System\obj\Debug\DatabasePathStrings.resources
+C:\Users\pc\source\repos\Car-Rental-System\obj\Debug\Cmpt291UI.BranchInputForm.resources

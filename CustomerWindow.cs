@@ -152,5 +152,12 @@ namespace Cmpt291UI
             paymentWindow.Show();       
             this.Hide();
         }
+
+        private void rentalsBtn_Click(object sender, EventArgs e)
+        {
+            ReceiptList receiptList = new ReceiptList();        
+            receiptList.Show(); 
+            this.Hide();
+        }
     }
 }

@@ -71,6 +71,12 @@
     <Compile Include="AddRemoveVehicle.Designer.cs">
       <DependentUpon>AddRemoveVehicle.cs</DependentUpon>
     </Compile>
+    <Compile Include="BranchInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BranchInputForm.Designer.cs">
+      <DependentUpon>BranchInputForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomerWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,9 +137,7 @@
     <Compile Include="TransactionsReceipt.Designer.cs">
       <DependentUpon>TransactionsReceipt.cs</DependentUpon>
     </Compile>
-    <Compile Include="WelcomeScreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="WelcomeScreen.cs" />
     <Compile Include="WelcomeScreen.Designer.cs">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>
     </Compile>
@@ -156,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddRemoveVehicle.resx">
       <DependentUpon>AddRemoveVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BranchInputForm.resx">
+      <DependentUpon>BranchInputForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerWindow.resx">
       <DependentUpon>CustomerWindow.cs</DependentUpon>

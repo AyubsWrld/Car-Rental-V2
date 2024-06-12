@@ -292,5 +292,10 @@ namespace Cmpt291UI
         {
 
         }
+
+        private void richTextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

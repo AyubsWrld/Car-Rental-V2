@@ -9,12 +9,43 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
+
+//Global Enum for database paths
+public enum DATABASEPATH{
+    AyubHaji        , 
+    Jae             ,
+    Sami            ,
+    AyubMohamed
+}
+
+public static class DatabasePathStrings 
+{
+    public static readonly string[] Values = 
+    {
+            "Data Source=LAPTOP-MID32020;Initial Catalog=291_FinalProject;Integrated Security=True;Encrypt=False"   ,
+            "Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291;Integrated Security=True;Encrypt=False"            ,
+            "Data Source=LAPTOP-7KGL33RR;Initial Catalog=291;Integrated Security=True;Encrypt=False"                ,
+            "Data Source=DESKTOP-3PU7T29;Initial Catalog=CMPT291;Integrated Security=True;Encrypt=False"
+    };
+}
+
+public static class EnumHelper
+{
+    public static string GetPath(DATABASEPATH user)
+    {
+        return DatabasePathStrings.Values[(int)user];
+    }
+}
+
+
 
 namespace Cmpt291UI
 {
     public partial class LoginScreen : Form
     {
-        public static string databasePath = "Data Source=LAPTOP-MID32020;Initial Catalog=291_FinalProject;Integrated Security=True;Encrypt=False";
+        public static string databasePath = EnumHelper.GetPath(DATABASEPATH.AyubMohamed);
         public static string employeeLoggedIn;
 
         public LoginScreen()

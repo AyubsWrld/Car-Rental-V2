@@ -11,11 +11,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
+
 namespace Cmpt291UI
 {
     public partial class WelcomeScreenCustomer : Form
     {
-        public static string databasePath = "Data Source=LAPTOP-MID32020;Initial Catalog=291_FinalProject;Integrated Security=True;Encrypt=False";
+
+        public static string databasePath = EnumHelper.GetPath(DATABASEPATH.AyubMohamed);
         public static string customerID;
 
 
