@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace Cmpt291UI
 {
     public partial class CustomerWindow : Form
     {
+        public static string databasePath = "Data Source=LAPTOP-MID32020;Initial Catalog=291_FinalProject;Integrated Security=True;Encrypt=False";
         public class Car
         {
             public string Name { get; set; }
@@ -26,17 +28,55 @@ namespace Cmpt291UI
         private List<Car> cars;
         private int currentCarIndex = 0;
         private System.Windows.Forms.Timer timer1;
-        public CustomerWindow()
+        private string CustomerName;
+
+        public CustomerWindow(string customerID, string databasePath)
         {
+            this.CustomerName = GetNameFromDatabase(customerID, databasePath);
             InitializeComponent();
             LoadCars();
             InitializeTimer();
             DisplayCarDetails(currentCarIndex);
+            UserName.Text = CustomerName;
         }
+
+
+        private string GetNameFromDatabase(string customerID, string databasePath)
+        {
+            string name = string.Empty;
+            try
+            {
+                // Connect to the database
+                using (SqlConnection con = new SqlConnection(databasePath))
+                {
+                    con.Open();
+                    // Search through the database for the customer's name based on customerID
+                    string query = $"SELECT fname FROM Customers WHERE cusID = '{customerID}'";
+                    using (SqlCommand command = new SqlCommand(query, con))
+                    {
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                // Retrieve the name from the database
+                                name = reader["fname"].ToString();
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: Failed to find name. " + ex.Message);
+            }
+
+            return name;
+        }
+
 
         private void LoadCars()
         {
-            string imgPath = @"C:\Users\Jae\Desktop\Car-Rental-System-Jae\img";
+            string imgPath = @"C:\Users\Ayub Haji\Desktop\CMPT 291\Final Project\Final Project\img";
             cars = new List<Car>
             {
             new Car { Name = "Honda Accord", Type = "Sedan", Year = 2020, Engine = "Gas", Color = "Black", Image = LoadImage(Path.Combine(imgPath, "Honda_Accord_2020_Black.jpg"))},
@@ -99,6 +139,25 @@ namespace Cmpt291UI
             DisplayCarDetails(currentCarIndex);
         }
 
-   
+        private void Logout_Click(object sender, EventArgs e)
+        {
+            WelcomeScreenCustomer goBack = new WelcomeScreenCustomer();
+            this.Hide(); 
+            goBack.Show();  
+        }
+
+        private void BtnSearch_Click(object sender, EventArgs e)
+        {
+            TransactionPaymentWindow paymentWindow = new TransactionPaymentWindow();    
+            paymentWindow.Show();       
+            this.Hide();
+        }
+
+        private void rentalsBtn_Click(object sender, EventArgs e)
+        {
+            ReceiptList receiptList = new ReceiptList();        
+            receiptList.Show(); 
+            this.Hide();
+        }
     }
 }

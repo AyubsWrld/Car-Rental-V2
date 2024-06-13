@@ -9,12 +9,43 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
+
+//Global Enum for database paths
+public enum DATABASEPATH{
+    AyubHaji        , 
+    Jae             ,
+    Sami            ,
+    AyubMohamed
+}
+
+public static class DatabasePathStrings 
+{
+    public static readonly string[] Values = 
+    {
+            "Data Source=LAPTOP-MID32020;Initial Catalog=291_FinalProject;Integrated Security=True;Encrypt=False"   ,
+            "Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291;Integrated Security=True;Encrypt=False"            ,
+            "Data Source=LAPTOP-7KGL33RR;Initial Catalog=291;Integrated Security=True;Encrypt=False"                ,
+            "Data Source=DESKTOP-3PU7T29;Initial Catalog=CMPT291;Integrated Security=True;Encrypt=False"
+    };
+}
+
+public static class EnumHelper
+{
+    public static string GetPath(DATABASEPATH user)
+    {
+        return DatabasePathStrings.Values[(int)user];
+    }
+}
+
+
 
 namespace Cmpt291UI
 {
     public partial class LoginScreen : Form
     {
-        public static string databasePath = "Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291Ver2.0;Integrated Security=True;Encrypt=False";
+        public static string databasePath = EnumHelper.GetPath(DATABASEPATH.AyubMohamed);
         public static string employeeLoggedIn;
 
         public LoginScreen()
@@ -32,7 +63,7 @@ namespace Cmpt291UI
             try
             {
                 SqlConnection conn = new SqlConnection(databasePath);
-                String query = "SELECT * FROM Employees where employeeNum = '"+employeeNumBox.Text+"' AND password = '"+ passwordBox.Text+"'";
+                String query = "SELECT * FROM Employees where EmployeeNum = '"+employeeNumBox.Text+"' AND password = '"+ passwordBox.Text+"'";
                 SqlDataAdapter sda = new SqlDataAdapter(query, conn);
 
                 DataTable dtable = new DataTable();
@@ -44,10 +75,9 @@ namespace Cmpt291UI
                     user_password = passwordBox.Text;
 
                     // page that needed to be loaded next
-                    EmployeeMainWindowBook employeeMainWindowBookForm = new EmployeeMainWindowBook();
-                    employeeMainWindowBookForm.Show();
+                    EmployeeMainWindowBook form2 = new EmployeeMainWindowBook();
+                    form2.Show();
                     this.Hide();
-
                     conn.Dispose();
                     conn.Close();
                 }
@@ -83,8 +113,11 @@ namespace Cmpt291UI
         }
 
         private void Exit_Click(object sender, EventArgs e)
-        {
-            this.Close();
+        {   
+            //Goes back to Main Page
+            Login goBack = new Login();
+            this.Hide();
+            goBack.Show();
         }
         private void LoginScreen_Load(object sender, EventArgs e)
         {
@@ -98,9 +131,24 @@ namespace Cmpt291UI
 
         private void button1_Click(object sender, EventArgs e)
         {
+            SqlConnection conn = new SqlConnection(databasePath);
+
             // load addnewcustomer window
-            AddNewEmployee addNewEmployeeForm = new AddNewEmployee();
-            addNewEmployeeForm.Show();
+            AddNewCustomer addNewCustomersForm = new AddNewCustomer();
+            addNewCustomersForm.Show();
+            this.Hide();
+            conn.Dispose();
+            conn.Close();
+        }
+
+        private void passwordBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Welcome_Click(object sender, EventArgs e)
+        {
+
         }
     }
 

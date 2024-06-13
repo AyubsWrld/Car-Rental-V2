@@ -1,0 +1,8 @@
+1. Honda Accord 2020 black Sedan, Gas
+2. VolksWagen', 'Bettle', 2019, 'White',Sedan , Gas
+3. 'Ford', 'Mustang', 2023, 'Grey', Sport , Gas
+4.'Lincoln', 'Navigator', 2022, 'Blue', SUV, Gas
+5. 'Ford', 'F-150', 2019, 'Blue', Truck, Gas
+6. 'Bmw', 'X5', 2023, 'Black', SUV, Gas
+7. 'Chevrolet', 'Volt', 2023, 'White', Sedan, Electric
+8. Rivian', 'R1T', 2024, 'White', Truck, Electric

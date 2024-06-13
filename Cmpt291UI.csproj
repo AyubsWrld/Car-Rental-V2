@@ -65,17 +65,17 @@
     <Compile Include="AddNewEmployee.Designer.cs">
       <DependentUpon>AddNewEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddRemoveEmployee.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddRemoveEmployee.Designer.cs">
-      <DependentUpon>AddRemoveEmployee.cs</DependentUpon>
-    </Compile>
     <Compile Include="AddRemoveVehicle.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddRemoveVehicle.Designer.cs">
       <DependentUpon>AddRemoveVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BranchInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BranchInputForm.Designer.cs">
+      <DependentUpon>BranchInputForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomerWindow.cs">
       <SubType>Form</SubType>
@@ -83,23 +83,11 @@
     <Compile Include="CustomerWindow.Designer.cs">
       <DependentUpon>CustomerWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomReports.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CustomReports.Designer.cs">
-      <DependentUpon>CustomReports.cs</DependentUpon>
-    </Compile>
     <Compile Include="DeleteCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DeleteCustomer.Designer.cs">
       <DependentUpon>DeleteCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DeleteEmployee.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DeleteEmployee.Designer.cs">
-      <DependentUpon>DeleteEmployee.cs</DependentUpon>
     </Compile>
     <Compile Include="EmployeeMainWindowBook.cs">
       <SubType>Form</SubType>
@@ -118,6 +106,12 @@
     </Compile>
     <Compile Include="FindCustomerSmallWindow.Designer.cs">
       <DependentUpon>FindCustomerSmallWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PossibleFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PossibleFlow.Designer.cs">
+      <DependentUpon>PossibleFlow.cs</DependentUpon>
     </Compile>
     <Compile Include="ReceiptList.cs">
       <SubType>Form</SubType>
@@ -143,14 +137,18 @@
     <Compile Include="TransactionsReceipt.Designer.cs">
       <DependentUpon>TransactionsReceipt.cs</DependentUpon>
     </Compile>
-    <Compile Include="WelcomeScreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="WelcomeScreen.cs" />
     <Compile Include="WelcomeScreen.Designer.cs">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WelcomeScreenCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeScreenCustomer.Designer.cs">
+      <DependentUpon>WelcomeScreenCustomer.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddRemoveCustomer.resx">
       <DependentUpon>AddRemoveCustomer.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,20 +158,17 @@
     <EmbeddedResource Include="AddNewEmployee.resx">
       <DependentUpon>AddNewEmployee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddRemoveEmployee.resx">
-      <DependentUpon>AddRemoveEmployee.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="AddRemoveVehicle.resx">
       <DependentUpon>AddRemoveVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BranchInputForm.resx">
+      <DependentUpon>BranchInputForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerWindow.resx">
       <DependentUpon>CustomerWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DeleteCustomer.resx">
       <DependentUpon>DeleteCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DeleteEmployee.resx">
-      <DependentUpon>DeleteEmployee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeMainWindowBook.resx">
       <DependentUpon>EmployeeMainWindowBook.cs</DependentUpon>
@@ -183,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FindCustomerSmallWindow.resx">
       <DependentUpon>FindCustomerSmallWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PossibleFlow.resx">
+      <DependentUpon>PossibleFlow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReceiptList.resx">
       <DependentUpon>ReceiptList.cs</DependentUpon>
@@ -207,7 +205,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="WelcomeScreenCustomer.resx">
+      <DependentUpon>WelcomeScreenCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -220,6 +222,19 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Elite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\BMW_X5_2023_Black.jpg" />
+    <Content Include="img\Chevrolet_Volt_2023_White.jpg" />
+    <Content Include="img\Ford_F-150_2019_Blue.JPG" />
+    <Content Include="img\Ford_Mustang_2023_Grey.jpg" />
+    <Content Include="img\Honda_Accord_2020_Black.jpg" />
+    <Content Include="img\Lincoln_Navigator_ 2022_Blue.jpg" />
+    <Content Include="img\Rivian_R1T_2024_White.jpg" />
+    <Content Include="img\volkswagen_beetle_2019_White.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
