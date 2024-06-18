@@ -16,8 +16,8 @@ namespace Cmpt291UI
 {
     public partial class WelcomeScreenCustomer : Form
     {
-
-        public static string databasePath = EnumHelper.GetPath(DATABASEPATH.AyubMohamed);
+        string databasePath = "Data Source=LAPTOP-7KGL33RR;Initial Catalog=291;Integrated Security=True;Encrypt=False";
+        //public static string databasePath = EnumHelper.GetPath(DATABASEPATH.Sami);
         public static string customerID;
 
 
@@ -66,7 +66,7 @@ namespace Cmpt291UI
                     customerID = CustomerNumBox.Text;
                     user_password = passwordBox.Text;
 
-                    // page that needed to be loaded next
+                    // page that needed to be loaded next 
                     CustomerWindow form2 = new CustomerWindow(customerID, databasePath);
                     form2.Show();
                     this.Hide();
@@ -97,6 +97,11 @@ namespace Cmpt291UI
             Login goBack = new Login();
             this.Hide();
             goBack.Show();
+        }
+
+        private void BtnSignUp_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

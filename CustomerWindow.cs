@@ -15,6 +15,8 @@ namespace Cmpt291UI
     public partial class CustomerWindow : Form
     {
         public static string databasePath = "Data Source=LAPTOP-MID32020;Initial Catalog=291_FinalProject;Integrated Security=True;Encrypt=False";
+
+        private string customerID;
         public class Car
         {
             public string Name { get; set; }
@@ -33,6 +35,7 @@ namespace Cmpt291UI
         public CustomerWindow(string customerID, string databasePath)
         {
             this.CustomerName = GetNameFromDatabase(customerID, databasePath);
+            this.customerID = customerID;
             InitializeComponent();
             LoadCars();
             InitializeTimer();
@@ -148,7 +151,7 @@ namespace Cmpt291UI
 
         private void BtnSearch_Click(object sender, EventArgs e)
         {
-            TransactionPaymentWindow paymentWindow = new TransactionPaymentWindow();    
+            TransactionPaymentWindow paymentWindow = new TransactionPaymentWindow(customerID);    
             paymentWindow.Show();       
             this.Hide();
         }

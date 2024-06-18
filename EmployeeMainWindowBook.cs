@@ -297,5 +297,10 @@ namespace Cmpt291UI
         {
 
         }
+
+        private void reportsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
