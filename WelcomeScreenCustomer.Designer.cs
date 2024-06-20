@@ -41,46 +41,63 @@
             // 
             // BtnSignUp
             // 
+            this.BtnSignUp.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.BtnSignUp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BtnSignUp.Font = new System.Drawing.Font("Cambria", 12F);
+            this.BtnSignUp.ForeColor = System.Drawing.Color.White;
             this.BtnSignUp.Location = new System.Drawing.Point(128, 277);
             this.BtnSignUp.Margin = new System.Windows.Forms.Padding(1);
             this.BtnSignUp.Name = "BtnSignUp";
             this.BtnSignUp.Size = new System.Drawing.Size(207, 36);
             this.BtnSignUp.TabIndex = 17;
             this.BtnSignUp.Text = "Sign Up";
-            this.BtnSignUp.UseVisualStyleBackColor = true;
+            this.BtnSignUp.UseVisualStyleBackColor = false;
             this.BtnSignUp.Click += new System.EventHandler(this.BtnSignUp_Click);
             // 
             // Exit
             // 
+            this.Exit.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Exit.Font = new System.Drawing.Font("Cambria", 12F);
+            this.Exit.ForeColor = System.Drawing.Color.White;
             this.Exit.Location = new System.Drawing.Point(323, 335);
             this.Exit.Margin = new System.Windows.Forms.Padding(1);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(92, 31);
             this.Exit.TabIndex = 16;
             this.Exit.Text = "Exit";
-            this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.UseVisualStyleBackColor = false;
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // Login
             // 
+            this.Login.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.Login.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Login.Font = new System.Drawing.Font("Cambria", 12F);
+            this.Login.ForeColor = System.Drawing.Color.White;
             this.Login.Location = new System.Drawing.Point(243, 230);
             this.Login.Margin = new System.Windows.Forms.Padding(1);
             this.Login.Name = "Login";
             this.Login.Size = new System.Drawing.Size(92, 36);
             this.Login.TabIndex = 15;
             this.Login.Text = "Login";
-            this.Login.UseVisualStyleBackColor = true;
+            this.Login.UseVisualStyleBackColor = false;
             this.Login.Click += new System.EventHandler(this.Login_Click);
             // 
             // Clear
             // 
+            this.Clear.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.Clear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Clear.Font = new System.Drawing.Font("Cambria", 12F);
+            this.Clear.ForeColor = System.Drawing.Color.White;
             this.Clear.Location = new System.Drawing.Point(128, 230);
             this.Clear.Margin = new System.Windows.Forms.Padding(1);
             this.Clear.Name = "Clear";
             this.Clear.Size = new System.Drawing.Size(92, 36);
             this.Clear.TabIndex = 14;
             this.Clear.Text = "Clear";
-            this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.UseVisualStyleBackColor = false;
+
             // 
             // passwordBox
             // 
@@ -90,7 +107,7 @@
             this.passwordBox.Size = new System.Drawing.Size(163, 22);
             this.passwordBox.TabIndex = 13;
             this.passwordBox.UseSystemPasswordChar = true;
-            this.passwordBox.TextChanged += new System.EventHandler(this.passwordBox_TextChanged);
+
             // 
             // CustomerNumBox
             // 
@@ -99,7 +116,6 @@
             this.CustomerNumBox.Name = "CustomerNumBox";
             this.CustomerNumBox.Size = new System.Drawing.Size(163, 22);
             this.CustomerNumBox.TabIndex = 12;
-            this.CustomerNumBox.TextChanged += new System.EventHandler(this.CustomerNumBox_TextChanged);
             // 
             // PasswordLabel
             // 
@@ -126,7 +142,7 @@
             this.Welcome.AutoSize = true;
             this.Welcome.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.Welcome.Font = new System.Drawing.Font("Arial", 15.9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Welcome.Location = new System.Drawing.Point(167, 38);
+            this.Welcome.Location = new System.Drawing.Point(148, 19);
             this.Welcome.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.Welcome.Name = "Welcome";
             this.Welcome.Size = new System.Drawing.Size(135, 32);
@@ -137,6 +153,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(451, 405);
             this.Controls.Add(this.BtnSignUp);
             this.Controls.Add(this.Exit);

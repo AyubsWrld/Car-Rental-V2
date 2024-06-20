@@ -90,8 +90,8 @@ namespace Cmpt291UI
             new Car { Name = "Ford Mustang", Type = "Sport", Year = 2023, Engine = "Gas", Color = "Grey", Image = LoadImage(Path.Combine(imgPath, "Ford_Mustang_2023_Grey.jpg"))},
             new Car { Name = "Lincoln Navigator", Type = "SUV", Year = 2022, Engine = "Gas", Color = "Blue", Image = LoadImage(Path.Combine(imgPath, "Lincoln_Navigator_ 2022_Blue.jpg"))},
             new Car { Name = "Rivian R1T", Type = "Truck", Year = 2024, Engine = "Electric", Color = "White", Image = LoadImage(Path.Combine(imgPath, "Rivian_R1T_2024_White.jpg"))},
-            };  
-        
+            };
+
         }
 
         private void InitializeTimer()
@@ -145,21 +145,21 @@ namespace Cmpt291UI
         private void Logout_Click(object sender, EventArgs e)
         {
             WelcomeScreenCustomer goBack = new WelcomeScreenCustomer();
-            this.Hide(); 
-            goBack.Show();  
+            this.Hide();
+            goBack.Show();
         }
 
         private void BtnSearch_Click(object sender, EventArgs e)
         {
-            TransactionPaymentWindow paymentWindow = new TransactionPaymentWindow(customerID);    
-            paymentWindow.Show();       
+            TransactionPaymentWindow paymentWindow = new TransactionPaymentWindow(customerID);
+            paymentWindow.Show();
             this.Hide();
         }
 
         private void rentalsBtn_Click(object sender, EventArgs e)
         {
-            ReceiptList receiptList = new ReceiptList();        
-            receiptList.Show(); 
+            ReceiptList receiptList = new ReceiptList();
+            receiptList.Show();
             this.Hide();
         }
     }

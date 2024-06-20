@@ -12,46 +12,45 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 
-//Global Enum for database paths
-public enum DATABASEPATH{
-    AyubHaji        , 
-    Jae             ,
-    Sami            ,
-    AyubMohamed
-}
-
-public static class DatabasePathStrings 
-{
-    public static readonly string[] Values = 
-    {
-            "Data Source=LAPTOP-MID32020;Initial Catalog=291_FinalProject;Integrated Security=True;Encrypt=False"   ,
-            "Data Source=DESKTOP-SG96S0F;Initial Catalog=cmpt291;Integrated Security=True;Encrypt=False"            ,
-            "Data Source=LAPTOP-7KGL33RR;Initial Catalog=291;Integrated Security=True;Encrypt=False"                ,
-            "Data Source=DESKTOP-3PU7T29;Initial Catalog=CMPT291;Integrated Security=True;Encrypt=False"
-    };
-}
-
-public static class EnumHelper
-{
-    public static string GetPath(DATABASEPATH user)
-    {
-        return DatabasePathStrings.Values[(int)user];
-    }
-}
-
-
-
 namespace Cmpt291UI
 {
     public partial class LoginScreen : Form
     {
-        public static string databasePath = EnumHelper.GetPath(DATABASEPATH.AyubMohamed);
+        public static string databasePath = EnumHelper.GetPath(DATABASEPATH.AyubHaji);
         public static string employeeLoggedIn;
 
         public LoginScreen()
         {
             InitializeComponent();
         }
+
+
+        //Global Enum for database paths
+        public enum DATABASEPATH
+        {
+            AyubHaji,
+            Sami,
+            AyubMohamed
+        }
+
+        public static class DatabasePathStrings
+        {
+            public static readonly string[] Values =
+            {
+            "Data Source=LAPTOP-MID32020;Initial Catalog=291_FinalProject;Integrated Security=True;Encrypt=False"   ,
+            "Data Source=LAPTOP-7KGL33RR;Initial Catalog=291;Integrated Security=True;Encrypt=False"                ,
+            "Data Source=DESKTOP-3PU7T29;Initial Catalog=CMPT291;Integrated Security=True;Encrypt=False"
+    };
+        }
+
+        public static class EnumHelper
+        {
+            public static string GetPath(DATABASEPATH user)
+            {
+                return DatabasePathStrings.Values[(int)user];
+            }
+        }
+
         private void Login_Click(object sender, EventArgs e)
         {
             String employeeNum, user_password;
@@ -94,15 +93,6 @@ namespace Cmpt291UI
             }
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void Clear_Click(object sender, EventArgs e)
         {
@@ -119,15 +109,6 @@ namespace Cmpt291UI
             this.Hide();
             goBack.Show();
         }
-        private void LoginScreen_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -139,16 +120,6 @@ namespace Cmpt291UI
             this.Hide();
             conn.Dispose();
             conn.Close();
-        }
-
-        private void passwordBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Welcome_Click(object sender, EventArgs e)
-        {
-
         }
     }
 

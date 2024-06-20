@@ -1,82 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\",
+  "WorkspaceRootPath": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\napst\\source\\repos\\291finalproject\\transactionpaymentwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:transactionpaymentwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\transactionpaymentwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:transactionpaymentwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\employeemainwindowbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\ayub haji\\desktop\\cmpt 291\\final project\\291_final_project\\employeemainwindowbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:employeemainwindowbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\employeemainwindowbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\employeemainwindowbook.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:employeemainwindowbook.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\transactionpaymentwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:transactionpaymentwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\transactionpaymentwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:transactionpaymentwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\employeemainwindowbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:employeemainwindowbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\receiptlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:receiptlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\welcomescreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:welcomescreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\transactionsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:transactionsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\rentaltransactionwindowaddremove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:rentaltransactionwindowaddremove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\findcustomersmallwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:findcustomersmallwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\findcustomerinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:findcustomerinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\deletecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:deletecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\possibleflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\possibleflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:possibleflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\addremovevehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\possibleflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:possibleflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\welcomescreencustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:welcomescreencustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\welcomescreencustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:welcomescreencustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\addremovevehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:addremovevehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\possibleflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:possibleflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,228 +70,189 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeMainWindowBook.cs",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\EmployeeMainWindowBook.cs",
-              "RelativeDocumentMoniker": "EmployeeMainWindowBook.cs",
-              "ToolTip": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\EmployeeMainWindowBook.cs",
-              "RelativeToolTip": "EmployeeMainWindowBook.cs",
-              "ViewState": "AQIAAIkAAAAAAAAAAADgv2sAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:21:52.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WelcomeScreen.cs",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\WelcomeScreen.cs",
-              "RelativeDocumentMoniker": "WelcomeScreen.cs",
-              "ToolTip": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\WelcomeScreen.cs",
-              "RelativeToolTip": "WelcomeScreen.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAArwBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:19:38.437Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CustomerWindow.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\CustomerWindow.cs",
-              "RelativeDocumentMoniker": "CustomerWindow.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\CustomerWindow.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\pc\\source\\repos\\Car-Rental-System\\CustomerWindow.cs [Design]",
+              "Title": "EmployeeMainWindowBook.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\EmployeeMainWindowBook.Designer.cs",
+              "RelativeDocumentMoniker": "EmployeeMainWindowBook.Designer.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\EmployeeMainWindowBook.Designer.cs",
+              "RelativeToolTip": "EmployeeMainWindowBook.Designer.cs",
+              "ViewState": "AQIAAL4CAAAAAAAAAAAIwMkCAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:50:22.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeeMainWindowBook.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\EmployeeMainWindowBook.cs",
-              "RelativeDocumentMoniker": "EmployeeMainWindowBook.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\EmployeeMainWindowBook.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\pc\\source\\repos\\Car-Rental-System\\EmployeeMainWindowBook.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:50:25.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReceiptList.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\ReceiptList.cs",
-              "RelativeDocumentMoniker": "ReceiptList.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\ReceiptList.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\pc\\source\\repos\\Car-Rental-System\\ReceiptList.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:50:31.936Z"
+              "WhenOpened": "2024-06-20T03:00:37.592Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TransactionPaymentWindow.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\TransactionPaymentWindow.cs",
-              "RelativeDocumentMoniker": "TransactionPaymentWindow.cs",
-              "ToolTip": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\TransactionPaymentWindow.cs [Design]",
-              "RelativeToolTip": "TransactionPaymentWindow.cs [Design]",
+              "Title": "EmployeeMainWindowBook.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\EmployeeMainWindowBook.cs",
+              "RelativeDocumentMoniker": "EmployeeMainWindowBook.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\EmployeeMainWindowBook.cs",
+              "RelativeToolTip": "EmployeeMainWindowBook.cs",
+              "ViewState": "AQIAALEAAAAAAAAAAADwv70AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:50:34.874Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-20T02:59:56.693Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TransactionPaymentWindow.cs",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\TransactionPaymentWindow.cs",
-              "RelativeDocumentMoniker": "TransactionPaymentWindow.cs",
-              "ToolTip": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\TransactionPaymentWindow.cs",
-              "RelativeToolTip": "TransactionPaymentWindow.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAA8wFQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:52:49.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "WelcomeScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\WelcomeScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\WelcomeScreen.cs",
               "RelativeDocumentMoniker": "WelcomeScreen.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\WelcomeScreen.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\pc\\source\\repos\\Car-Rental-System\\WelcomeScreen.cs [Design]",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\WelcomeScreen.cs [Design]",
+              "RelativeToolTip": "WelcomeScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T22:50:46.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WelcomeScreen.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\WelcomeScreen.Designer.cs",
-              "RelativeDocumentMoniker": "WelcomeScreen.Designer.cs",
-              "ToolTip": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\WelcomeScreen.Designer.cs",
-              "RelativeToolTip": "WelcomeScreen.Designer.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "WelcomeScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\WelcomeScreen.cs",
+              "RelativeDocumentMoniker": "WelcomeScreen.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\WelcomeScreen.cs",
+              "RelativeToolTip": "WelcomeScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAjwC0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:15:01.685Z"
+              "WhenOpened": "2024-06-20T02:35:46.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CustomerWindow.cs",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\CustomerWindow.cs",
-              "RelativeDocumentMoniker": "CustomerWindow.cs",
-              "ToolTip": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\CustomerWindow.cs",
-              "RelativeToolTip": "CustomerWindow.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAArwHAAAAAXAAAA",
+              "DocumentIndex": 4,
+              "Title": "TransactionPaymentWindow.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\TransactionPaymentWindow.cs",
+              "RelativeDocumentMoniker": "TransactionPaymentWindow.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\TransactionPaymentWindow.cs",
+              "RelativeToolTip": "TransactionPaymentWindow.cs",
+              "ViewState": "AQIAAP4AAAAAAAAAAAAAAA0BAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:53:08.486Z"
+              "WhenOpened": "2024-06-20T03:03:30.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TransactionPaymentWindow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\TransactionPaymentWindow.cs",
+              "RelativeDocumentMoniker": "TransactionPaymentWindow.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\TransactionPaymentWindow.cs [Design]",
+              "RelativeToolTip": "TransactionPaymentWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:03:26.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PossibleFlow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\PossibleFlow.cs",
+              "RelativeDocumentMoniker": "PossibleFlow.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\PossibleFlow.cs [Design]",
+              "RelativeToolTip": "PossibleFlow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:55:35.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerWindow.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\CustomerWindow.cs",
+              "RelativeDocumentMoniker": "CustomerWindow.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\CustomerWindow.cs",
+              "RelativeToolTip": "CustomerWindow.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAAAJ0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:55:00.158Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "TransactionsReceipt.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\TransactionsReceipt.cs",
-              "RelativeDocumentMoniker": "TransactionsReceipt.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\TransactionsReceipt.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\pc\\source\\repos\\Car-Rental-System\\TransactionsReceipt.cs [Design]",
+              "Title": "CustomerWindow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\CustomerWindow.cs",
+              "RelativeDocumentMoniker": "CustomerWindow.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\CustomerWindow.cs [Design]",
+              "RelativeToolTip": "CustomerWindow.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:50:45.315Z"
+              "WhenOpened": "2024-06-20T02:54:39.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RentalTransactionWindowAddRemove.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\RentalTransactionWindowAddRemove.cs",
-              "RelativeDocumentMoniker": "RentalTransactionWindowAddRemove.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\RentalTransactionWindowAddRemove.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\pc\\source\\repos\\Car-Rental-System\\RentalTransactionWindowAddRemove.cs [Design]",
+              "DocumentIndex": 9,
+              "Title": "PossibleFlow.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\PossibleFlow.cs",
+              "RelativeDocumentMoniker": "PossibleFlow.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\PossibleFlow.cs",
+              "RelativeToolTip": "PossibleFlow.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAAB4AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:50:32.695Z"
+              "WhenOpened": "2024-06-09T22:26:13.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeMainWindowBook.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\EmployeeMainWindowBook.cs",
+              "RelativeDocumentMoniker": "EmployeeMainWindowBook.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\EmployeeMainWindowBook.cs [Design]",
+              "RelativeToolTip": "EmployeeMainWindowBook.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:41:29.191Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "FindCustomerSmallWindow.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\FindCustomerSmallWindow.cs",
-              "RelativeDocumentMoniker": "FindCustomerSmallWindow.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\FindCustomerSmallWindow.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\pc\\source\\repos\\Car-Rental-System\\FindCustomerSmallWindow.cs [Design]",
+              "Title": "WelcomeScreenCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\WelcomeScreenCustomer.cs",
+              "RelativeDocumentMoniker": "WelcomeScreenCustomer.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\WelcomeScreenCustomer.cs [Design]",
+              "RelativeToolTip": "WelcomeScreenCustomer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:50:28.569Z"
+              "WhenOpened": "2024-06-20T02:48:06.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WelcomeScreenCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\WelcomeScreenCustomer.cs",
+              "RelativeDocumentMoniker": "WelcomeScreenCustomer.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\WelcomeScreenCustomer.cs",
+              "RelativeToolTip": "WelcomeScreenCustomer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAACCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:48:09.808Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "FindCustomerInformation.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\FindCustomerInformation.cs",
-              "RelativeDocumentMoniker": "FindCustomerInformation.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\FindCustomerInformation.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\pc\\source\\repos\\Car-Rental-System\\FindCustomerInformation.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:50:26.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DeleteCustomer.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\DeleteCustomer.cs",
-              "RelativeDocumentMoniker": "DeleteCustomer.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\DeleteCustomer.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\pc\\source\\repos\\Car-Rental-System\\DeleteCustomer.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:50:23.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PossibleFlow.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\PossibleFlow.cs",
-              "RelativeDocumentMoniker": "PossibleFlow.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\PossibleFlow.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\pc\\source\\repos\\Car-Rental-System\\PossibleFlow.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:26:11.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "AddRemoveVehicle.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\AddRemoveVehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\AddRemoveVehicle.cs",
               "RelativeDocumentMoniker": "AddRemoveVehicle.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\AddRemoveVehicle.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\pc\\source\\repos\\Car-Rental-System\\AddRemoveVehicle.cs [Design]",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\AddRemoveVehicle.cs [Design]",
+              "RelativeToolTip": "AddRemoveVehicle.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T22:50:20.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\Program.cs",
+              "ToolTip": "C:\\Users\\Ayub Haji\\Desktop\\CMPT 291\\Final Project\\291_Final_Project\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T22:44:36.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PossibleFlow.cs",
-              "DocumentMoniker": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\PossibleFlow.cs",
-              "RelativeDocumentMoniker": "PossibleFlow.cs",
-              "ToolTip": "C:\\Users\\napst\\source\\repos\\291FINALPROJECT\\PossibleFlow.cs",
-              "RelativeToolTip": "PossibleFlow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAArwAwAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:26:13.559Z"
             }
           ]
         }

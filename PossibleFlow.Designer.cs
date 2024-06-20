@@ -39,7 +39,7 @@
             // 
             this.pictureBox1.Image = global::Cmpt291UI.Properties.Resources.Elite;
             this.pictureBox1.Location = new System.Drawing.Point(281, -65);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(473, 398);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -48,50 +48,60 @@
             // 
             // CustomerLogIn
             // 
+            this.CustomerLogIn.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.CustomerLogIn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.CustomerLogIn.Font = new System.Drawing.Font("Cambria", 12F);
+            this.CustomerLogIn.ForeColor = System.Drawing.Color.White;
             this.CustomerLogIn.Location = new System.Drawing.Point(395, 305);
-            this.CustomerLogIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CustomerLogIn.Margin = new System.Windows.Forms.Padding(4);
             this.CustomerLogIn.Name = "CustomerLogIn";
             this.CustomerLogIn.Size = new System.Drawing.Size(267, 62);
             this.CustomerLogIn.TabIndex = 1;
             this.CustomerLogIn.Text = "Customer Login";
-            this.CustomerLogIn.UseVisualStyleBackColor = true;
+            this.CustomerLogIn.UseVisualStyleBackColor = false;
             this.CustomerLogIn.Click += new System.EventHandler(this.CustomerLogIn_Click);
             // 
             // Exit
             // 
+            this.Exit.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Exit.Font = new System.Drawing.Font("Cambria", 12F);
+            this.Exit.ForeColor = System.Drawing.Color.White;
             this.Exit.Location = new System.Drawing.Point(395, 479);
-            this.Exit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Exit.Margin = new System.Windows.Forms.Padding(4);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(267, 62);
             this.Exit.TabIndex = 2;
             this.Exit.Text = "Quit";
-            this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.UseVisualStyleBackColor = false;
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // EmployeeLogIn
             // 
+            this.EmployeeLogIn.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.EmployeeLogIn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.EmployeeLogIn.Font = new System.Drawing.Font("Cambria", 12F);
+            this.EmployeeLogIn.ForeColor = System.Drawing.Color.White;
             this.EmployeeLogIn.Location = new System.Drawing.Point(395, 395);
-            this.EmployeeLogIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.EmployeeLogIn.Margin = new System.Windows.Forms.Padding(4);
             this.EmployeeLogIn.Name = "EmployeeLogIn";
             this.EmployeeLogIn.Size = new System.Drawing.Size(267, 62);
             this.EmployeeLogIn.TabIndex = 3;
             this.EmployeeLogIn.Text = "Employee Login";
-            this.EmployeeLogIn.UseVisualStyleBackColor = true;
+            this.EmployeeLogIn.UseVisualStyleBackColor = false;
             this.EmployeeLogIn.Click += new System.EventHandler(this.EmployeeLogIn_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.EmployeeLogIn);
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.CustomerLogIn);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
             this.ShowIcon = false;
             this.Text = "Possible_Flow";

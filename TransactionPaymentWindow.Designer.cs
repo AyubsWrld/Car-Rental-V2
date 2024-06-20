@@ -38,26 +38,18 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Address = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.ContactNum = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.TotalBalance = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,14 +65,14 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Cambria", 8F, System.Drawing.FontStyle.Underline);
             this.button1.Location = new System.Drawing.Point(12, 22);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "BACK";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // label1
             // 
@@ -121,18 +113,18 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(656, 24);
             this.comboBox1.TabIndex = 12;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button3.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(315, 751);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(209, 77);
             this.button3.TabIndex = 15;
-            this.button3.Text = "BOOK";
+            this.button3.Text = "Book";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -158,24 +150,6 @@
             this.label2.TabIndex = 17;
             this.label2.Text = "Name:";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(399, 210);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(166, 25);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "License Number:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(575, 213);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(181, 22);
-            this.textBox1.TabIndex = 18;
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -187,30 +161,30 @@
             this.label9.TabIndex = 21;
             this.label9.Text = "Address:";
             // 
-            // textBox2
+            // Address
             // 
-            this.textBox2.Location = new System.Drawing.Point(160, 252);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(181, 22);
-            this.textBox2.TabIndex = 20;
+            this.Address.Location = new System.Drawing.Point(160, 252);
+            this.Address.Name = "Address";
+            this.Address.Size = new System.Drawing.Size(324, 22);
+            this.Address.TabIndex = 20;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft YaHei UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(399, 252);
+            this.label10.Location = new System.Drawing.Point(394, 213);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(170, 25);
             this.label10.TabIndex = 23;
             this.label10.Text = "Contact Number:";
             // 
-            // textBox3
+            // ContactNum
             // 
-            this.textBox3.Location = new System.Drawing.Point(575, 255);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(181, 22);
-            this.textBox3.TabIndex = 22;
+            this.ContactNum.Location = new System.Drawing.Point(575, 216);
+            this.ContactNum.Name = "ContactNum";
+            this.ContactNum.Size = new System.Drawing.Size(193, 22);
+            this.ContactNum.TabIndex = 22;
             // 
             // label5
             // 
@@ -278,91 +252,31 @@
             this.label4.TabIndex = 29;
             this.label4.Text = "Payment Information";
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft YaHei UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(62, 577);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(106, 25);
-            this.label13.TabIndex = 31;
-            this.label13.Text = "Daily cost:";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(204, 580);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(181, 22);
-            this.textBox4.TabIndex = 30;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft YaHei UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(62, 616);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(127, 25);
-            this.label14.TabIndex = 33;
-            this.label14.Text = "Weekly cost:";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(204, 619);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(181, 22);
-            this.textBox5.TabIndex = 34;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(204, 658);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(181, 22);
-            this.textBox6.TabIndex = 36;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft YaHei UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(62, 655);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(138, 25);
-            this.label15.TabIndex = 35;
-            this.label15.Text = "Monthly cost:";
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft YaHei UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(570, 607);
+            this.label16.Location = new System.Drawing.Point(221, 582);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(141, 25);
             this.label16.TabIndex = 37;
             this.label16.Text = "Total Balance:";
             // 
-            // textBox7
+            // TotalBalance
             // 
-            this.textBox7.Location = new System.Drawing.Point(563, 635);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(148, 22);
-            this.textBox7.TabIndex = 38;
+            this.TotalBalance.Location = new System.Drawing.Point(387, 585);
+            this.TotalBalance.Name = "TotalBalance";
+            this.TotalBalance.Size = new System.Drawing.Size(148, 22);
+            this.TotalBalance.TabIndex = 38;
             // 
             // TransactionPaymentWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(849, 852);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.TotalBalance);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -370,11 +284,9 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.ContactNum);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Address);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button3);
@@ -386,7 +298,6 @@
             this.Margin = new System.Windows.Forms.Padding(1);
             this.Name = "TransactionPaymentWindow";
             this.Text = "Transaction Payment";
-            this.Load += new System.EventHandler(this.TransactionPaymentWindow_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -406,25 +317,17 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox Address;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox ContactNum;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox TotalBalance;
     }
 }

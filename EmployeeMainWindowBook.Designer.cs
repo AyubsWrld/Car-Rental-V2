@@ -41,7 +41,6 @@
             this.rentalTransactionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.carsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.customersToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.employeesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.reportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.customToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -103,7 +102,7 @@
             this.menuStrip1.Size = new System.Drawing.Size(1461, 26);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+      
             // 
             // fileToolStripMenuItem
             // 
@@ -119,7 +118,7 @@
             this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
             this.refreshToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
             this.refreshToolStripMenuItem.Text = "Refresh";
-            this.refreshToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
+           
             // 
             // exitToolStripMenuItem
             // 
@@ -179,7 +178,6 @@
             // 
             this.addToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.carsToolStripMenuItem1,
-            this.customersToolStripMenuItem1,
             this.employeesToolStripMenuItem1});
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
             this.addToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
@@ -188,21 +186,14 @@
             // carsToolStripMenuItem1
             // 
             this.carsToolStripMenuItem1.Name = "carsToolStripMenuItem1";
-            this.carsToolStripMenuItem1.Size = new System.Drawing.Size(164, 26);
+            this.carsToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.carsToolStripMenuItem1.Text = "Cars";
             this.carsToolStripMenuItem1.Click += new System.EventHandler(this.carsToolStripMenuItem1_Click);
-            // 
-            // customersToolStripMenuItem1
-            // 
-            this.customersToolStripMenuItem1.Name = "customersToolStripMenuItem1";
-            this.customersToolStripMenuItem1.Size = new System.Drawing.Size(164, 26);
-            this.customersToolStripMenuItem1.Text = "Customers";
-            this.customersToolStripMenuItem1.Click += new System.EventHandler(this.customersToolStripMenuItem1_Click);
             // 
             // employeesToolStripMenuItem1
             // 
             this.employeesToolStripMenuItem1.Name = "employeesToolStripMenuItem1";
-            this.employeesToolStripMenuItem1.Size = new System.Drawing.Size(164, 26);
+            this.employeesToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.employeesToolStripMenuItem1.Text = "Employees";
             this.employeesToolStripMenuItem1.Click += new System.EventHandler(this.employeesToolStripMenuItem1_Click);
             // 
@@ -213,12 +204,11 @@
             this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
             this.reportsToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.reportsToolStripMenuItem.Text = "Reports";
-            this.reportsToolStripMenuItem.Click += new System.EventHandler(this.reportsToolStripMenuItem_Click);
             // 
             // customToolStripMenuItem
             // 
             this.customToolStripMenuItem.Name = "customToolStripMenuItem";
-            this.customToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.customToolStripMenuItem.Size = new System.Drawing.Size(142, 26);
             this.customToolStripMenuItem.Text = "Custom";
             // 
             // tableLayoutPanel3
@@ -262,7 +252,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 200F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 200F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 200F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 533F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 534F));
             this.tableLayoutPanel4.Controls.Add(this.richTextBox13, 2, 1);
             this.tableLayoutPanel4.Controls.Add(this.ClearBottomButton, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.label15, 4, 0);
@@ -295,14 +285,18 @@
             // 
             // ClearBottomButton
             // 
+            this.ClearBottomButton.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.ClearBottomButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ClearBottomButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ClearBottomButton.Font = new System.Drawing.Font("Cambria", 12F);
+            this.ClearBottomButton.ForeColor = System.Drawing.Color.White;
             this.ClearBottomButton.Location = new System.Drawing.Point(1, 37);
             this.ClearBottomButton.Margin = new System.Windows.Forms.Padding(1);
             this.ClearBottomButton.Name = "ClearBottomButton";
             this.ClearBottomButton.Size = new System.Drawing.Size(123, 34);
             this.ClearBottomButton.TabIndex = 28;
             this.ClearBottomButton.Text = "Clear";
-            this.ClearBottomButton.UseVisualStyleBackColor = true;
+            this.ClearBottomButton.UseVisualStyleBackColor = false;
             // 
             // label15
             // 
@@ -342,14 +336,18 @@
             // 
             // SelectBottomButton
             // 
+            this.SelectBottomButton.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.SelectBottomButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SelectBottomButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.SelectBottomButton.Font = new System.Drawing.Font("Cambria", 12F);
+            this.SelectBottomButton.ForeColor = System.Drawing.Color.White;
             this.SelectBottomButton.Location = new System.Drawing.Point(1, 1);
             this.SelectBottomButton.Margin = new System.Windows.Forms.Padding(1);
             this.SelectBottomButton.Name = "SelectBottomButton";
             this.SelectBottomButton.Size = new System.Drawing.Size(123, 34);
             this.SelectBottomButton.TabIndex = 0;
             this.SelectBottomButton.Text = "Book";
-            this.SelectBottomButton.UseVisualStyleBackColor = true;
+            this.SelectBottomButton.UseVisualStyleBackColor = false;
             // 
             // label11
             // 
@@ -509,7 +507,6 @@
             this.richTextBox5.Size = new System.Drawing.Size(98, 34);
             this.richTextBox5.TabIndex = 36;
             this.richTextBox5.Text = "";
-            this.richTextBox5.TextChanged += new System.EventHandler(this.richTextBox5_TextChanged);
             // 
             // richTextBox4
             // 
@@ -619,14 +616,18 @@
             // 
             // SearchTopButton
             // 
+            this.SearchTopButton.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.SearchTopButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SearchTopButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.SearchTopButton.Font = new System.Drawing.Font("Cambria", 12F);
+            this.SearchTopButton.ForeColor = System.Drawing.Color.White;
             this.SearchTopButton.Location = new System.Drawing.Point(1, 1);
             this.SearchTopButton.Margin = new System.Windows.Forms.Padding(1);
             this.SearchTopButton.Name = "SearchTopButton";
             this.SearchTopButton.Size = new System.Drawing.Size(123, 34);
             this.SearchTopButton.TabIndex = 0;
             this.SearchTopButton.Text = "Search";
-            this.SearchTopButton.UseVisualStyleBackColor = true;
+            this.SearchTopButton.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -674,14 +675,18 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Cambria", 12F);
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(1, 37);
             this.button1.Margin = new System.Windows.Forms.Padding(1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(123, 34);
             this.button1.TabIndex = 43;
             this.button1.Text = "Clear";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
@@ -693,12 +698,12 @@
             this.dataGridView1.RowHeadersWidth = 102;
             this.dataGridView1.Size = new System.Drawing.Size(1459, 560);
             this.dataGridView1.TabIndex = 4;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
             // 
             // EmployeeMainWindowBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1461, 734);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel3);
@@ -707,7 +712,6 @@
             this.Margin = new System.Windows.Forms.Padding(1);
             this.Name = "EmployeeMainWindowBook";
             this.Text = "Employee Window";
-            this.Load += new System.EventHandler(this.EmployeeWindow_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
@@ -734,7 +738,6 @@
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem customersToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem carsToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem employeesToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem reportsToolStripMenuItem;

@@ -43,11 +43,6 @@ namespace Cmpt291UI
 
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void carsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
@@ -183,81 +178,30 @@ namespace Cmpt291UI
         }
 
 
-        private void refreshToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DialogResult res;
-            res = MessageBox.Show("Do you want to exit", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            res = MessageBox.Show("Would you like to return to the previous menu?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-            if (res == DialogResult.Yes)
+            if (res == DialogResult.No)
             {
                 Application.Exit();
             }
             else
             {
-                this.Show();
+                this.Hide();
+                LoginScreen Login = new LoginScreen();
+                Login.Show();
             }
         }
 
-        private void EmployeeWindow_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void textBox13_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label14_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void carsToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             AddRemoveVehicle addVehicleForm = new AddRemoveVehicle();
             addVehicleForm.Show();
-        }
-
-        private void customersToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            AddRemoveCustomer addCustomerForm = new AddRemoveCustomer();
-            addCustomerForm.Show();
         }
 
         private void employeesToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -281,26 +225,6 @@ namespace Cmpt291UI
             // Debug
             //richTextBox15.Clear();
             //richTextBox16.Clear();
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void richTextBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void reportsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

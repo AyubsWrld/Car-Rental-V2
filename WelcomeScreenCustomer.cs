@@ -16,7 +16,7 @@ namespace Cmpt291UI
 {
     public partial class WelcomeScreenCustomer : Form
     {
-        string databasePath = "Data Source=LAPTOP-7KGL33RR;Initial Catalog=291;Integrated Security=True;Encrypt=False";
+        string databasePath = "Data Source=LAPTOP-MID32020;Initial Catalog=291_FinalProject;Integrated Security=True;Encrypt=False";
         //public static string databasePath = EnumHelper.GetPath(DATABASEPATH.Sami);
         public static string customerID;
 
