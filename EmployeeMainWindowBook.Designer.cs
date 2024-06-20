@@ -47,25 +47,25 @@
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.richTextBox13 = new System.Windows.Forms.RichTextBox();
+            this.EmployeeID = new System.Windows.Forms.RichTextBox();
             this.ClearBottomButton = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.SelectBottomButton = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox12 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox14 = new System.Windows.Forms.RichTextBox();
+            this.CarVIN = new System.Windows.Forms.RichTextBox();
+            this.DateFromBottom = new System.Windows.Forms.RichTextBox();
+            this.DateToBottom = new System.Windows.Forms.RichTextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.richTextBox11 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.DateToTop = new System.Windows.Forms.RichTextBox();
+            this.DateFromTop = new System.Windows.Forms.RichTextBox();
+            this.MonthlyCost = new System.Windows.Forms.RichTextBox();
+            this.WeeklyCost = new System.Windows.Forms.RichTextBox();
+            this.DailyCost = new System.Windows.Forms.RichTextBox();
+            this.CarYear = new System.Windows.Forms.RichTextBox();
+            this.CarTrim = new System.Windows.Forms.RichTextBox();
+            this.CarType = new System.Windows.Forms.RichTextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -77,9 +77,9 @@
             this.SearchTopButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BranchNum = new System.Windows.Forms.RichTextBox();
+            this.CarEngine = new System.Windows.Forms.RichTextBox();
+            this.ClearTopButton = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -102,7 +102,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(1461, 26);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
-      
             // 
             // fileToolStripMenuItem
             // 
@@ -118,7 +117,6 @@
             this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
             this.refreshToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
             this.refreshToolStripMenuItem.Text = "Refresh";
-           
             // 
             // exitToolStripMenuItem
             // 
@@ -186,14 +184,14 @@
             // carsToolStripMenuItem1
             // 
             this.carsToolStripMenuItem1.Name = "carsToolStripMenuItem1";
-            this.carsToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.carsToolStripMenuItem1.Size = new System.Drawing.Size(164, 26);
             this.carsToolStripMenuItem1.Text = "Cars";
             this.carsToolStripMenuItem1.Click += new System.EventHandler(this.carsToolStripMenuItem1_Click);
             // 
             // employeesToolStripMenuItem1
             // 
             this.employeesToolStripMenuItem1.Name = "employeesToolStripMenuItem1";
-            this.employeesToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.employeesToolStripMenuItem1.Size = new System.Drawing.Size(164, 26);
             this.employeesToolStripMenuItem1.Text = "Employees";
             this.employeesToolStripMenuItem1.Click += new System.EventHandler(this.employeesToolStripMenuItem1_Click);
             // 
@@ -253,16 +251,16 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 200F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 200F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 534F));
-            this.tableLayoutPanel4.Controls.Add(this.richTextBox13, 2, 1);
+            this.tableLayoutPanel4.Controls.Add(this.EmployeeID, 2, 1);
             this.tableLayoutPanel4.Controls.Add(this.ClearBottomButton, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.label15, 4, 0);
             this.tableLayoutPanel4.Controls.Add(this.label14, 3, 0);
             this.tableLayoutPanel4.Controls.Add(this.label12, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.SelectBottomButton, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.label11, 1, 0);
-            this.tableLayoutPanel4.Controls.Add(this.richTextBox3, 1, 1);
-            this.tableLayoutPanel4.Controls.Add(this.richTextBox12, 3, 1);
-            this.tableLayoutPanel4.Controls.Add(this.richTextBox14, 4, 1);
+            this.tableLayoutPanel4.Controls.Add(this.CarVIN, 1, 1);
+            this.tableLayoutPanel4.Controls.Add(this.DateFromBottom, 3, 1);
+            this.tableLayoutPanel4.Controls.Add(this.DateToBottom, 4, 1);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(1, 636);
             this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(1);
@@ -273,15 +271,15 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(1459, 71);
             this.tableLayoutPanel4.TabIndex = 7;
             // 
-            // richTextBox13
+            // EmployeeID
             // 
-            this.richTextBox13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox13.Location = new System.Drawing.Point(326, 37);
-            this.richTextBox13.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox13.Name = "richTextBox13";
-            this.richTextBox13.Size = new System.Drawing.Size(198, 34);
-            this.richTextBox13.TabIndex = 31;
-            this.richTextBox13.Text = "";
+            this.EmployeeID.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.EmployeeID.Location = new System.Drawing.Point(326, 37);
+            this.EmployeeID.Margin = new System.Windows.Forms.Padding(1);
+            this.EmployeeID.Name = "EmployeeID";
+            this.EmployeeID.Size = new System.Drawing.Size(198, 34);
+            this.EmployeeID.TabIndex = 31;
+            this.EmployeeID.Text = "";
             // 
             // ClearBottomButton
             // 
@@ -361,35 +359,35 @@
             this.label11.Text = "Car VIN";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // richTextBox3
+            // CarVIN
             // 
-            this.richTextBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox3.Location = new System.Drawing.Point(126, 37);
-            this.richTextBox3.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(198, 34);
-            this.richTextBox3.TabIndex = 29;
-            this.richTextBox3.Text = "";
+            this.CarVIN.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CarVIN.Location = new System.Drawing.Point(126, 37);
+            this.CarVIN.Margin = new System.Windows.Forms.Padding(1);
+            this.CarVIN.Name = "CarVIN";
+            this.CarVIN.Size = new System.Drawing.Size(198, 34);
+            this.CarVIN.TabIndex = 29;
+            this.CarVIN.Text = "";
             // 
-            // richTextBox12
+            // DateFromBottom
             // 
-            this.richTextBox12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox12.Location = new System.Drawing.Point(526, 37);
-            this.richTextBox12.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox12.Name = "richTextBox12";
-            this.richTextBox12.Size = new System.Drawing.Size(198, 34);
-            this.richTextBox12.TabIndex = 30;
-            this.richTextBox12.Text = "";
+            this.DateFromBottom.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DateFromBottom.Location = new System.Drawing.Point(526, 37);
+            this.DateFromBottom.Margin = new System.Windows.Forms.Padding(1);
+            this.DateFromBottom.Name = "DateFromBottom";
+            this.DateFromBottom.Size = new System.Drawing.Size(198, 34);
+            this.DateFromBottom.TabIndex = 30;
+            this.DateFromBottom.Text = "";
             // 
-            // richTextBox14
+            // DateToBottom
             // 
-            this.richTextBox14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox14.Location = new System.Drawing.Point(726, 37);
-            this.richTextBox14.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox14.Name = "richTextBox14";
-            this.richTextBox14.Size = new System.Drawing.Size(198, 34);
-            this.richTextBox14.TabIndex = 32;
-            this.richTextBox14.Text = "";
+            this.DateToBottom.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DateToBottom.Location = new System.Drawing.Point(726, 37);
+            this.DateToBottom.Margin = new System.Windows.Forms.Padding(1);
+            this.DateToBottom.Name = "DateToBottom";
+            this.DateToBottom.Size = new System.Drawing.Size(198, 34);
+            this.DateToBottom.TabIndex = 32;
+            this.DateToBottom.Text = "";
             // 
             // tableLayoutPanel1
             // 
@@ -405,14 +403,14 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 200F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 284F));
-            this.tableLayoutPanel1.Controls.Add(this.richTextBox11, 10, 1);
-            this.tableLayoutPanel1.Controls.Add(this.richTextBox10, 9, 1);
-            this.tableLayoutPanel1.Controls.Add(this.richTextBox9, 8, 1);
-            this.tableLayoutPanel1.Controls.Add(this.richTextBox8, 7, 1);
-            this.tableLayoutPanel1.Controls.Add(this.richTextBox7, 6, 1);
-            this.tableLayoutPanel1.Controls.Add(this.richTextBox6, 5, 1);
-            this.tableLayoutPanel1.Controls.Add(this.richTextBox5, 4, 1);
-            this.tableLayoutPanel1.Controls.Add(this.richTextBox4, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.DateToTop, 10, 1);
+            this.tableLayoutPanel1.Controls.Add(this.DateFromTop, 9, 1);
+            this.tableLayoutPanel1.Controls.Add(this.MonthlyCost, 8, 1);
+            this.tableLayoutPanel1.Controls.Add(this.WeeklyCost, 7, 1);
+            this.tableLayoutPanel1.Controls.Add(this.DailyCost, 6, 1);
+            this.tableLayoutPanel1.Controls.Add(this.CarYear, 5, 1);
+            this.tableLayoutPanel1.Controls.Add(this.CarTrim, 4, 1);
+            this.tableLayoutPanel1.Controls.Add(this.CarType, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.label10, 10, 0);
             this.tableLayoutPanel1.Controls.Add(this.label9, 9, 0);
             this.tableLayoutPanel1.Controls.Add(this.label8, 8, 0);
@@ -424,9 +422,9 @@
             this.tableLayoutPanel1.Controls.Add(this.SearchTopButton, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label1, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.label7, 7, 0);
-            this.tableLayoutPanel1.Controls.Add(this.richTextBox1, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.richTextBox2, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.BranchNum, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.CarEngine, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.ClearTopButton, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(1, 1);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(1);
@@ -438,85 +436,85 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1459, 68);
             this.tableLayoutPanel1.TabIndex = 6;
             // 
-            // richTextBox11
+            // DateToTop
             // 
-            this.richTextBox11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox11.Location = new System.Drawing.Point(1176, 37);
-            this.richTextBox11.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox11.Name = "richTextBox11";
-            this.richTextBox11.Size = new System.Drawing.Size(282, 34);
-            this.richTextBox11.TabIndex = 42;
-            this.richTextBox11.Text = "";
+            this.DateToTop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DateToTop.Location = new System.Drawing.Point(1176, 37);
+            this.DateToTop.Margin = new System.Windows.Forms.Padding(1);
+            this.DateToTop.Name = "DateToTop";
+            this.DateToTop.Size = new System.Drawing.Size(282, 34);
+            this.DateToTop.TabIndex = 42;
+            this.DateToTop.Text = "";
             // 
-            // richTextBox10
+            // DateFromTop
             // 
-            this.richTextBox10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox10.Location = new System.Drawing.Point(976, 37);
-            this.richTextBox10.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox10.Name = "richTextBox10";
-            this.richTextBox10.Size = new System.Drawing.Size(198, 34);
-            this.richTextBox10.TabIndex = 41;
-            this.richTextBox10.Text = "";
+            this.DateFromTop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DateFromTop.Location = new System.Drawing.Point(976, 37);
+            this.DateFromTop.Margin = new System.Windows.Forms.Padding(1);
+            this.DateFromTop.Name = "DateFromTop";
+            this.DateFromTop.Size = new System.Drawing.Size(198, 34);
+            this.DateFromTop.TabIndex = 41;
+            this.DateFromTop.Text = "";
             // 
-            // richTextBox9
+            // MonthlyCost
             // 
-            this.richTextBox9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox9.Location = new System.Drawing.Point(851, 37);
-            this.richTextBox9.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox9.Name = "richTextBox9";
-            this.richTextBox9.Size = new System.Drawing.Size(123, 34);
-            this.richTextBox9.TabIndex = 40;
-            this.richTextBox9.Text = "";
+            this.MonthlyCost.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MonthlyCost.Location = new System.Drawing.Point(851, 37);
+            this.MonthlyCost.Margin = new System.Windows.Forms.Padding(1);
+            this.MonthlyCost.Name = "MonthlyCost";
+            this.MonthlyCost.Size = new System.Drawing.Size(123, 34);
+            this.MonthlyCost.TabIndex = 40;
+            this.MonthlyCost.Text = "";
             // 
-            // richTextBox8
+            // WeeklyCost
             // 
-            this.richTextBox8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox8.Location = new System.Drawing.Point(726, 37);
-            this.richTextBox8.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox8.Name = "richTextBox8";
-            this.richTextBox8.Size = new System.Drawing.Size(123, 34);
-            this.richTextBox8.TabIndex = 39;
-            this.richTextBox8.Text = "";
+            this.WeeklyCost.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.WeeklyCost.Location = new System.Drawing.Point(726, 37);
+            this.WeeklyCost.Margin = new System.Windows.Forms.Padding(1);
+            this.WeeklyCost.Name = "WeeklyCost";
+            this.WeeklyCost.Size = new System.Drawing.Size(123, 34);
+            this.WeeklyCost.TabIndex = 39;
+            this.WeeklyCost.Text = "";
             // 
-            // richTextBox7
+            // DailyCost
             // 
-            this.richTextBox7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox7.Location = new System.Drawing.Point(626, 37);
-            this.richTextBox7.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox7.Name = "richTextBox7";
-            this.richTextBox7.Size = new System.Drawing.Size(98, 34);
-            this.richTextBox7.TabIndex = 38;
-            this.richTextBox7.Text = "";
+            this.DailyCost.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DailyCost.Location = new System.Drawing.Point(626, 37);
+            this.DailyCost.Margin = new System.Windows.Forms.Padding(1);
+            this.DailyCost.Name = "DailyCost";
+            this.DailyCost.Size = new System.Drawing.Size(98, 34);
+            this.DailyCost.TabIndex = 38;
+            this.DailyCost.Text = "";
             // 
-            // richTextBox6
+            // CarYear
             // 
-            this.richTextBox6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox6.Location = new System.Drawing.Point(526, 37);
-            this.richTextBox6.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox6.Name = "richTextBox6";
-            this.richTextBox6.Size = new System.Drawing.Size(98, 34);
-            this.richTextBox6.TabIndex = 37;
-            this.richTextBox6.Text = "";
+            this.CarYear.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CarYear.Location = new System.Drawing.Point(526, 37);
+            this.CarYear.Margin = new System.Windows.Forms.Padding(1);
+            this.CarYear.Name = "CarYear";
+            this.CarYear.Size = new System.Drawing.Size(98, 34);
+            this.CarYear.TabIndex = 37;
+            this.CarYear.Text = "";
             // 
-            // richTextBox5
+            // CarTrim
             // 
-            this.richTextBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox5.Location = new System.Drawing.Point(426, 37);
-            this.richTextBox5.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(98, 34);
-            this.richTextBox5.TabIndex = 36;
-            this.richTextBox5.Text = "";
+            this.CarTrim.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CarTrim.Location = new System.Drawing.Point(426, 37);
+            this.CarTrim.Margin = new System.Windows.Forms.Padding(1);
+            this.CarTrim.Name = "CarTrim";
+            this.CarTrim.Size = new System.Drawing.Size(98, 34);
+            this.CarTrim.TabIndex = 36;
+            this.CarTrim.Text = "";
             // 
-            // richTextBox4
+            // CarType
             // 
-            this.richTextBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox4.Location = new System.Drawing.Point(226, 37);
-            this.richTextBox4.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(98, 34);
-            this.richTextBox4.TabIndex = 35;
-            this.richTextBox4.Text = "";
+            this.CarType.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CarType.Location = new System.Drawing.Point(226, 37);
+            this.CarType.Margin = new System.Windows.Forms.Padding(1);
+            this.CarType.Name = "CarType";
+            this.CarType.Size = new System.Drawing.Size(98, 34);
+            this.CarType.TabIndex = 35;
+            this.CarType.Text = "";
             // 
             // label10
             // 
@@ -628,6 +626,7 @@
             this.SearchTopButton.TabIndex = 0;
             this.SearchTopButton.Text = "Search";
             this.SearchTopButton.UseVisualStyleBackColor = false;
+            this.SearchTopButton.Click += new System.EventHandler(this.SearchTopButton_Click);
             // 
             // label1
             // 
@@ -653,40 +652,41 @@
             this.label7.Text = "Weekly Cost <=";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // richTextBox1
+            // BranchNum
             // 
-            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox1.Location = new System.Drawing.Point(126, 37);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(98, 34);
-            this.richTextBox1.TabIndex = 32;
-            this.richTextBox1.Text = "";
+            this.BranchNum.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BranchNum.Location = new System.Drawing.Point(126, 37);
+            this.BranchNum.Margin = new System.Windows.Forms.Padding(1);
+            this.BranchNum.Name = "BranchNum";
+            this.BranchNum.Size = new System.Drawing.Size(98, 34);
+            this.BranchNum.TabIndex = 32;
+            this.BranchNum.Text = "";
             // 
-            // richTextBox2
+            // CarEngine
             // 
-            this.richTextBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox2.Location = new System.Drawing.Point(326, 37);
-            this.richTextBox2.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(98, 34);
-            this.richTextBox2.TabIndex = 33;
-            this.richTextBox2.Text = "";
+            this.CarEngine.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CarEngine.Location = new System.Drawing.Point(326, 37);
+            this.CarEngine.Margin = new System.Windows.Forms.Padding(1);
+            this.CarEngine.Name = "CarEngine";
+            this.CarEngine.Size = new System.Drawing.Size(98, 34);
+            this.CarEngine.TabIndex = 33;
+            this.CarEngine.Text = "";
             // 
-            // button1
+            // ClearTopButton
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Cambria", 12F);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(1, 37);
-            this.button1.Margin = new System.Windows.Forms.Padding(1);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(123, 34);
-            this.button1.TabIndex = 43;
-            this.button1.Text = "Clear";
-            this.button1.UseVisualStyleBackColor = false;
+            this.ClearTopButton.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.ClearTopButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ClearTopButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ClearTopButton.Font = new System.Drawing.Font("Cambria", 12F);
+            this.ClearTopButton.ForeColor = System.Drawing.Color.White;
+            this.ClearTopButton.Location = new System.Drawing.Point(1, 37);
+            this.ClearTopButton.Margin = new System.Windows.Forms.Padding(1);
+            this.ClearTopButton.Name = "ClearTopButton";
+            this.ClearTopButton.Size = new System.Drawing.Size(123, 34);
+            this.ClearTopButton.TabIndex = 43;
+            this.ClearTopButton.Text = "Clear";
+            this.ClearTopButton.UseVisualStyleBackColor = false;
+            this.ClearTopButton.Click += new System.EventHandler(this.ClearTopButton_Click);
             // 
             // dataGridView1
             // 
@@ -745,14 +745,14 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.RichTextBox richTextBox11;
-        private System.Windows.Forms.RichTextBox richTextBox10;
-        private System.Windows.Forms.RichTextBox richTextBox9;
-        private System.Windows.Forms.RichTextBox richTextBox8;
-        private System.Windows.Forms.RichTextBox richTextBox7;
-        private System.Windows.Forms.RichTextBox richTextBox6;
-        private System.Windows.Forms.RichTextBox richTextBox5;
-        private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.RichTextBox DateToTop;
+        private System.Windows.Forms.RichTextBox DateFromTop;
+        private System.Windows.Forms.RichTextBox MonthlyCost;
+        private System.Windows.Forms.RichTextBox WeeklyCost;
+        private System.Windows.Forms.RichTextBox DailyCost;
+        private System.Windows.Forms.RichTextBox CarYear;
+        private System.Windows.Forms.RichTextBox CarTrim;
+        private System.Windows.Forms.RichTextBox CarType;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
@@ -764,19 +764,19 @@
         private System.Windows.Forms.Button SearchTopButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox BranchNum;
+        private System.Windows.Forms.RichTextBox CarEngine;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.RichTextBox richTextBox13;
+        private System.Windows.Forms.RichTextBox EmployeeID;
         private System.Windows.Forms.Button ClearBottomButton;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button SelectBottomButton;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.RichTextBox richTextBox3;
-        private System.Windows.Forms.RichTextBox richTextBox12;
-        private System.Windows.Forms.RichTextBox richTextBox14;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RichTextBox CarVIN;
+        private System.Windows.Forms.RichTextBox DateFromBottom;
+        private System.Windows.Forms.RichTextBox DateToBottom;
+        private System.Windows.Forms.Button ClearTopButton;
     }
 }

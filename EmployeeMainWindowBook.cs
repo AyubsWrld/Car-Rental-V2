@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,7 +20,7 @@ namespace Cmpt291UI
         public EmployeeMainWindowBook()
         {
             InitializeComponent();
-            richTextBox13.Text = employeeLoggedInForm2;
+            EmployeeID.Text = employeeLoggedInForm2;
 
             // connect to database
             SqlConnection con = new SqlConnection(dbForm2);
@@ -33,14 +34,9 @@ namespace Cmpt291UI
             DataTable dtable = new DataTable();
             adapter.Fill(dtable);
 
-            richTextBox1.Text = dtable.ToString();
+            BranchNum.Text = dtable.ToString();
 
             con.Close();
-        }
-
-        private void Search(object sender, EventArgs e)
-        {
-
         }
 
         private void carsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -182,7 +178,7 @@ namespace Cmpt291UI
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DialogResult res;
-            res = MessageBox.Show("Would you like to return to the previous menu?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            res = MessageBox.Show("Would you like to return to the login screen?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (res == DialogResult.No)
             {
@@ -208,6 +204,7 @@ namespace Cmpt291UI
         {
             AddNewEmployee addEmployeeForm = new AddNewEmployee();
             addEmployeeForm.Show();
+            this.Hide();
         }
 
         private void SelectBottomButton_Click(object sender, EventArgs e)
@@ -220,11 +217,94 @@ namespace Cmpt291UI
 
         private void ClearBottomButton_Click(object sender, EventArgs e)
         {
-            richTextBox12.Clear();
-            richTextBox13.Clear();
-            // Debug
-            //richTextBox15.Clear();
-            //richTextBox16.Clear();
+            DateFromBottom.Clear();
+            EmployeeID.Clear();
+            CarVIN.Clear();
+            DateToBottom.Clear();
+            DateFromBottom.Clear();
+        }
+
+        private void SearchTopButton_Click(object sender, EventArgs e)
+        {
+            SearchDatabase();
+        }
+
+        private void ClearTopButton_Click(object sender, EventArgs e)
+        {
+            // Clear all textboxes
+            BranchNum.Clear();
+            CarType.Clear();
+            CarEngine.Clear();
+            CarTrim.Clear();
+            CarYear.Clear();
+            DailyCost.Clear();
+            WeeklyCost.Clear();
+            MonthlyCost.Clear();
+            DateFromTop.Clear();
+            DateToTop.Clear();
+        }
+
+        private void SearchDatabase()
+        {
+            // Retrieve data from textboxes
+            string branchNum = BranchNum.Text;
+            string carType = CarType.Text;
+            string carEngine = CarEngine.Text;
+            string carTrim = CarTrim.Text;
+            string carYear = CarYear.Text;
+            string dailyCost = DailyCost.Text;
+            string weeklyCost = WeeklyCost.Text;
+            string monthlyCost = MonthlyCost.Text;
+            string dateFromTop = DateFromTop.Text;
+            string dateToTop = DateToTop.Text;
+
+            using (SqlConnection con = new SqlConnection(dbForm2))
+            {
+                try
+                {
+                    con.Open();
+
+                    // Construct SQL query dynamically based on non-empty fields
+                    StringBuilder query = new StringBuilder("SELECT * FROM Car WHERE 1=1");
+
+                    if (!string.IsNullOrEmpty(branchNum)) query.Append(" AND branchNum = @branchNum");
+                    if (!string.IsNullOrEmpty(carType)) query.Append(" AND carType = @carType");
+                    if (!string.IsNullOrEmpty(carEngine)) query.Append(" AND carEngine = @carEngine");
+                    if (!string.IsNullOrEmpty(carTrim)) query.Append(" AND carTrim = @carTrim");
+                    if (!string.IsNullOrEmpty(carYear)) query.Append(" AND carYear = @carYear");
+                    if (!string.IsNullOrEmpty(dailyCost)) query.Append(" AND dailyCost = @dailyCost");
+                    if (!string.IsNullOrEmpty(weeklyCost)) query.Append(" AND weeklyCost = @weeklyCost");
+                    if (!string.IsNullOrEmpty(monthlyCost)) query.Append(" AND monthlyCost = @monthlyCost");
+                    if (!string.IsNullOrEmpty(dateFromTop)) query.Append(" AND availableFromDate <= @dateFromTop");
+                    if (!string.IsNullOrEmpty(dateToTop)) query.Append(" AND availableToDate >= @dateToTop");
+
+                    SqlCommand cmd = new SqlCommand(query.ToString(), con);
+
+                    // Add parameters to the command
+                    if (!string.IsNullOrEmpty(branchNum)) cmd.Parameters.AddWithValue("@branchNum", branchNum);
+                    if (!string.IsNullOrEmpty(carType)) cmd.Parameters.AddWithValue("@carType", carType);
+                    if (!string.IsNullOrEmpty(carEngine)) cmd.Parameters.AddWithValue("@carEngine", carEngine);
+                    if (!string.IsNullOrEmpty(carTrim)) cmd.Parameters.AddWithValue("@carTrim", carTrim);
+                    if (!string.IsNullOrEmpty(carYear)) cmd.Parameters.AddWithValue("@carYear", carYear);
+                    if (!string.IsNullOrEmpty(dailyCost)) cmd.Parameters.AddWithValue("@dailyCost", dailyCost);
+                    if (!string.IsNullOrEmpty(weeklyCost)) cmd.Parameters.AddWithValue("@weeklyCost", weeklyCost);
+                    if (!string.IsNullOrEmpty(monthlyCost)) cmd.Parameters.AddWithValue("@monthlyCost", monthlyCost);
+                    if (!string.IsNullOrEmpty(dateFromTop)) cmd.Parameters.AddWithValue("@dateFromTop", dateFromTop);
+                    if (!string.IsNullOrEmpty(dateToTop)) cmd.Parameters.AddWithValue("@dateToTop", dateToTop);
+
+                    // Execute the query and fill the DataTable
+                    SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                    DataTable results = new DataTable();
+                    adapter.Fill(results);
+
+                    // Display the results in a DataGridView or other suitable control
+                    dataGridView1.DataSource = results;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("An error occurred while searching: " + ex.Message);
+                }
+            }
         }
     }
 }
