@@ -1,0 +1,404 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\pc\\source\\repos\\car-rental-system-main\\receiptlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:receiptlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\pc\\source\\repos\\car-rental-system-main\\transactionsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:transactionsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\welcomescreencustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:welcomescreencustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\pc\\source\\repos\\car-rental-system-main\\customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\welcomescreencustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:welcomescreencustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\pc\\source\\repos\\car-rental-system-main\\receiptlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:receiptlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\transactionpaymentwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:transactionpaymentwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\pc\\source\\repos\\car-rental-system-main\\branchinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:branchinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\pc\\source\\repos\\car-rental-system-main\\branchinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:branchinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\pc\\source\\repos\\car-rental-system-main\\employeemainwindowbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:employeemainwindowbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\employeemainwindowbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:employeemainwindowbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\pc\\source\\repos\\car-rental-system-main\\customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:customerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\pc\\source\\repos\\car-rental-system-main\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\pc\\source\\repos\\car-rental-system-main\\transactionsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:transactionsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\pc\\source\\repos\\car-rental-system-main\\transactionpaymentwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:transactionpaymentwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\possibleflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:possibleflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\possibleflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:possibleflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|c:\\users\\pc\\source\\repos\\car-rental-system-main\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\addnewemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:addnewemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\addnewemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:addnewemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\employeemainwindowbook.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:employeemainwindowbook.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\addremovevehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCD64D6-43BA-4292-9440-DCC874F524F9}|Cmpt291UI.csproj|solutionrelative:addremovevehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReceiptList.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\ReceiptList.cs",
+              "RelativeDocumentMoniker": "ReceiptList.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\ReceiptList.cs",
+              "RelativeToolTip": "ReceiptList.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAswIsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:30:25.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReceiptList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\ReceiptList.cs",
+              "RelativeDocumentMoniker": "ReceiptList.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\ReceiptList.cs [Design]",
+              "RelativeToolTip": "ReceiptList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:28:40.334Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WelcomeScreenCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\WelcomeScreenCustomer.cs",
+              "RelativeDocumentMoniker": "WelcomeScreenCustomer.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\WelcomeScreenCustomer.cs [Design]",
+              "RelativeToolTip": "WelcomeScreenCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:48:06.951Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionsReceipt.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\TransactionsReceipt.cs",
+              "RelativeDocumentMoniker": "TransactionsReceipt.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\TransactionsReceipt.cs [Design]",
+              "RelativeToolTip": "TransactionsReceipt.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:13:29.841Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerWindow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\CustomerWindow.cs",
+              "RelativeDocumentMoniker": "CustomerWindow.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\CustomerWindow.cs [Design]",
+              "RelativeToolTip": "CustomerWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:16:45.02Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WelcomeScreenCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\WelcomeScreenCustomer.cs",
+              "RelativeDocumentMoniker": "WelcomeScreenCustomer.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\WelcomeScreenCustomer.cs",
+              "RelativeToolTip": "WelcomeScreenCustomer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:48:09.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BranchInputForm.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\BranchInputForm.cs",
+              "RelativeDocumentMoniker": "BranchInputForm.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\BranchInputForm.cs",
+              "RelativeToolTip": "BranchInputForm.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAjwF4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:21:00.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerWindow.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\CustomerWindow.cs",
+              "RelativeDocumentMoniker": "CustomerWindow.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\CustomerWindow.cs",
+              "RelativeToolTip": "CustomerWindow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:16:46.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeMainWindowBook.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\EmployeeMainWindowBook.cs",
+              "RelativeDocumentMoniker": "EmployeeMainWindowBook.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\EmployeeMainWindowBook.cs",
+              "RelativeToolTip": "EmployeeMainWindowBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T23:14:29.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransactionPaymentWindow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\TransactionPaymentWindow.cs",
+              "RelativeDocumentMoniker": "TransactionPaymentWindow.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\TransactionPaymentWindow.cs [Design]",
+              "RelativeToolTip": "TransactionPaymentWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:03:26.634Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeMainWindowBook.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\EmployeeMainWindowBook.cs",
+              "RelativeDocumentMoniker": "EmployeeMainWindowBook.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\EmployeeMainWindowBook.cs [Design]",
+              "RelativeToolTip": "EmployeeMainWindowBook.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T23:14:24.143Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BranchInputForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\BranchInputForm.cs",
+              "RelativeDocumentMoniker": "BranchInputForm.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\BranchInputForm.cs [Design]",
+              "RelativeToolTip": "BranchInputForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:24:01.747Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WelcomeScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\WelcomeScreen.cs",
+              "RelativeDocumentMoniker": "WelcomeScreen.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\WelcomeScreen.cs [Design]",
+              "RelativeToolTip": "WelcomeScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:12:31.877Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TransactionPaymentWindow.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\TransactionPaymentWindow.cs",
+              "RelativeDocumentMoniker": "TransactionPaymentWindow.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\TransactionPaymentWindow.cs",
+              "RelativeToolTip": "TransactionPaymentWindow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:13:34.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TransactionsReceipt.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\TransactionsReceipt.cs",
+              "RelativeDocumentMoniker": "TransactionsReceipt.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\TransactionsReceipt.cs",
+              "RelativeToolTip": "TransactionsReceipt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:15:51.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PossibleFlow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\PossibleFlow.cs",
+              "RelativeDocumentMoniker": "PossibleFlow.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\PossibleFlow.cs [Design]",
+              "RelativeToolTip": "PossibleFlow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:55:35.365Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PossibleFlow.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\PossibleFlow.cs",
+              "RelativeDocumentMoniker": "PossibleFlow.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\PossibleFlow.cs",
+              "RelativeToolTip": "PossibleFlow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:26:13.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WelcomeScreen.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\WelcomeScreen.cs",
+              "RelativeDocumentMoniker": "WelcomeScreen.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\WelcomeScreen.cs",
+              "RelativeToolTip": "WelcomeScreen.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAIA0wCgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:12:36.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddNewEmployee.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\AddNewEmployee.cs",
+              "RelativeDocumentMoniker": "AddNewEmployee.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\AddNewEmployee.cs [Design]",
+              "RelativeToolTip": "AddNewEmployee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:54:46.967Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddNewEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\AddNewEmployee.cs",
+              "RelativeDocumentMoniker": "AddNewEmployee.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\AddNewEmployee.cs",
+              "RelativeToolTip": "AddNewEmployee.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAgwG0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:04:07.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EmployeeMainWindowBook.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\EmployeeMainWindowBook.Designer.cs",
+              "RelativeDocumentMoniker": "EmployeeMainWindowBook.Designer.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\EmployeeMainWindowBook.Designer.cs",
+              "RelativeToolTip": "EmployeeMainWindowBook.Designer.cs",
+              "ViewState": "AQIAAE4BAAAAAAAAAAAjwFkBAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T23:31:56.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:44:36.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddRemoveVehicle.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\AddRemoveVehicle.cs",
+              "RelativeDocumentMoniker": "AddRemoveVehicle.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System-main\\AddRemoveVehicle.cs [Design]",
+              "RelativeToolTip": "AddRemoveVehicle.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:50:20.6Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

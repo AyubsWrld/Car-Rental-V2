@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\source\\repos\\Car-Rental-System\\EmployeeWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\source\\repos\\Car-Rental-System\\Cmpt291UI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cmpt291UI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\source\\repos\\Car-Rental-System\\TransactionsReceipt.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TransactionsReceipt.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\source\\repos\\Car-Rental-System\\WelcomeScreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WelcomeScreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\source\\repos\\Car-Rental-System\\AddCustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AddCustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeWindow.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\EmployeeWindow.cs",
+              "RelativeDocumentMoniker": "EmployeeWindow.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\EmployeeWindow.cs",
+              "RelativeToolTip": "EmployeeWindow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T19:29:03.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cmpt291UI.csproj",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\Cmpt291UI.csproj",
+              "RelativeDocumentMoniker": "Cmpt291UI.csproj",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\Cmpt291UI.csproj",
+              "RelativeToolTip": "Cmpt291UI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-08T19:27:10.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionsReceipt.resx",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\TransactionsReceipt.resx",
+              "RelativeDocumentMoniker": "TransactionsReceipt.resx",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\TransactionsReceipt.resx",
+              "RelativeToolTip": "TransactionsReceipt.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-08T19:26:23.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WelcomeScreen.resx",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\WelcomeScreen.resx",
+              "RelativeDocumentMoniker": "WelcomeScreen.resx",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\WelcomeScreen.resx",
+              "RelativeToolTip": "WelcomeScreen.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-08T19:26:19.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\AddCustomer.cs",
+              "RelativeDocumentMoniker": "AddCustomer.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Car-Rental-System\\AddCustomer.cs",
+              "RelativeToolTip": "AddCustomer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T19:25:56.871Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
