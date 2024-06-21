@@ -16,8 +16,12 @@ namespace Cmpt291UI
 {
     public partial class WelcomeScreenCustomer : Form
     {
+<<<<<<< HEAD
 
         string databasePath = LoginScreen.databasePath;
+=======
+        string databasePath = "Data Source=LAPTOP-MID32020;Initial Catalog=291_FinalProject;Integrated Security=True;Encrypt=False";
+>>>>>>> bfcdb7d08a947f89a48d7346eb219e9e95608961
         //public static string databasePath = EnumHelper.GetPath(DATABASEPATH.Sami);
         public static string customerID;
 
@@ -104,10 +108,13 @@ namespace Cmpt291UI
         {
 
         }
+<<<<<<< HEAD
 
         private void CustomerNumBox_TextChanged_1(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> bfcdb7d08a947f89a48d7346eb219e9e95608961
     }
 }

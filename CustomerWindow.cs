@@ -14,7 +14,11 @@ namespace Cmpt291UI
 {
     public partial class CustomerWindow : Form
     {
+<<<<<<< HEAD
         string databasePath = "Data Source=DESKTOP-3PU7T29;Initial Catalog=CMPT291;Integrated Security=True;Encrypt=False";
+=======
+        public static string databasePath = "Data Source=LAPTOP-MID32020;Initial Catalog=291_FinalProject;Integrated Security=True;Encrypt=False";
+>>>>>>> bfcdb7d08a947f89a48d7346eb219e9e95608961
 
         private string customerID;
         public class Car
@@ -162,10 +166,13 @@ namespace Cmpt291UI
             receiptList.Show();
             this.Hide();
         }
+<<<<<<< HEAD
 
         private void Title_Click(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> bfcdb7d08a947f89a48d7346eb219e9e95608961
     }
 }

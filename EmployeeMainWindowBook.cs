@@ -15,8 +15,12 @@ namespace Cmpt291UI
     public partial class EmployeeMainWindowBook : Form
     {
         // get the string from form1
+<<<<<<< HEAD
 
         string dbForm2 = "Data Source=DESKTOP-3PU7T29;Initial Catalog=CMPT291;Integrated Security=True;Encrypt=False";
+=======
+        string dbForm2 = LoginScreen.databasePath;
+>>>>>>> bfcdb7d08a947f89a48d7346eb219e9e95608961
         string employeeLoggedInForm2 = LoginScreen.employeeLoggedIn;
         public EmployeeMainWindowBook()
         {
@@ -307,10 +311,13 @@ namespace Cmpt291UI
                 }
             }
         }
+<<<<<<< HEAD
 
         private void CarType_TextChanged(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> bfcdb7d08a947f89a48d7346eb219e9e95608961
     }
 }

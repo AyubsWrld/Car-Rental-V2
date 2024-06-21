@@ -144,12 +144,16 @@ namespace Cmpt291UI
             }
         }
 
+<<<<<<< HEAD
         private void closeBtn_Click(object sender, EventArgs e)
         {
             this.Close();
             CustomerWindow form2 = new CustomerWindow(WelcomeScreenCustomer.customerID, dbForm2);
             form2.Show(); 
         }
+=======
+
+>>>>>>> bfcdb7d08a947f89a48d7346eb219e9e95608961
     }
 }
 

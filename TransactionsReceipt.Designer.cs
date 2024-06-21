@@ -610,7 +610,10 @@
             this.CustomerName.Size = new System.Drawing.Size(138, 25);
             this.CustomerName.TabIndex = 4;
             this.CustomerName.Text = "";
+<<<<<<< HEAD
             this.CustomerName.TextChanged += new System.EventHandler(this.CustomerName_TextChanged);
+=======
+>>>>>>> bfcdb7d08a947f89a48d7346eb219e9e95608961
             // 
             // label1
             // 

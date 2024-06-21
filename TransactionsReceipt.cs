@@ -75,10 +75,13 @@ namespace Cmpt291UI
         {
 
         }
+<<<<<<< HEAD
 
         private void CustomerName_TextChanged(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> bfcdb7d08a947f89a48d7346eb219e9e95608961
     }
 }
